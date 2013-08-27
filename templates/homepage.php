@@ -23,8 +23,8 @@ require('./wp-blog-header.php');
 		<p> Calling the crazy ones, misfits, rebels, troublemakers, and all you who see things differently.</p>
 		
         <div class="register">
-          <a class="button button-large button-primary register-to-hack-trigger overlay-trigger" href="#sign-up-overlay">ATTEND TALKS</a>
-          <span class="title-font"><div class="attend_line">OR <a href="#schedule" class="scrollLink"><span>Register to Hack</span> </a></span></div>
+          <a class="button button-large button-primary scrollLink" href="#schedule">ATTEND TALKS</a>
+          <span class="title-font"><div class="attend_line">OR <a class="register-to-hack-trigger overlay-trigger" href="#sign-up-overlay"><span>Register to Hack</span> </a></span></div>
         </div>
 		
         <ul class="datetime clearfix row-fluid">
