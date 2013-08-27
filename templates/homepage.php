@@ -21,8 +21,8 @@ require('./wp-blog-header.php');
         <h1 itemprop="name">HACK FOR<br> BIG CHOICES</h1>
         <p>A series of events to honor the legacy of Steve Jobs by connecting and encouraging future leaders in 12 cities on 5 continents to solve problems in design and technology, education and healthcare to make a big impact on the world.</p>
         <ul class="datetime clearfix row-fluid">
-          <li class="span6"><img alt="some_text" src="/media/cal.gif" /> <span class="title-font" itemprop="startDate">OCT 5th - December, 2013</span></li>
-          <li class="span6"><img alt="some_text" src="/media/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
+          <li class="span6"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif" /> <span class="title-font" itemprop="startDate">OCT 5th - December, 2013</span></li>
+          <li class="span6"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
         </ul>
         <div class="register">
           <a class="button button-large button-primary register-to-hack-trigger overlay-trigger" href="#sign-up-overlay">REGISTER TO HACK</a>
