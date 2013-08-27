@@ -1,0 +1,47 @@
+.button {
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding: 4px 13px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  background: #24a6ce; /* Blue */
+  min-width: 76px;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-transition: box-shadow .15s linear;
+  -moz-transition: box-shadow .15s linear;
+  transition: box-shadow .15s linear;
+  border: 0;
+  font-size: 18px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.button:hover {
+  color: #fff;
+  box-shadow: 0 0 0px 5px rgba(0,0,0,.3);
+}
+
+.button-primary {
+  background: #f7931e; /* Orange */
+}
+
+.button-secondary {
+  background: #bdccd4; /* Light blue */
+}
+
+.button-large {
+  padding: 17px 18px;
+  font-size: 26px;
+}
+
+.button-list-vertical li {
+  margin-bottom: 15px;
+}
+
+.button-list-vertical li:last-child {
+  margin-bottom: 0;
+}

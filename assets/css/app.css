@@ -1,0 +1,384 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Pathway+Gothic+One);
+
+
+/* Resets */
+
+ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+  font-family: "Open-sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3,
+.navbar .nav a,
+.title-font {
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h4, h5 {
+  font-family: "Open-sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 100;
+  margin-bottom: 15px;
+  line-height: 65px;
+  margin-top: -9px;
+}
+
+h2 {}
+  
+h3 {
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  color: #5bbcda;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00C3FF;
+}
+
+/* =============================================================================
+   Chrome
+   ========================================================================== */
+
+.wrap {
+  padding: 0 30px;
+}
+
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+
+.navbar .nav > li {
+  list-style: none;
+}
+
+.navbar .nav > li:last-child:after {
+  content: "";
+  padding: 0;
+}
+
+.navbar .nav > li:after {
+  content: ".";
+  position: relative;
+  top: -6px;
+  font-size: 34px;
+  padding: 0 16px;
+  line-height: 33px;
+}
+
+.navbar .nav > li > a  {
+  color: #2d2d2e;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#navbar-aside {
+  margin-top: 11px;
+}
+
+.nav-share li {
+  list-style: none;
+  float: left;
+  margin-right: 3px;
+}
+
+.nav-share a {
+  display: block;
+  text-indent: -9999px;
+  background:transparent url('../img/chrome/nav-share.png') no-repeat 0 0;
+  height: 18px;
+  width: 24px;
+}
+
+.nav-share .fb a {
+  background-position: 0 0;
+}
+
+.nav-share .twitter a {
+  background-position: -24px 0;
+}
+
+.nav-share .v a {
+  background-position: -48px 0;
+}
+
+.nav-share .fr a {
+  background-position: -72px 0;
+}
+
+#navbar-aside .button {
+  position: relative;
+  top: -5px;
+  margin-left: 12px;
+}
+
+
+@media (max-width: 979px) {
+  .navbar .nav > li {
+    margin-top: 5px;
+  }  
+  
+  .navbar .nav > li:after {
+    content: "";
+    padding: 0;
+    position: static;
+  }
+}
+
+
+#logo {
+  background:transparent url('../img/chrome/logo.png') no-repeat 0 0;
+  text-indent: -9999px;
+  width: 203px;
+  height: 42px;
+  margin-right: 12px;
+}
+
+
+
+@media (max-width: 480px) {
+  #navbar-aside,
+  #logo {
+    float: none !important;
+  }
+  
+  .btn-navbar {
+    display: none !important;
+  }
+}
+
+
+/* =============================================================================
+   Helpers
+   ========================================================================== */
+
+.hidden {
+  display: none;
+}
+
+.clear {
+  clear: both;
+  margin-bottom: -1px;
+  height: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.section_title {
+  padding: 0 3px 6px;
+  margin-bottom: 16px;
+  border-bottom: 3px #d7e0e5 solid;
+  display: inline-block;
+  font-size: 21px;
+}
+
+.section .subline {
+  font-size: 20px;
+  color: #57b9d7; /* The baby blue */
+  font-weight: 200; 
+  margin-bottom: 32px;
+}
+
+.hr {
+  border: 1px solid #ebf0f2;
+  height: 0px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.datetime-label dt,
+.person-label dt {
+  position: absolute;
+  left: -99999px;
+}
+
+.person-label dd {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+}
+
+.person-label .description {
+  font-size: 12px;
+  font-family: "Open-sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+}
+
+.person-label .company {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.datetime-label .time {
+  color: #98acb1;
+}
+
+
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+
+#footer {
+  padding: 30px 5px;
+}
+
+#footer p {
+  color: #666;
+}
+
+/* =============================================================================
+   Menu
+   ========================================================================== */
+
+.top-menu {
+  font-family: Open-sans;
+  border-radius: 0;
+  left: 0;
+  padding: 0;
+  right: 0;
+  text-transform: uppercase;
+  z-index: 1030;
+}
+
+.top-menu .navbar-toggle {
+  border: none;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  padding: 0;
+  position: static;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: auto;
+}
+
+.top-menu-title {
+  display: inline;
+  font-family: Museo-300;
+  padding-right: 10px;
+}
+
+.navbar-button {
+  position: static;
+  height: 32px;
+  padding: 8px 10px;
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.navbar-button .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
+.navbar-button .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+/* Gallery Shortcode */
+.row.gallery-row { padding: 15px 0; }
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   ../img/ Queries
+   ========================================================================== */
+
+@media (max-width: 767px) {
+
+}

@@ -1,0 +1,386 @@
+
+/* ==========================================================================
+   HomePage
+   ========================================================================== */
+
+.home.page .wrap {
+  padding: 0;
+}
+
+.home.page #section1 p {
+  font-size: 14px;
+}
+
+.home.page #section1 .title-font {
+  font-size: 21px;
+}
+
+.home.page #section1 .datetime img,
+.home.page #section1 .datetime span {
+  float: left;
+}
+
+.home.page #section1 .datetime .title-font {
+  margin: 6px 0 0 12px;
+}
+
+.home.page #section1 ul {
+  list-style: none;
+  margin-top: 30px;
+}
+.home.page #section1 ul img{
+  width: 30px;
+}
+
+.home.page #section1 .register{
+  margin-top: 32px;
+}
+.home.page #section1 .register p{
+  display: inline-block;
+  width: 43%
+}
+
+.home.page #section1 .register a span {
+  margin-left: 3px;
+}
+
+.home.page #section1 .register .attend_line{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.home.page #section1 .register_button{
+  background: #f7931e;
+  padding: 15px;
+  color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.home.page .section {
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  
+}
+
+.home.page .sections .section:nth-child(even) {
+  background: #eff1f3;
+  border-top: 3px #d7e0e5 solid;
+  border-bottom: 3px #d7e0e5 solid;
+}
+
+/* THE BIG CHOICES SECTION */
+
+.home.page #section2 {
+  padding-bottom: 40px;
+}
+
+.home.page #section2 .circle_pic {
+  margin-bottom: 20px;
+}
+
+.home.page #section2 .item {
+  max-width: 200px;
+  margin: auto;
+}
+
+.home.page #section2 > div p {
+  font-size: 15px;
+}
+
+.home.page #section4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#location-map-wrapper {
+  background: #eee;
+}
+
+#location-map-cover {
+    background: url(../img/pages/homepage/map/map.png) no-repeat;
+    height: 573px;
+    position: relative;
+    width: 1100px;
+    margin: auto;
+}
+
+#location-map-cover .city_block {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+
+    color: #333;
+    cursor: default;
+}
+
+
+/*#location-map-cover .city_block:hover {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}*/
+#location-map-cover .city_block p{
+    margin: 0;
+    padding: 0;
+}
+#location-map-cover .city_block#sanFrancisco{
+    left: 0px;
+    top: 140px;
+}
+#location-map-cover .city_block#bangalore{
+    top: 234px;
+    left: 625px;
+}
+#location-map-cover .city_block#singapore{
+    top: 266px;
+    left: 690px;
+}
+#location-map-cover .city_block#hongkong{
+    top: 200px;
+    left: 720px;
+}
+#location-map-cover .city_block#shanghai{
+    left: 740px;
+    top: 160px;
+}
+#location-map-cover .city_block#london{
+    left: 321px;
+    top: 131px;
+}
+#location-map-cover .city_block#venice{
+    left: 460px;
+    top: 131px;
+}
+#location-map-cover .city_block#moscow{
+    top: 91px;
+    left: 537px;
+}
+#location-map-cover .city_block#accra{
+    top: 240px;
+    left: 439px;
+}
+#location-map-cover .city_block#mexicoCity{
+    top: 190px;
+    left: 190px;
+}
+#location-map-cover .city_block#saoPaulo{
+    top: 333px;
+    left: 329px;
+}
+#location-map-cover .city_block#sydney{
+    top: 361px;
+    left: 810px;
+}
+
+#location-map-cover .city_circle {
+    width: 45px;
+    height: 45px;
+    -webkit-border-radius:80px;
+    -moz-border-radius:80px;
+    border-radius:80px;
+    background: #f7931e;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*
+#location-map-cover .city_block .city_circle:hover{
+    background: #00c3df;
+}
+*/
+#location-map-cover .city_name{
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1200px) {
+
+  #location-map-cover {
+    background: none;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+  
+  #location-map-cover .city_block {
+    position: static !important;
+    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #location-map-cover .city_block .city_circle {
+    display: none;
+  }
+  
+  #location-map-cover .city_block .city_name {
+    font-size: 40px;
+    font-family: 'Pathway Gothic One', sans-serif;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  #location-map-cover {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  
+  .datetime li {
+    margin-bottom: 30px;
+  }
+  
+  .datetime li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+/* Schedule */
+
+#section5 > .inner {
+  margin: 0 30px;
+}
+
+#section5 .schedule_box .inner {
+  background: white;
+  border: 1px solid #d7e0e5;
+  padding: 20px 30px;
+}
+
+#section5 #local .datetime-label {
+  float: left;
+  width: 50px;
+}
+
+#section5 .hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section5 .schedule_box .content {
+  float: left;
+  width: 70%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.home.page #section6 img {
+  width: 150px;
+  border: 0;
+}
+
+/* Speakers */
+
+
+.home.page .speaker,
+.home.page .sponsor {
+  float: left;
+  width: 180px;
+}
+
+.home.page .sponsor {
+  width: 180px;
+}
+
+.home.page .speaker .circle_pic,
+.home.page .sponsor img {
+    -webkit-border-radius:80px;
+    -moz-border-radius:80px;
+    border-radius:80px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+#section3 .speaker-wrapper,
+#section6 #sponsor-wrapper {
+  width: 855px;
+  margin: auto;
+}
+
+#section3 .speaker,
+#section6 .sponsor {
+  margin-right: 45px;
+  margin-bottom: 45px;
+}
+
+#section3 .speaker:nth-child(4n),
+#section6 .sponsor:nth-child(4n) {
+  margin-right: 0;
+}
+
+#section6 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 950px) {
+  #section3 .speaker-wrapper,
+  #section6 #sponsor-wrapper {
+    width: 100%;
+  }
+  
+  #section3 .speaker-wrapper {
+    display: inline-block;
+  }
+  
+  #section3 .speaker {
+    height: 267px;
+  }
+  
+  #section3 .speaker,
+  #section6 .sponsor {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 250px;
+  }
+  
+  #section3 .speaker .description {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  #section3 .speaker,
+  #section6 .sponsor {
+    float: none;
+  }
+  
+  #section5 > .inner {
+    margin: 0;
+  }
+  
+  .home.page .wrap {
+    padding: 0;
+  }
+  
+  .home.page .section {
+    padding: 15px 5px;
+  }
+
+  .home.page #video {
+    height: 170px;
+    margin-bottom: 10px;
+  }
+  
+  #local {
+    margin-bottom: 30px;
+  }
+}

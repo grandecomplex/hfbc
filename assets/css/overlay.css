@@ -1,0 +1,57 @@
+
+
+/* =============================================================================
+   Overlay
+   ========================================================================== */
+
+.overlay-window {
+  top: 40%;
+  width: 400px;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -200px;
+  position: fixed;
+  box-shadow: 0 0 0px 5px rgba(0,0,0,.5);
+  
+}
+
+.overlay {
+  opacity: .2;
+  background: white;
+  position: relative;
+}
+
+.overlay-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  text-indent: -9999px;
+  background: transparent url("../img/chrome/button-close.png") no-repeat 0 0;
+  height: 28px;
+  width: 28px;
+}
+
+@media (max-width: 500px) {
+  .overlay-window {
+    width: 90%;
+    margin-left: -5%;
+    left: 5%;
+    top: 40px;
+    position: absolute;
+    margin: 0 auto !important;
+    
+  }
+}
+
+@media (max-height: 500px) {
+  .overlay-window {
+    width: 90%;
+    left: 5%;
+    top: 15px;
+    position: absolute;
+    margin: 0 !important
+  }
+}
+
+
+
