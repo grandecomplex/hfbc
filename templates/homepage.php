@@ -252,11 +252,12 @@ require('./wp-blog-header.php');
       
 
   </div>
-  
+
+
 
   <div id="section4" class="centered section">
     <h2 id="locations" class="section_title">Hackathon Cities</h2>
-    <p class="subline">Pick your city to <a href="#" class="button">register</a></p>
+    <p class="subline">Pick your city to <a href="#" class="button button-primary">register</a></p>
     <div id="location-map-wrapper">
       <div id="location-map-cover">
         <a class="city_block" id="sanFrancisco" href="#">
@@ -311,6 +312,7 @@ require('./wp-blog-header.php');
       </div>
     </div>
   </div>
+
 
   <div id="section5" class="section">
     <div class="centered">
