@@ -19,15 +19,20 @@ require('./wp-blog-header.php');
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
         <h1 itemprop="name">HACK FOR<br> BIG CHOICES</h1>
-        <p>A series of events to honor the legacy of Steve Jobs by connecting and encouraging future leaders in 12 cities on 5 continents to solve problems in design and technology, education and healthcare to make a big impact on the world.</p>
+        <p>We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. If they team up together they can solve real and local problems. Steve Jobs reminded us that we don’t need to stare at death to make big choices. </p> 
+		<p> Calling the crazy ones, misfits, rebels, troublemakers, and all you who see things differently.</p>
+		
+        <div class="register">
+          <a class="button button-large button-primary register-to-hack-trigger overlay-trigger" href="#sign-up-overlay">ATTEND TALKS</a>
+          <span class="title-font"><div class="attend_line">OR <a href="#schedule" class="scrollLink"><span>Register to Hack</span> </a></span></div>
+        </div>
+		
         <ul class="datetime clearfix row-fluid">
-          <li class="span6"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif" /> <span class="title-font" itemprop="startDate">OCT 5th - December, 2013</span></li>
+          <li class="span6"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <span class="title-font" itemprop="startDate">starting on October 5th, 2013</span></li>
           <li class="span6"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
         </ul>
-        <div class="register">
-          <a class="button button-large button-primary register-to-hack-trigger overlay-trigger" href="#sign-up-overlay">REGISTER TO HACK</a>
-          <span class="title-font"><div class="attend_line">OR <a href="#schedule" class="scrollLink"><span>View Events</span> </a></span></div>
-        </div>
+		
+        
       </div>
     </div>
   </div>
@@ -39,7 +44,7 @@ require('./wp-blog-header.php');
       <div class="span4">
         <div class="item">
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/design-icon.png" />
-          <h3 class="item_head">DESIGN AND TECHNOLOGY</h3>
+          <h3 class="item_head">DESIGN&TECHNOLOGY</h3>
         </div>
       </div>
       <div class="span4">
@@ -127,7 +132,7 @@ require('./wp-blog-header.php');
     
       <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
         <div id="local" class="schedule_box span5">
-          <h3>Events in San Francisco</h3>
+          <h3>Coming events</h3>
           <div class="inner">
             <div class="row-fluid marginBottom10">
               <div class="span12">
@@ -165,7 +170,7 @@ require('./wp-blog-header.php');
                 </dl>
               
                 <div class="content">
-                  <h4 itemprop="description">Design &amp; technology panel</h4>
+                  <h4 itemprop="description">Design &amp; technology Talk</h4>
                   <p>This inspirational speaker panel will involve some of the most influencial voices in the technology.</p>
                 </div>
               </div>
@@ -192,7 +197,7 @@ require('./wp-blog-header.php');
                 </dl>
               
                 <div class="content">
-                  <h4 itemprop="description">Education panel</h4>
+                  <h4 itemprop="description">Education Talk</h4>
                   <p>Our panel will show ways educational technology can thrive even in the face of public school hardships.</p>
                 </div>
               </div>
@@ -219,7 +224,7 @@ require('./wp-blog-header.php');
                 </dl>
               
                 <div class="content">
-                  <h4 itemprop="description">Healthcare Panel</h4>
+                  <h4 itemprop="description">Healthcare Talk</h4>
                   <p>Explore with us how technology can promote wellbeing with the latest health innovations as key to the future.</p>
                 </div>
               </div>
@@ -238,7 +243,7 @@ require('./wp-blog-header.php');
         </div>
         <div class="schedule_box span7">
           <div class="clearfix">
-            <h3 class="pull-left">Global Hackathon Schedule</h3>
+            <h3 class="pull-left">Global Hackathons Schedule</h3>
             <a class="button button-primary pull-right overlay-trigger" href="#sign-up-overlay">REGISTER TO HACK</a>
           </div>
           <div class="inner">
@@ -246,14 +251,12 @@ require('./wp-blog-header.php');
               <div class="span2">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
-                  <dd class="title-font" itemprop="startDate">October<br>2013</dd>
+                  <dd class="title-font" itemprop="startDate">November<br>2013</dd>
                 </dl>
                 
               </div>
               <div class="span10">
-                <h4 itemprop="description">Teambuilding Cocktails</h4>
-                <p>Each city will host a cocktail party where you can meet other participants and join a team.</p>
-
+                <h4 itemprop="description">Hackathon in San Francisco</h4>
               </div>
 
             </div>
