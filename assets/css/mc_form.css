@@ -3,11 +3,11 @@
   width: auto;
 }
 
-.mc_form label {
+.mc-embedded-subscribe-form label {
   font-size: 16px;
 }
 
-.mc_form .mc_merge_var input {
+.mc-embedded-subscribe-form .mc_merge_var input {
   width: 100%;
   height: 30px;
   padding: 10px;
@@ -15,18 +15,18 @@
   -moz-box-sizing: border-box;
 }
 
-.mc_form .mc_merge_var {
+.mc-embedded-subscribe-form .mc_merge_var {
   *zoom: 1;
   margin-bottom: 15px;
   position: relative;
 }
-.mc_form .mc_merge_var:before,
-.mc_form .mc_merge_var:after {
+.mc-embedded-subscribe-form .mc_merge_var:before,
+.mc-embedded-subscribe-form .mc_merge_var:after {
   display: table;
   content: "";
   line-height: 0;
 }
-.mc_form .mc_merge_var:after {
+.mc-embedded-subscribe-form .mc_merge_var:after {
   clear: both;
 }
 
@@ -38,20 +38,44 @@
 
 .mc_list li {
   float: left;
-  margin-right: 15px;
+  margin-right: 15px !important;
 }
 
-.mc_signup_submit {
-  padding-top: 20px;
-  margin-bottom: 5px;
-  clear: both;
+#mc-embedded-subscribe-form .button-wrapper {
+  margin-right: 13px;
 }
 
-.mc_signup_submit input {
-  width: 100%;
+#mc-embedded-subscribe-form .button {
+  width: 100% !important;
 }
 
-#mc_signup_form {
+#mc_embed_signup {
   background: #EFF1F3;
 }
 
+#first-last-wrapper .mc-field-group {
+  float: left;
+  width: 181px !important;
+  clear: none !important;
+  margin-right: 10px;
+}
+
+.mc-form,
+.mc-form h2 {
+  padding-top: 0 !important;
+  padding-left: 0;
+  margin-top: 0 !important;
+}
+
+.mc-form .top {
+  background: #EFF5FC;
+  padding: 15px 10px;
+}
+
+.mc-form .form {
+  padding: 10px;
+}
+
+.mc-form .indicates-required {
+  text-align: left !important;
+}

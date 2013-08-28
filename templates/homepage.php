@@ -11,6 +11,8 @@ require('./wp-blog-header.php');
 ?>
 
 
+<script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/homepage.js"></script>
+
 <div class="sections">
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
@@ -65,7 +67,7 @@ require('./wp-blog-header.php');
   </div>
   <div id="section3" class="section clearfix centered">
     <h2 class="section_title">SPEAKERS</h2>
-    <div class="speaker-wrapper">
+    <div class="speaker-wrapper circle-pic-list">
       
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
@@ -81,14 +83,7 @@ require('./wp-blog-header.php');
 
         </div>
       
-      
-      
-      
-      
-      
-      
-      
-        <div class="speaker circle-pic-list" itemscope itemtype="http://schema.org/Person">
+        <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
           <dl class="person-label">
@@ -257,10 +252,10 @@ require('./wp-blog-header.php');
 
   <div id="section4" class="centered section">
     <h2 id="locations" class="section_title">Hackathon Cities</h2>
-    <p class="subline">Pick your city to <a href="#" class="button button-primary">register</a></p>
+    <p class="subline">Pick your city to <a class="button button-primary overlay-trigger" href="#sign-up-overlay">register</a></p>
     <div id="location-map-wrapper">
       <div id="location-map-cover">
-        <a class="city_block" id="sanFrancisco" href="#">
+        <a class="city_block" id="sanFrancisco" href="#sign-up-overlay">
           <div class="city_name">San Francisco, USA</div>
           <div class="city_circle"></div>
           
@@ -303,7 +298,7 @@ require('./wp-blog-header.php');
         </a>
         <a class="city_block" id="hongkong" href="#">
           <div class="city_circle"></div>
-          <div class="city_name">HongKong, China</div>
+          <div class="city_name">Hong Kong, China</div>
         </a>
         <a class="city_block" id="shanghai" href="#">
           <div class="city_circle"></div>
@@ -317,7 +312,7 @@ require('./wp-blog-header.php');
   <div id="section5" class="section">
     <div class="centered">
       <h2 id="schedule" class="section_title">Schedule</h2>
-      <p class="subline">Register to participate in your city or attend an inspirational event.</p>
+      <p class="subline"><a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> to receive event updates.</p>
     </div>
     
     <div class="inner">
@@ -436,7 +431,7 @@ require('./wp-blog-header.php');
         <div class="schedule_box span7">
           <div class="clearfix">
             <h3 class="pull-left">Global Hackathons Schedule</h3>
-            <a class="button button-primary pull-right overlay-trigger" href="#sign-up-overlay">REGISTER TO HACK</a>
+            <a class="overlay-trigger button button-primary pull-right" href="#attend-event-overlay">Attend an Event</a>
           </div>
           <div class="inner">
             <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
@@ -510,8 +505,8 @@ require('./wp-blog-header.php');
   <div id="section6" class="section centered">
     <h2 class="section_title">PARTNERS</h2>
     <p class="subline">Big thanks to our sponsors for providing the resources to make this happen.</p>
-      <div id="sponsor-wrapper" class="clearfix">
-        <div class="sponsor circle-pic-list">
+      <div id="sponsor-wrapper" class="clearfix circle-pic-list">
+        <div class="sponsor">
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
           <dl class="person-label">
             <dt>Company Name</dt>
@@ -582,5 +577,11 @@ require('./wp-blog-header.php');
 
 
 <div id="sign-up-overlay" class="hidden mc_form overlay-window">
-  <?php mailchimpSF_signup_form(); ?>
+  <?php include("mail-chimp-forms/register-to-hack-form.php") ?>
 </div>
+
+<div id="attend-event-overlay" class="hidden mc_form overlay-window">
+  <?php include("mail-chimp-forms/register-for-event-form.php") ?>
+</div>
+
+<script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/vendor/mailchimp.js"></script>

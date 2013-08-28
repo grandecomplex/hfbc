@@ -6,12 +6,33 @@ $(function() {
   var $main = $(".main.col-lg-12");
   var $overlay;
   
-  $(".overlay-window").append("<a href=# class=overlay-close>Close</a>");
+  window.overlay = {
+    toggle: function toggleOverlay(overlay) {
+      $overlay = $(overlay);
+      $(".overlay-window").addClass("hidden");
+    
+      if (isOverlayOpen) {
+        $main.removeClass("overlay");
+        isOverlayOpen = false;
+        unbindEvents();
+      } else {
+        $overlay.removeClass("hidden");
+        $main.addClass("overlay");
+        isOverlayOpen = true;
+      
+        if (window.outerWidth <= 500 || window.outerHeight <= 500) {
+          $("body, html").scrollTop(1);
+        }
+        bindEvents();
+      }
+    }
+  };
   
+  $(".overlay-window").append("<a href=# class=overlay-close>Close</a>");
   
   $document.on("click", ".overlay-trigger", function(e) {
     e.preventDefault();
-    toggleOverlay.call(this, this.getAttribute("href") );
+    window.overlay.toggle.call(this, this.getAttribute("href") );
   });
   
   function unbindEvents() {
@@ -34,27 +55,7 @@ $(function() {
   
   function closeOverlay(e) {
     e.preventDefault();
-    toggleOverlay.call(this, $overlay);
+    window.overlay.toggle.call(this, $overlay);
   }
   
-  function toggleOverlay(overlay) {
-    $overlay = $(overlay);
-    $(".overlay-window").addClass("hidden");
-    
-    if (isOverlayOpen) {
-      $main.removeClass("overlay");
-      isOverlayOpen = false;
-      unbindEvents();
-    } else {
-      $overlay.removeClass("hidden");
-      $main.addClass("overlay");
-      isOverlayOpen = true;
-      
-      if (window.outerWidth <= 500 || window.outerHeight <= 500) {
-        $("body, html").scrollTop(1);
-      }
-      bindEvents();
-    }
-  }
-
 });

@@ -9,13 +9,13 @@
   background: #24a6ce; /* Blue */
   min-width: 76px;
   text-align: center;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
   -webkit-transition: box-shadow .15s linear;
   -moz-transition: box-shadow .15s linear;
   transition: box-shadow .15s linear;
   border: 0;
-  font-size: 18px;
+  font-size: 18px !important;
   -webkit-appearance: none;
   appearance: none;
 }
@@ -26,7 +26,7 @@
 }
 
 .button-primary {
-  background: #f7931e; /* Orange */
+  background: #f7931e !important; /* Orange */
 }
 
 .button-secondary {
