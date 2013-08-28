@@ -112,7 +112,7 @@ a:hover {
 .nav-share li {
   list-style: none;
   float: left;
-  margin-right: 3px;
+  margin-right: 10px;
 }
 
 .nav-share a {
@@ -121,6 +121,14 @@ a:hover {
   background:transparent url('../img/chrome/nav-share.png') no-repeat 0 0;
   height: 20px;
   width: 20px;
+}
+
+.nav-share li:last-child {
+  margin-right: 0;
+}
+
+.nav-share .fb {
+  margin-right: 4px;
 }
 
 .nav-share .fb a {
