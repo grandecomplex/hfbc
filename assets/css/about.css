@@ -41,15 +41,11 @@ body.about .main{
   font-size: 12px;
 
 }
-.our_team_section .linkedin img{
-  width: 25px;
-  height: 25px;
-}
-.our_team_section .twitter img{
-  width: 25px;
-  height: 25px;
 
+.our_team_section .nav-share {
+  display: inline-block;
 }
+
 .our_team_section .speaker{
   min-height: 330px;
   max-width: 22.5%;

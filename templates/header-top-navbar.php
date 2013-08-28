@@ -20,7 +20,6 @@
           <li class="fb"><a href="https://www.facebook.com/HackForBigChoices" target="_blank">Facebook</a></li>
           <li class="twitter"><a href="https://twitter.com/hackbigchoices" target="_blank">Twitter</a></li>
           <li class="youtube"><a href="http://www.youtube.com/channel/UC95ElhaeDLKxo3iScLZwnMQ" target="_blank">Youtube</a></li>
-          <!--<li class="youtube"><a href="#">youtube</a></li>-->
         </ul>
       </div>
       
