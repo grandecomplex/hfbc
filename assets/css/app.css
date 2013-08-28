@@ -119,8 +119,8 @@ a:hover {
   display: block;
   text-indent: -9999px;
   background:transparent url('../img/chrome/nav-share.png') no-repeat 0 0;
-  height: 18px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
 }
 
 .nav-share .fb a {
@@ -128,15 +128,19 @@ a:hover {
 }
 
 .nav-share .twitter a {
-  background-position: -24px 0;
+  background-position: -40px 0;
 }
 
-.nav-share .v a {
-  background-position: -48px 0;
+.nav-share .plus a {
+  background-position: -20px 0;
 }
 
-.nav-share .fr a {
-  background-position: -72px 0;
+.nav-share .youtube a {
+  background-position: -60px 0;
+}
+
+.nav-share .linkedin a {
+  background-position: -80px 0;
 }
 
 #navbar-aside .button {
