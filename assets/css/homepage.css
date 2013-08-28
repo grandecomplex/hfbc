@@ -298,8 +298,7 @@
   width: 180px;
 }
 
-.home.page .speaker .circle_pic,
-.home.page .sponsor img {
+.circle-pic-list img {
     -webkit-border-radius:80px;
     -moz-border-radius:80px;
     border-radius:80px;

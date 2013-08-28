@@ -14,7 +14,7 @@ require('./wp-blog-header.php');
 <h1>The Hackathon: Hack for Big Choices</h1>
 Hack for Big Choices is a non-profit organization of young entrepreneurs. We encourage future leaders to make choices that can have a positive and big impact on the world with the help of existing thought leaders (venture capitalist, academics, senior business executives, etc.).
 <h2>TEAM</h2>
-<div class="our_team_section">
+<div class="our_team_section circle-pic-list clearfix">
 <div class="speaker span6">
 
 <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Aurora_Chiste.jpg" />
@@ -272,7 +272,7 @@ Co-Founder, President @ Open University of West Africa</h4>
 </div>
 </div>
 <h2>Advisors</h2>
-<div class="our_team_section">
+<div class="our_team_section circle-pic-list clearfix">
 <div class="speaker">
 
 <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Ziv_Gillat.jpg" />
@@ -331,26 +331,25 @@ Clinical Editor, TEDMED; Optimising Clinical Knowledge</h4>
 
 </div>
 </div>
-<div class="span10">
+<div class="row-fluid">
+  <div class="span6">
 <h2>WHY ARE WE DOING THIS?</h2>
-Because we are fortunate enough to live and work in Silicon Valley, a place where anything is possible. But this culture does not exist in other countries. The young people in the cities where the events will take place do not have access to the same entrepreneurial culture and spirit that we almost take for granted.
+<p>Because we are fortunate enough to live and work in Silicon Valley, a place where anything is possible. But this culture does not exist in other countries. The young people in the cities where the events will take place do not have access to the same entrepreneurial culture and spirit that we almost take for granted.</p>
 
-As immigrants in Silicon Valley, we believe that we live in a global society. We have to face the fact that, when smart young people leave their countries in search of a better life, we take a step towards a less sustainable world. We want to motivate and empower young people across the world to shed their fears, stand up and discover how to use their talents to become next-generation leaders in their local economies. We need to show them how to make the Big Choices that will impact their neighborhood, their city, their country and the entire world.
+<p>As immigrants in Silicon Valley, we believe that we live in a global society. We have to face the fact that, when smart young people leave their countries in search of a better life, we take a step towards a less sustainable world. We want to motivate and empower young people across the world to shed their fears, stand up and discover how to use their talents to become next-generation leaders in their local economies. We need to show them how to make the Big Choices that will impact their neighborhood, their city, their country and the entire world.</p>
+</div>
+<div class="span6">
 <h2>WHY ARE WE DIFFERENT?</h2>
 <h3>Everyone is Welcome</h3>
-Our hackathon is open not just to computer programmers, but everyone - doctors, politicians, designers, scientists and many other professionals. Our event is a forum for these people to come together and make a big impact on the world.
+<p>Our hackathon is open not just to computer programmers, but everyone - doctors, politicians, designers, scientists and many other professionals. Our event is a forum for these people to come together and make a big impact on the world.</p>
 <h3>Solving Real Problems</h3>
-We identify real global problems and let participants work on solutions that can be executed locally and continued to be developed after the hackathon.
+<p>We identify real global problems and let participants work on solutions that can be executed locally and continued to be developed after the hackathon.</p>
 <h3>Global Scale</h3>
-While most hackathons are local in nature, ours will be global and held in 12 cities around the world simultaneously, connecting developing and developed countries.
+<p>While most hackathons are local in nature, ours will be global and held in 12 cities around the world simultaneously, connecting developing and developed countries.</p>
 <h3>Inspiring Thought Leaders</h3>
-Too often participants run out of a steam during a 2- or 3-day hackathon. To keep them motivated and focused, we have come up with an innovative strategy to engage the participants and the audience, online and offline. Starting in August, we will distribute testimonials of real problems in design &amp; technology, education and healthcare space through our website.
+<p>Too often participants run out of a steam during a 2- or 3-day hackathon. To keep them motivated and focused, we have come up with an innovative strategy to engage the participants and the audience, online and offline. Starting in August, we will distribute testimonials of real problems in design &amp; technology, education and healthcare space through our website.</p>
 
-During the series of events in October, we will bring in experienced thought leaders to share their experiences and opinions, encouraging the audience online and participants to keep going.
+<p>During the series of events in October, we will bring in experienced thought leaders to share their experiences and opinions, encouraging the audience online and participants to keep going.</p>
 <h3>Here to Stay</h3>
-This hackathon will be an annual event to honor Steve Jobs’ legacy by encouraging future leaders to make big choices.
-
-&nbsp;
-
+<p>This hackathon will be an annual event to honor Steve Jobs’ legacy by encouraging future leaders to make big choices.</p>
 </div>
-&nbsp;

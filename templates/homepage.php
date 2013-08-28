@@ -88,7 +88,7 @@ require('./wp-blog-header.php');
       
       
       
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <div class="speaker circle-pic-list" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
           <dl class="person-label">
@@ -511,7 +511,7 @@ require('./wp-blog-header.php');
     <h2 class="section_title">PARTNERS</h2>
     <p class="subline">Big thanks to our sponsors for providing the resources to make this happen.</p>
       <div id="sponsor-wrapper" class="clearfix">
-        <div class="sponsor">
+        <div class="sponsor circle-pic-list">
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
           <dl class="person-label">
             <dt>Company Name</dt>
