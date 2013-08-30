@@ -20,7 +20,8 @@ require('./wp-blog-header.php');
   <iframe width="100%" height="360" id="video" src="//www.youtube.com/embed/xoUfvIb-9U4?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
-        <h1 itemprop="name">HACK FOR<br> BIG CHOICES</h1>
+        <h1 itemprop="name">World changing <code>&lt;/></code></h1>
+        <p>A month long hackathon and series of talks surrounding design, technology, education, and healthcare.</p>
         <p>We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. If they team up together they can solve real and local problems. Steve Jobs reminded us that we don’t need to stare at death to make big choices. </p> 
 		<p> Calling the crazy ones, misfits, rebels, troublemakers, and all you who see things differently.</p>
 		
