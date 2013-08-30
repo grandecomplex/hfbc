@@ -19,7 +19,7 @@
         <?php include("social-links.php")?>
       </div>
       
-      <a href="https://plus.google.com/b/109626750900950113826/" class="pull-right button button-primary" target="_blank">Live</a>
+      <a href="https://plus.google.com/b/109626750900950113826/" class="pull-right button" target="_blank">Live</a>
     </div>
   </div>
 </div>

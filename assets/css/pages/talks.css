@@ -1,0 +1,19 @@
+.page.talks .sections .datetime {
+  border-radius: 8px;
+  color: #414141;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.page.talks #upcoming .speaker {
+  margin-right: 30px !important;
+  text-align: center;
+  margin-bottom: 0;
+  width: 117px;
+}
+
+.page.talks #upcoming .speaker .circle_pic {
+  width: 100px;
+  height: 100px;
+}

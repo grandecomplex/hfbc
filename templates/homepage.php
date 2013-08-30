@@ -20,7 +20,7 @@ require('./wp-blog-header.php');
   <iframe width="100%" height="360" id="video" src="//www.youtube.com/embed/xoUfvIb-9U4?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
-        <h1 itemprop="name">World changing <code>&lt;/></code></h1>
+        <h1 itemprop="name">Hacking for<br> the greater good</h1>
         <p>A month long hackathon and series of talks surrounding design, technology, education, and healthcare.</p>
         <p>We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. If they team up together they can solve real and local problems. Steve Jobs reminded us that we don’t need to stare at death to make big choices. </p> 
 		<p> Calling the crazy ones, misfits, rebels, troublemakers, and all you who see things differently.</p>
@@ -66,9 +66,11 @@ require('./wp-blog-header.php');
     
 
   </div>
+
   <div id="section3" class="section clearfix centered">
     <h2 class="section_title">SPEAKERS</h2>
-    <p class="subline">Attend the  talks, check the <a href="#schedule" class="scrollLink button">schedule</a></p>
+    <p class="subline">See all the speakers and talks in the <a href="/talks" class="button">schedule</a></p>
+
     <div class="speaker-wrapper circle-pic-list">
       
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
@@ -126,130 +128,8 @@ require('./wp-blog-header.php');
           </dl>
 
         </div>
-
-      
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/David-Orban.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">David Orban</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Entrepreneur</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">CEO, Dotsub / Entrepreneur</dd>
-          </dl>
-
-        </div>
-      
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/davidagus.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">David Agus</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Biomedical Researcher</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Professor of Medicine and Engineering, University of Southern California</dd>
-          </dl>
-
-        </div>
-      
-
-      
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/John-Roberts.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">John Roberts</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Social Entrepreneur</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Co-Founder and President (pro tempore) at Open University of West Africa</dd>
-          </dl>
-
-        </div>
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Salil.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">Salil Deshpande</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Venture Capitalist</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Top 100 Vc by Forbes, Managing Director at Bain Capital</dd>
-          </dl>
-
-        </div>
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">Jeremey Howard</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Data Scientist</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Kaggle President and Chief Scientist, faculty at Singularity University, and ounder of FastMail.FM.
-</dd>
-          </dl>
-
-        </div>
-        
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/bjoern-lasse.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">Bjoern Lasse Herrmann</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Entrepreneur</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Bjoern is an expert on data products, education, and organizational development. 
-</dd>
-          </dl>
-
-        </div>
-        
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/francis-pedraza.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">Francis Pedraza</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Entrepreneur</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Francis is CEO of Everest. Everest's vision is to unlock human potential.
-</dd>
-          </dl>
-
-        </div>
-      
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">ZACHARY BOGUE</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Co-Managing Partner at Data Collective</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment</dd>
-          </dl>
-
-        </div>
-        
-
       </div>
-      
-      
-
   </div>
-
 
 
   <div id="section4" class="centered section">

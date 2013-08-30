@@ -5,5 +5,6 @@
 @import url(mc_form.css);
 @import url(overlay.css);
 
-@import url(about.css);
-@import url(homepage.css);
+@import url(pages/about.css);
+@import url(pages/homepage.css);
+@import url(pages/talks.css);

@@ -3,10 +3,6 @@
    HomePage
    ========================================================================== */
 
-.home.page .wrap {
-  padding: 0;
-}
-
 .home.page #section1 p {
   font-size: 14px;
 }
@@ -59,18 +55,6 @@
   font-size: 16px;
 }
 
-.home.page .section {
-  padding: 15px 30px;
-  margin-bottom: 30px;
-  
-}
-
-.home.page .sections .section:nth-child(even) {
-  background: #eff1f3;
-  border-top: 3px #d7e0e5 solid;
-  border-bottom: 3px #d7e0e5 solid;
-}
-
 /* THE BIG CHOICES SECTION */
 
 .home.page #section2 {
@@ -100,7 +84,7 @@
 }
 
 #location-map-cover {
-    background: url(../img/pages/homepage/map/map.png) no-repeat;
+    background: url(../../img/pages/homepage/map/map.png) no-repeat;
     height: 573px;
     position: relative;
     width: 933px;
@@ -313,70 +297,12 @@
 /* Speakers */
 
 
-.home.page .speaker,
-.home.page .sponsor {
-  float: left;
-  width: 180px;
-}
-
-.home.page .sponsor {
-  width: 180px;
-}
-
-#section3 .speaker-wrapper,
-#section6 #sponsor-wrapper {
-  width: 855px;
-  margin: auto;
-}
-
-#section3 .speaker,
-#section6 .sponsor {
-  margin-right: 45px;
-  margin-bottom: 45px;
-}
-
-#section3 .speaker:nth-child(4n),
-#section6 .sponsor:nth-child(4n) {
-  margin-right: 0;
-}
-
 #section6 {
   margin-bottom: 0;
 }
 
-@media (max-width: 950px) {
-  #section3 .speaker-wrapper,
-  #section6 #sponsor-wrapper {
-    width: 100%;
-  }
-  
-  #section3 .speaker-wrapper {
-    display: inline-block;
-  }
-  
-  #section3 .speaker {
-    height: 267px;
-  }
-  
-  #section3 .speaker,
-  #section6 .sponsor {
-    margin-right: auto !important;
-    margin-left: auto !important;
-    width: 250px;
-  }
-  
-  #section3 .speaker .description {
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 @media (max-width: 480px) {
-  #section3 .speaker,
-  #section6 .sponsor {
-    float: none;
-  }
   
   #section5 > .inner {
     margin: 0;

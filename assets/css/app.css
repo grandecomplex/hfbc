@@ -12,15 +12,22 @@ ul, ol {
   list-style: none;
 }
 
+
+.page .wrap {
+  padding: 0;
+}
+
+
 /* ==========================================================================
    Base
    ========================================================================== */
 
 body {
   font-family: "Open-sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   padding: 0;
   margin: 0;
+  color: #414141;
 }
 
 h1, h2, h3,
@@ -137,6 +144,13 @@ a:hover {
   width: 20px;
 }
 
+.nav-share a:hover {
+  -webkit-transition: .4s -webkit-transform cubic-bezier(0.175, 0.885, 0.1, 5);
+  -moz-transition: .4s -moz-transform cubic-bezier(0.175, 0.885, 0.1, 5);
+  transition: .4s transform cubic-bezier(0.175, 0.885, 0.1, 5);
+  -webkit-transform: scale(1.05);
+}
+
 .nav-share li:last-child {
   margin-right: 0;
 }
@@ -219,6 +233,105 @@ a:hover {
     max-height: 150px;
 }
 
+/* =============================================================================
+   Sections
+   ========================================================================== */
+
+.page .section {
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.page .section:last-child {
+  margin-bottom: 0;
+}
+
+.page .sections .section:nth-child(even) {
+  background: #eff1f3;
+  border-top: 3px #d7e0e5 solid;
+  border-bottom: 3px #d7e0e5 solid;
+}
+
+.page .sections .section:nth-child(even) .hr {
+  border-color: #DEE3E6;
+}
+
+
+.section_title {
+  padding: 0 3px 6px;
+  margin-bottom: 16px;
+  border-bottom: 3px #d7e0e5 solid;
+  display: inline-block;
+  font-size: 21px;
+}
+
+
+/* =============================================================================
+   Sponsor and Speaker sections
+   ========================================================================== */
+
+.page .speaker,
+.page .sponsor {
+  float: left;
+  width: 180px;
+}
+
+.page .sponsor {
+  width: 180px;
+}
+
+.speaker-wrapper,
+#sponsor-wrapper {
+  width: 855px;
+  margin: auto;
+}
+
+.speaker,
+.sponsor {
+  margin-right: 45px;
+  margin-bottom: 45px;
+}
+
+.speaker:nth-child(4n),
+.sponsor:nth-child(4n) {
+  margin-right: 0;
+}
+
+@media (max-width: 950px) {
+  .speaker-wrapper, #sponsor-wrapper {
+    width: 100%;
+  }
+  
+  .speaker-wrapper {
+    display: inline-block;
+  }
+  
+  .speaker {
+    height: 267px;
+  }
+  
+  .speaker, .sponsor {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 250px;
+  }
+  
+  .speaker .description {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .speaker, .sponsor {
+    float: none;
+  } 
+}
+
+
 
 /* =============================================================================
    Helpers
@@ -238,19 +351,15 @@ a:hover {
   text-align: center;
 }
 
-.section_title {
-  padding: 0 3px 6px;
-  margin-bottom: 16px;
-  border-bottom: 3px #d7e0e5 solid;
-  display: inline-block;
-  font-size: 21px;
-}
-
-.section .subline {
+p.subline {
   font-size: 20px;
   color: #57b9d7; /* The baby blue */
   font-weight: 200; 
   margin-bottom: 32px;
+}
+
+h1 + p.subline {
+  max-width: 800px;
 }
 
 .hr {
@@ -266,7 +375,8 @@ a:hover {
   left: -99999px;
 }
 
-.person-label dd {
+.person-label dd,
+.datetime-label dd {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 20px;
 }
