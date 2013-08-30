@@ -67,6 +67,7 @@ require('./wp-blog-header.php');
   </div>
   <div id="section3" class="section clearfix centered">
     <h2 class="section_title">SPEAKERS</h2>
+    <p class="subline">Attend the  talks, check the <a href="#schedule" class="scrollLink button">schedule</a></p>
     <div class="speaker-wrapper circle-pic-list">
       
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
@@ -311,7 +312,7 @@ require('./wp-blog-header.php');
 
   <div id="section5" class="section">
     <div class="centered">
-      <h2 id="schedule" class="section_title">Schedule</h2>
+      <h2 id="schedule" class="section_title">Event Schedule</h2>
       <p class="subline"><a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> to receive event updates.</p>
     </div>
     
@@ -583,5 +584,3 @@ require('./wp-blog-header.php');
 <div id="attend-event-overlay" class="hidden mc_form overlay-window">
   <?php include("mail-chimp-forms/register-for-event-form.php") ?>
 </div>
-
-<script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/vendor/mailchimp.js"></script>

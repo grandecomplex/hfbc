@@ -16,11 +16,7 @@
     
     <div id="navbar-aside" class="pull-right clearfix">
       <div class="pull-left">
-        <ul class="nav-share">
-          <li class="fb"><a href="https://www.facebook.com/HackForBigChoices" target="_blank">Facebook</a></li>
-          <li class="twitter"><a href="https://twitter.com/hackbigchoices" target="_blank">Twitter</a></li>
-          <li class="youtube"><a href="http://www.youtube.com/channel/UC95ElhaeDLKxo3iScLZwnMQ" target="_blank">Youtube</a></li>
-        </ul>
+        <?php include("social-links.php")?>
       </div>
       
       <a href="https://plus.google.com/b/109626750900950113826/" class="pull-right button button-primary" target="_blank">Live</a>

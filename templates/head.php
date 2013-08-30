@@ -12,6 +12,7 @@
   
   <script type="text/javascript" src="/assets/js/about.js"></script>
   <script type="text/javascript" src="/assets/js/overlay.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/assets/js/vendor/mailchimp.js"></script>
 
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 </head>
