@@ -9,7 +9,7 @@
           <a href="#">Press</a>
         </li>
         <li>
-          <a href="#">Join Us</a>
+          <a href="#join-us-overlay" class="overlay-trigger">Join Us</a>
         </li>
         <li>
           <a href="/#schedule">Events</a>
@@ -35,6 +35,6 @@
 
 <?php wp_footer(); ?>
 
-<div id="sign-up-overlay" class="hidden mc_form overlay-window">
-  <?php include("mail-chimp-forms/register-to-hack-form.php") ?>
+<div id="join-us-overlay" class="hidden mc_form overlay-window">
+  <?php include("mail-chimp-forms/join-us.php") ?>
 </div>
