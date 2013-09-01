@@ -79,13 +79,9 @@
   padding-right: 0;
 }
 
-#location-map-wrapper {
-  background: #eee;
-}
-
 #location-map-cover {
     background: url(../../img/pages/homepage/map/map.png) no-repeat;
-    height: 573px;
+    height: 451px;
     position: relative;
     width: 933px;
     margin: auto;

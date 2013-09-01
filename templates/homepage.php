@@ -194,17 +194,21 @@ require('./wp-blog-header.php');
   <div id="section5" class="section">
     <div class="centered">
       <h2 id="schedule" class="section_title">Event Schedule</h2>
-      <p class="subline"><a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> to receive event updates.</p>
+      <p class="subline">A series of talks to inspire the world.</p>
     </div>
     
     <div class="inner">
     
-      <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-        <div id="local" class="schedule_box span5">
-          <h3>Coming events</h3>
+      <div itemscope itemtype="http://schema.org/Event">
+        <div id="local" class="schedule_box">
+          <!-- <a class="overlay-trigger button pull-right" href="#attend-event-overlay">Attend an Event</a> -->
+          <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
+          <div class="clearfix">
+            <h3 class="pull-left">Coming events</h3>
+          </div>
           <div class="inner">
             <div class="row-fluid marginBottom10">
-              <div class="span12">
+              <div class="span10">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
                   <dd class="title-font"  itemprop="startDate">SAT<br>OCT 5th</dd>
@@ -214,24 +218,24 @@ require('./wp-blog-header.php');
                   <p>Join us for the opening ceremony of Hack for Big Choices where we'll introduce the topics and challenges.</p>
                 </div>
               </div>
-              <!-- <div class="span2">
+              <div class="span2">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
                       <a class="button " href="google.com">Attend</a>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
-              </div> -->
+              </div>
             </div>
         
             <hr class="hr">
             
             <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-              <div class="span12">
+              <div class="span10">
               
                 <dl class="datetime-label">
                   <dt>Date time</dt>
@@ -243,22 +247,22 @@ require('./wp-blog-header.php');
                   <p>This inspirational speaker panel will involve some of the most influencial voices in the technology.</p>
                 </div>
               </div>
-              <!-- <div class="span2">
+              <div class="span2">
                 <ul class="button-list-vertical pull-right">
                   <li>
                     <a class="button " href="google.com">Attend</a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a class="button button-secondary" href="google.com">Liveview</a>
-                  </li>
+                  </li> -->
                 </ul>
-              </div> -->
+              </div>
             </div>
             
             <hr class="hr">
             
             <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-              <div class="span12">
+              <div class="span10">
               
                 <dl class="datetime-label">
                   <dt>Date time</dt>
@@ -270,22 +274,22 @@ require('./wp-blog-header.php');
                   <p>Our panel will show ways educational technology can thrive even in the face of public school hardships.</p>
                 </div>
               </div>
-              <!-- <div class="span2">
+              <div class="span2">
                 <ul class="button-list-vertical pull-right">
                   <li>
                     <a class="button " href="google.com">Attend</a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a class="button button-secondary" href="google.com">Liveview</a>
-                  </li>
+                  </li> -->
                 </ul>
-              </div> -->
+              </div>
             </div>
             
             <hr class="hr">
             
             <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-              <div class="span12">
+              <div class="span10">
               
                 <dl class="datetime-label">
                   <dt>Date time</dt>
@@ -297,87 +301,20 @@ require('./wp-blog-header.php');
                   <p>Explore with us how technology can promote wellbeing with the latest health innovations as key to the future.</p>
                 </div>
               </div>
-              <!-- <div class="span2">
+              <div class="span2">
                 <ul class="button-list-vertical pull-right">
                   <li>
                     <a class="button " href="google.com">Attend</a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a class="button button-secondary" href="google.com">Liveview</a>
-                  </li>
+                  </li> -->
                 </ul>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
-        <div class="schedule_box span7">
-          <div class="clearfix">
-            <h3 class="pull-left">Global Hackathons Schedule</h3>
-            <a class="overlay-trigger button button-primary pull-right" href="#attend-event-overlay">Attend an Event</a>
-          </div>
-          <div class="inner">
-            <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-              <div class="span2">
-                <dl class="datetime-label">
-                  <dt>Date time</dt>
-                  <dd class="title-font" itemprop="startDate">November<br>2013</dd>
-                </dl>
-                
-              </div>
-              <div class="span10">
-                <h4 itemprop="description">Hackathon in San Francisco</h4>
-              </div>
-
-            </div>
-            <hr class="hr">
-            <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-              <div class="span2">
-                <dl class="datetime-label">
-                  <dt>Date time</dt>
-                  <dd class="title-font" itemprop="startDate">Nov - Dec<br>2013</dd>
-                </dl>
-                
-              </div>
-              <div class="span10">
-                <h4 itemprop="description">Hackathons</h4>
-                <p>Hackathons will take place in <a href="#locations" class="scrollLink">12 major cities</a>, including San Francisco, Moscow, and Bangalore. A hackathon winner is selected from ever city.</p>
-
-              </div>
-            </div>
-            <hr class="hr">
-            <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-              <div class="span2">
-                <dl class="datetime-label">
-                  <dt>Date time</dt>
-                  <dd class="title-font" itemprop="startDate">December<br>2013</dd>
-                </dl>
-                
-              </div>
-              <div class="span10">
-
-                <h4 itemprop="description">Popular Vote</h4>
-                <p>Online voting will open to select a winner.</p>
-
-              </div>
-            </div>
-            <hr class="hr">
-            <div class="row-fluid" itemscope itemtype="http://schema.org/Event">
-              <div class="span2">
-                <dl class="datetime-label">
-                  <dt>Date time</dt>
-                  <dd class="title-font" itemprop="startDate">December<br>2013</dd>
-                </dl>
-                
-              </div>
-              <div class="span10">
-                <h4 itemprop="description">Committee Vote</h4>
-                <p>A committee of international judges will select final winner.</p>
-
-              </div>
-            </div>
-          </div>
-          
-        </div>
+      
       </div>
     </div>
   </div>

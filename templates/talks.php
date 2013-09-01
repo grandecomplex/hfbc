@@ -18,10 +18,13 @@ require('./wp-blog-header.php');
   </div>
 
   <div id="upcoming" class="section">
+    <div class="centered">
+      <h2 class="section_title">Next talk</h2>
+    </div>
     <div class="row-fluid">
       <div class="span3">
-        <h2 class="section_title">Upcoming Event</h2>
-        <p class="subline">Opening Ceremony</p>
+        <h3 class="subline">Opening Ceremony</h3>
+
       </div>
       <div class="span6">
         <h4>Forget exit strategy, think global improvement</h4>
