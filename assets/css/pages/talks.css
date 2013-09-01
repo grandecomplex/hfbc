@@ -1,12 +1,21 @@
-.page.talks .sections .datetime {
-  border-radius: 8px;
-  color: #414141;
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 25px;
-  margin-bottom: 10px;
+.event-details {
+  margin: 15px 0;
 }
 
-.page.talks #upcoming .speaker {
+.event-details li {
+  float: left;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.event-details img {
+  height: 20px;
+  margin-right: 3px;
+  margin-bottom: -5px;
+}
+
+.page.talks #upcoming .speaker,
+.page.talks #schedule .speaker {
   margin-right: 30px !important;
   text-align: center;
   margin-bottom: 0;
@@ -16,4 +25,35 @@
 .page.talks #upcoming .speaker .circle_pic {
   width: 100px;
   height: 100px;
+}
+
+.page.talks #upcoming h3 {
+  color: #57B9D7;
+}
+
+.page.talks #schedule .circle_pic {
+  width: 100px;
+  height: 100px;
+}
+
+.page.talks #schedule .row-fluid {
+
+}
+
+.page.talks #schedule .row-fluid:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.page.talks #schedule .schedule-item {
+  padding: 20px 10px;
+}
+
+.page.talks #schedule .schedule-item:nth-child(even) {
+  background: #FFFEEF;
+  border-bottom: 1px solid #EBF0F2;  
+}
+
+.page.talks #schedule p {
+  margin-bottom: 0;
 }
