@@ -22,7 +22,7 @@ var err_style = '';
 try{
     err_style = mc_custom_error_style;
 } catch(e){
-    err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
+    err_style = '.mc_embed_signup input.mce_inline_error{border-color:#6B0505;} .mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
 }
 var head= document.getElementsByTagName('head')[0];
 var style= document.createElement('style');
@@ -65,7 +65,7 @@ function mce_init_form(){
       options = { url: 'http://hackforbigchoices.us7.list-manage.com/subscribe/post-json?u=84324a24b8bb798baeadac59e&id=6e0229cbb9&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
                     beforeSubmit: function(){
                         $('#mce_tmp_error_msg').remove();
-                        $('.datefield','#mc_embed_signup').each(
+                        $('.datefield','.mc_embed_signup').each(
                             function(){
                                 var txt = 'filled';
                                 var fields = new Array();
@@ -95,7 +95,7 @@ function mce_init_form(){
 	                                    }
                                     });
                             });
-                        $('.phonefield-us','#mc_embed_signup').each(
+                        $('.phonefield-us','.mc_embed_signup').each(
                             function(){
                                 var fields = new Array();
                                 var i = 0;
@@ -160,7 +160,7 @@ function mce_success_cb(resp){
                 err_id = 'mce_tmp_error_msg';
                 html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
                 
-                var input_id = '#mc_embed_signup';
+                var input_id = '.mc_embed_signup';
                 var f = $(input_id);
                 if (ftypes[index]=='address'){
                     input_id = '#mce-'+fnames[index]+'-addr1';
