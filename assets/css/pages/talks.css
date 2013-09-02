@@ -49,11 +49,26 @@
   padding: 20px 10px;
 }
 
-.page.talks #schedule .schedule-item:nth-child(even) {
+.page.talks #schedule .schedule-item:nth-child(odd) {
   background: #FFFEEF;
   border-bottom: 1px solid #EBF0F2;  
 }
 
 .page.talks #schedule p {
   margin-bottom: 0;
+}
+
+@media (max-width: 950px) {
+  .page.talks .speaker, 
+  .page.talks .sponsor {
+    height: auto;
+  }
+  
+  .page.talks .circle-pic-list {
+    margin-bottom: 20px;
+  }
+  
+  .event-details li {
+    margin-bottom: 10px;
+  }
 }
