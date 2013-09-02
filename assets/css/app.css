@@ -275,6 +275,8 @@ a:hover {
 .page .sponsor {
   float: left;
   width: 180px;
+  display: block;
+  text-decoration: none;
 }
 
 .page .sponsor {

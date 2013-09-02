@@ -323,7 +323,7 @@ require('./wp-blog-header.php');
   
   <div id="section6" class="section centered">
     <h2 class="section_title">PARTNERS</h2>
-    <p class="subline">Big thanks to our sponsors for providing the resources to make this happen.</p>
+    <p class="subline">Big thanks to our sponsors for making this happen. <a href="/sponsors" class='button'>View partners</a></p>
       <div id="sponsor-wrapper" class="clearfix circle-pic-list">
         <div class="sponsor">
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
