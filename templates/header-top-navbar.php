@@ -5,7 +5,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a id="logo" class="brand" href="./index.html">Hack For Big Choices</a>
+    <a id="logo" class="brand" href="/">Hack For Big Choices</a>
     <!-- <div class="nav-collapse collapse" style="height: 0px;">
       <?php
         if (has_nav_menu('primary_navigation')) :
