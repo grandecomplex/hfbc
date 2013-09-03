@@ -6,13 +6,13 @@
       <span class="icon-bar"></span>
     </button>
     <a id="logo" class="brand" href="/">Hack For Big Choices</a>
-    <!-- <div class="nav-collapse collapse" style="height: 0px;">
+    <div class="nav-collapse collapse" style="height: 0px;">
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
-    </div> -->
+    </div>
     
     <div id="navbar-aside" class="pull-right clearfix">
       <div class="pull-left">
