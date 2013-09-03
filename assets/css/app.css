@@ -363,6 +363,7 @@ p.subline {
   color: #57b9d7; /* The baby blue */
   font-weight: 200; 
   margin-bottom: 32px;
+  line-height: 23px;
 }
 
 h1 + p.subline {
