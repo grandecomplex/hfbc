@@ -26,7 +26,7 @@ require('./wp-blog-header.php');
     
     <div class="row-fluid">
       <div class="span2">
-        <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
+        <a href="http://unilever.com/" target="_blank"><img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" /></a>
       </div>
       <div class="span8">
         <h3>Unilever</h3>

@@ -272,6 +272,10 @@ a:hover {
    Sponsor and Speaker sections
    ========================================================================== */
 
+.page .speaker {
+	height: 238px;
+}
+
 .page .speaker,
 .page .sponsor {
   float: left;
