@@ -398,7 +398,10 @@ h1 + p.subline {
   color: #98acb1;
 }
 
-
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
 
 /* =============================================================================
    Footer

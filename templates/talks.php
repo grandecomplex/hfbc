@@ -64,14 +64,13 @@ require('./wp-blog-header.php');
   </div>
 
 
-  <div class="section">
+  <div id="events" class="section">
     <div class="centered">
       <h2 class="section_title">Event Schedule</h2>
     </div>
     
     <ul id="schedule">
-      <li>
-        <div class="schedule-item">
+      <li><div class="schedule-item">
           <div class="row-fluid">
           <div class="span5">
             <h3>Title of talk</h3>
@@ -82,7 +81,7 @@ require('./wp-blog-header.php');
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
           </div>
           <div class="span5">
-            <h4>Speakers</h4>
+            <h4 class="offscreen">Speakers</h4>
             <div class="circle-pic-list clearfix">      
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
@@ -108,8 +107,81 @@ require('./wp-blog-header.php');
             <a href="#" class="button">Buy tickets</a>
           </div>
         </div>
-        </div>
-        <div class="schedule-item"><div class="row-fluid">
+      </li>
+        
+        <li><div class="schedule-item"><div class="row-fluid">
+          <div class="span5">
+            <h3>Title of talk</h3>
+            <ul class="event-details clearfix">
+              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 10th</li>
+              <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+          </div>
+          <div class="span5">
+            <h4 class="offscreen">Speakers</h4>
+            <div class="circle-pic-list clearfix">      
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
+                <p>Vivek Wadhwa</p>
+
+              </div>
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
+                <p>Dave Mosby</p>
+
+              </div>
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
+                <p>Bill Reichert</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="span2">
+            <a href="#" class="button">Buy tickets</a>
+          </div>
+        </div></div></li>
+        <li><div class="schedule-item"><div class="row-fluid">
+          <div class="span5">
+            <h3>Title of talk</h3>
+            <ul class="event-details clearfix">
+              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 10th</li>
+              <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+          </div>
+          <div class="span5">
+            <h4 class="offscreen">Speakers</h4>
+            <div class="circle-pic-list clearfix">      
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
+                <p>Vivek Wadhwa</p>
+
+              </div>
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
+                <p>Dave Mosby</p>
+
+              </div>
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
+                <p>Bill Reichert</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="span2">
+            <a href="#" class="button">Buy tickets</a>
+          </div>
+        </div></div></li>
+        <li><div class="schedule-item"><div class="row-fluid">
           <div class="span5">
             <h3>Title of talk</h3>
             <ul class="event-details clearfix">
@@ -144,79 +216,7 @@ require('./wp-blog-header.php');
           <div class="span2">
             <a href="#" class="button">Buy tickets</a>
           </div>
-        </div></div>
-        <div class="schedule-item"><div class="row-fluid">
-          <div class="span5">
-            <h3>Title of talk</h3>
-            <ul class="event-details clearfix">
-              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 10th</li>
-              <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
-          </div>
-          <div class="span5">
-            <h4>Speakers</h4>
-            <div class="circle-pic-list clearfix">      
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
-                <p>Vivek Wadhwa</p>
-
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
-                <p>Dave Mosby</p>
-
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
-                <p>Bill Reichert</p>
-
-              </div>
-            </div>
-          </div>
-          <div class="span2">
-            <a href="#" class="button">Buy tickets</a>
-          </div>
-        </div></div>
-        <div class="schedule-item"><div class="row-fluid">
-          <div class="span5">
-            <h3>Title of talk</h3>
-            <ul class="event-details clearfix">
-              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 10th</li>
-              <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
-          </div>
-          <div class="span5">
-            <h4>Speakers</h4>
-            <div class="circle-pic-list clearfix">      
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
-                <p>Vivek Wadhwa</p>
-
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
-                <p>Dave Mosby</p>
-
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
-                <p>Bill Reichert</p>
-
-              </div>
-            </div>
-          </div>
-          <div class="span2">
-            <a href="#" class="button">Buy tickets</a>
-          </div>
-        </div></div>
+        </div></div></li>
       </li>
     </ul>
   </div>

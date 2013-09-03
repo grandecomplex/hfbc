@@ -49,13 +49,21 @@
   padding: 20px 10px;
 }
 
-.page.talks #schedule .schedule-item:nth-child(odd) {
-  background: #FFFEEF;
-  border-bottom: 1px solid #EBF0F2;  
+.page.talks #schedule > li:nth-child(odd) {
+  border-left: 3px solid #f7931e;  
+  background: #f4f4f4;
 }
 
 .page.talks #schedule p {
   margin-bottom: 0;
+}
+
+.page.talks #events {
+  padding: 30px 0;
+}
+
+.page.talks #schedule > li {
+  padding: 15px;
 }
 
 @media (max-width: 950px) {
