@@ -1,4 +1,3 @@
-
 <div id="mc_embed_signup" class="mc-form">
   <div class="top">
     <h2>Sign up to Hack for Big Choices</h2>

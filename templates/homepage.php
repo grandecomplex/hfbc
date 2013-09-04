@@ -399,6 +399,5 @@ require('./wp-blog-header.php');
   <?php include("mail-chimp-forms/register-to-hack-form.php") ?>
 </div>
 
-<div id="attend-event-overlay" class="hidden mc_form overlay-window">
-  <?php include("mail-chimp-forms/register-for-event-form.php") ?>
-</div>
+<!-- <div id="attend-event-overlay" class="hidden mc_form overlay-window">
+</div> -->

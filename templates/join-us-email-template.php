@@ -1,3 +1,21 @@
+<?php
+/*
+ * Template Name: Join us
+ * Description: Homepage for HFBC
+ */
+
+?>
+
+<style type="text/css" media="screen">
+  .navbar {
+    display: none;
+  }
+  
+  #footer {
+    display: none;
+  }
+</style>
+
 
 <div id="mc_embed_signup" class="mc-form">
   <div class="top">
