@@ -5,6 +5,7 @@
 body.about .main{
   float: none;
 }
+
 .our_team_section .circle_pic{
   width: 150px;
   height: 150px;
@@ -43,10 +44,25 @@ body.about .main{
 
 }
 .our_team_section .speaker{
-  min-height: 330px;
-  max-width: 22.5%;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 1%;
+  height: 330px;
   text-align: center;
+}
+
+.our_team_section .speaker h4 {
+  height: 60px;
+}
+
+.about .nav-share {
+  text-align: center;
+}
+
+.about .nav-share li {
+  display: inline-block;
+  float: none;
+}
+
+@media (max-width: 900px) {
+  body.about .our_team_section {
+    width: 100%;
+  }
 }
