@@ -17,6 +17,7 @@ require('./wp-blog-header.php');
     <h1>The Hackathon: Hack for Big Choices</h1>
     <p class="subline">Hack for Big Choices is a non-profit organization of young entrepreneurs. We encourage future leaders to make choices that can have a positive and big impact on the world with the help of existing thought leaders (venture capitalist, academics, senior business executives, etc.).</p>
   </div>
+  
   <div class="section">
     <div class="centered">
       <h2 class="section_title">Team</h2>
@@ -343,9 +344,9 @@ require('./wp-blog-header.php');
     </div>
     </div>
   </div>
-</div>
 
-<div class="section">
+
+  <div class="section">
   <div class="row-fluid">
     <div class="span6">
       <h2>WHY ARE WE DIFFERENT?</h2>
@@ -369,4 +370,6 @@ require('./wp-blog-header.php');
       <p>As immigrants in Silicon Valley, we believe that we live in a global society. We have to face the fact that, when smart young people leave their countries in search of a better life, we take a step towards a less sustainable world. We want to motivate and empower young people across the world to shed their fears, stand up and discover how to use their talents to become next-generation leaders in their local economies. We need to show them how to make the Big Choices that will impact their neighborhood, their city, their country and the entire world.</p>
     </div>
   </div>
+</div>
+
 </div>

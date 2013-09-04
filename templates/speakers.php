@@ -3,6 +3,22 @@
       
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">ZACHARY BOGUE</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Co-Managing Partner at Data Collective</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment</dd>
+          </dl>
+
+        </div>
+		
+		
+      
+        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
           <dl class="person-label">
               <dt>full name</dt>
@@ -123,7 +139,7 @@
               <dt>company</dt>
               <dd class="company" itemprop="jobTitle">Data Scientist</dd>
               <dt>description</dt>
-              <dd class="description" itemprop="description">Kaggle President and Chief Scientist, faculty at Singularity University, and ounder of FastMail.FM.
+              <dd class="description" itemprop="description">Kaggle President and Chief Scientist, faculty at Singularity University.
 </dd>
           </dl>
 
@@ -158,20 +174,22 @@
           </dl>
 
         </div>
-      
+		
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/kory-russel.jpg" />
           <dl class="person-label">
               <dt>full name</dt>
-              <dd itemprop="name">ZACHARY BOGUE</dd>
+              <dd itemprop="name">Kory Russel</dd>
               <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Co-Managing Partner at Data Collective</dd>
+              <dd class="company" itemprop="jobTitle">Founder of Re.sources</dd>
               <dt>description</dt>
-              <dd class="description" itemprop="description">Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment</dd>
+              <dd class="description" itemprop="description">Environmental Engineering & Science program of the Civil and Environmental Engineering Department.
+</dd>
           </dl>
 
         </div>
+
         
 
       </div>
