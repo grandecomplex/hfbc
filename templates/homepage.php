@@ -69,7 +69,7 @@ require('./wp-blog-header.php');
 
   <div id="section3" class="section clearfix centered">
     <h2 class="section_title">SPEAKERS</h2>
-    <p class="subline">See all the speakers and talks in the <a href="/talks" class="button">schedule</a></p>
+    <p class="subline">See all the speakers and talks in the <a href="#schedule" class="scrollLink">schedule</a></p>
 
     <div class="speaker-wrapper circle-pic-list">
       
@@ -224,7 +224,11 @@ require('./wp-blog-header.php');
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
+<<<<<<< HEAD
                       <a class="button " href="google.com">Request an Invite</a>
+=======
+                      <a class="button overlay-trigger" href="#request-invite-open-ceremony">Request Invite</a>
+>>>>>>> b3310a9a4fd28f7a064c7396017b494df3565d35
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>
@@ -252,7 +256,7 @@ require('./wp-blog-header.php');
               <div class="span2">
                 <ul class="button-list-vertical pull-right">
                   <li>
-                    <a class="button " href="google.com">Attend</a>
+                    <!-- <a class="button " href="google.com">Attend</a> -->
                   </li>
                   <!-- <li>
                     <a class="button button-secondary" href="google.com">Liveview</a>
@@ -279,7 +283,7 @@ require('./wp-blog-header.php');
               <div class="span2">
                 <ul class="button-list-vertical pull-right">
                   <li>
-                    <a class="button " href="google.com">Attend</a>
+                    <!-- <a class="button " href="google.com">Attend</a> -->
                   </li>
                   <!-- <li>
                     <a class="button button-secondary" href="google.com">Liveview</a>
@@ -306,7 +310,7 @@ require('./wp-blog-header.php');
               <div class="span2">
                 <ul class="button-list-vertical pull-right">
                   <li>
-                    <a class="button " href="google.com">Attend</a>
+                    <!-- <a class="button " href="google.com">Attend</a> -->
                   </li>
                   <!-- <li>
                     <a class="button button-secondary" href="google.com">Liveview</a>
@@ -325,7 +329,7 @@ require('./wp-blog-header.php');
   
   <div id="section6" class="section centered">
     <h2 class="section_title">PARTNERS</h2>
-    <p class="subline">Big thanks to our sponsors for making this happen. <a href="/sponsors" class='button'>View partners</a></p>
+    <p class="subline">Big thanks to our sponsors for making this happen.</p>
       <div id="sponsor-wrapper" class="clearfix circle-pic-list">
         <div class="sponsor">
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
@@ -386,7 +390,20 @@ require('./wp-blog-header.php');
             <dd itemprop="name">Rally</dd>
           </dl>
         </div>
-
+        <div class="sponsor">
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/umano.jpg" />
+          <dl class="person-label">
+            <dt>Company Name</dt>
+            <dd itemprop="name">Umano</dd>
+          </dl>
+        </div>
+        <div class="sponsor">
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/markerly.png" />
+          <dl class="person-label">
+            <dt>Company Name</dt>
+            <dd itemprop="name">Markerly</dd>
+          </dl>
+        </div>
 
         
         
@@ -401,6 +418,9 @@ require('./wp-blog-header.php');
   <?php include("mail-chimp-forms/register-to-hack-form.php") ?>
 </div>
 
-<div id="attend-event-overlay" class="hidden mc_form overlay-window">
-  <?php include("mail-chimp-forms/register-for-event-form.php") ?>
+<div id="request-invite-open-ceremony" class="hidden mc_form overlay-window">
+  <iframe src="/request-invite-opening-ceremony" height=450></iframe>
 </div>
+
+<!-- <div id="attend-event-overlay" class="hidden mc_form overlay-window">
+</div> -->

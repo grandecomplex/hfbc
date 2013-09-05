@@ -3,6 +3,11 @@
 
 /* Resets */
 
+iframe {
+  border: none;
+  width: 100%;
+}
+
 ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
   margin: 0;
   padding: 0;
@@ -215,10 +220,6 @@ a:hover {
   #logo {
     float: none !important;
   }
-  
-  .btn-navbar {
-    display: none !important;
-  }
 }
 
 
@@ -291,7 +292,7 @@ a:hover {
 .speaker-wrapper,
 #sponsor-wrapper {
   width: 855px;
-  margin: auto;
+  margin: auto auto -45px auto;
 }
 
 .speaker,

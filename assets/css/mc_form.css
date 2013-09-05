@@ -5,8 +5,19 @@
   width: auto;
 }
 
+.overlay-window iframe {
+  height: 450px;
+}
+
 .mc-embedded-subscribe-form label {
   font-size: 16px;
+}
+
+.mce_inline_error {
+  color: orange !important;
+  font-weight: 600 !important;
+  background-color: transparent !important;
+  margin-left: 0 !important;
 }
 
 .mc-embedded-subscribe-form .mc_merge_var input {
@@ -60,6 +71,21 @@
   width: 181px !important;
   clear: none !important;
   margin-right: 10px;
+}
+
+.mc-form #mce-responses {
+  margin: 0 !important;
+  width: 100% !important;
+  display: block !important;
+  float: none !important;
+  padding-left: 0 !important;
+}
+
+.mc-form #mce-responses .response {
+  float: none !important;
+  margin: 5px 0px !important;
+  width: 100% !important;
+  padding-left: 0 !important;
 }
 
 .mc-form,

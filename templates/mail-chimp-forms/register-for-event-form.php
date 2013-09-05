@@ -1,5 +1,5 @@
 
-<div id="mc_embed_signup"class="mc-form">
+<div id="mc_embed_signup" class="mc-form">
   <div class="top">
 	  <h2>Attend an event</h2>
     <p>We'll reach out to you with more event details.</p>

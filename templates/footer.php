@@ -12,10 +12,10 @@
           <a href="#join-us-overlay" class="overlay-trigger">Join Us</a>
         </li>
         <li>
-          <a href="/#schedule">Events</a>
+          <a href="/talks">Events</a>
         </li>
         <li>
-          <a href="#">Newsletter</a>
+          <a href="#newsletter-overlay" class="overlay-trigger">Newsletter</a>
         </li>
       </ul>
     </div>
@@ -41,5 +41,9 @@
 <?php wp_footer(); ?>
 
 <div id="join-us-overlay" class="hidden mc_form overlay-window">
-  <?php include("mail-chimp-forms/join-us.php") ?>
+  <iframe src="/join-us-form"></iframe>
+</div>
+
+<div id="newsletter-overlay" class="hidden mc_form overlay-window">
+  <iframe src="/newsletter-form" height=450></iframe>
 </div>

@@ -1,3 +1,27 @@
+<?php
+/*
+ * Template Name: Join us
+ * Description: Join Us for HFBC
+ */
+
+?>
+
+<style type="text/css" media="screen">
+  .navbar {
+    display: none;
+  }
+  
+  #footer {
+    display: none;
+  }
+</style>
+
+<script type="text/javascript" charset="utf-8">
+$(function() {
+  $("#newsletter-overlay").remove();
+  $("#join-us-overlay").remove();
+});
+</script>
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -7,15 +31,17 @@
 </style>
 <div id="mc_embed_signup" class="mc-form">
   <div class="top">
-    <h2>Register to hack</h2>
+  	<h2>Subscribe to our mailing list</h2>
+    
   	<div id="mce-responses" class="clearfix">
   		<div class="response" id="mce-error-response" style="display:none"></div>
   		<div class="response" id="mce-success-response" style="display:none"></div>
   	</div>	
     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+    
   </div>
-<form action="http://hackforbigchoices.us7.list-manage.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=39e42ac782" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
+  
+<form action="http://hackforbigchoices.us7.list-manage1.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=f34e2daf34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
@@ -30,32 +56,22 @@
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 <div class="mc-field-group">
-	<label for="mce-CITY">City </label>
-	<select name="CITY" class="" id="mce-CITY">
+	<label for="mce-MMERGE3">Reason </label>
+	<select name="MMERGE3" class="" id="mce-MMERGE3">
 	<option value=""></option>
-	<option id="sanFrancisco-form" value="San Francisco USA">San Francisco USA</option>
-<option id="mexicoCity-form" value="Mexico City, Mexico">Mexico City, Mexico</option>
-<option id="saoPaulo-form" value="São Paulo, Brazil">São Paulo, Brazil</option>
-<option id="accra-form" value="Accra, Ghana">Accra, Ghana</option>
-<option id="venice-form" value="Venice, Italy">Venice, Italy</option>
-<option id="london-form" value="London, UK">London, UK</option>
-<option id="moscow-form" value="Moscow, Russia">Moscow, Russia</option>
-<option id="bangalore-form" value="Bangalore, India">Bangalore, India</option>
-<option id="singapore-form" value="Singapore, Malaysia">Singapore, Malaysia</option>
-<option id="hongkong-form" value="Hong Kong, China">Hong Kong, China</option>
-<option id="shanghai-form" value="Shanghai, China">Shanghai, China</option>
-<option id="sydney-form" value="Sydney, Australia">Sydney, Australia</option>
-
+	<option value="Sponsor">Sponsor</option>
+<option value="Present">Present</option>
+<option value="Volunteer">Volunteer</option>
+<option value="Hack">Hack</option>
 
 	</select>
 </div>
-  <div class="button-wrapper">
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-primary">
-  </div>
+
+  <div class="button-wrapper"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
 </form>
 </div>
 <script type="text/javascript">
-var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='CITY';ftypes[3]='dropdown';
+var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[3]='MMERGE3';ftypes[3]='dropdown';fnames[2]='LNAME';ftypes[2]='text';
 try {
     var jqueryLoaded=jQuery;
     jqueryLoaded=true;
@@ -119,7 +135,7 @@ function mce_init_form(){
       var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
       var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
       $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
-      options = { url: 'http://hackforbigchoices.us7.list-manage1.com/subscribe/post-json?u=84324a24b8bb798baeadac59e&id=39e42ac782&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+      options = { url: 'http://hackforbigchoices.us7.list-manage2.com/subscribe/post-json?u=84324a24b8bb798baeadac59e&id=f34e2daf34&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
                     beforeSubmit: function(){
                         $('#mce_tmp_error_msg').remove();
                         $('.datefield','#mc_embed_signup').each(
@@ -180,7 +196,6 @@ function mce_init_form(){
     });
 }
 function mce_success_cb(resp){
-  debugger
     $('#mce-success-response').hide();
     $('#mce-error-response').hide();
     if (resp.result=="success"){
