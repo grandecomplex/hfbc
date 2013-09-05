@@ -21,11 +21,12 @@
     </div>
     <div class="span6">
       <h3>Our Talks &amp; Hackathons</h3>
-      <p>Hack for Big Choices is a non-profit organization driven by volunteers and financially supported by our sponsors. Our main goal is to ignite the desire in the young professionals to change the world. We will inspire and empower them through a series of talks and hackathons in every continent.</p>
-      <p>Hack for Big Choices is designed to give to communities and individuals of any background the opportunity to learn how they can team up and start to put their talents to use during a two-day hackathon to solve global problems that affect their cities and countries. Our multidisciplinary hackathon is a forum for people with any background to come together and start to make a big impact on the world.</p>
-      <p>With a series of talks from pioneers, and thought leaders who share their experiences and vision of how they have impacted the world, we want to stimulate the conversation around some of the big problems that affect our society today in design & technology, education and healthcare.</p>
+      <p>Hack for Big Choices is a non-profit organization driven by volunteers and financially supported by sponsors. Our main purpose is to ignite desire in young professionals and help them to change the world. We will inspire and empower them through a series of talks and hackathons on every continent.</p>
+ 
+<p>Hack for Big Choices is designed to give to communities and individuals of any background/education/profession the opportunity to team up and put their talents to use during a two-day hackathon and solve global problems that affect their cities and or countries. </p>
+<p>Through a series of talks from pioneers, thought leaders and experts who share their expertise and insights on how they have impacted the world, we stimulate conversations around some large problems currently affecting our society today in three areas: design & technology, education and healthcare.</p>
 
-      <p>We bridge young professionals in developing and developed countries providing free knowledge and an online platform where they can view all the videos of the talks translated into their languages and keep the discussions alive over smart group chat.</p>
+<p>We bring together young professionals in developing and those in developed countries, provide free knowledge and an online platform where all can view the talks translated into their native languages and keep the discussions ongoing through smart group chats.</p>
     </div>
     
     <div class="span2">

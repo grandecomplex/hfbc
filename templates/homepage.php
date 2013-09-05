@@ -20,9 +20,9 @@ require('./wp-blog-header.php');
   <iframe width="100%" height="360" id="video" src="//www.youtube.com/embed/xoUfvIb-9U4?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
-        <h1 itemprop="name">Hacking for<br> the greater good</h1>
-        <p>A month long hackathon and series of talks surrounding design, technology, education, and healthcare.</p>
-        <p>We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. If they team up together they can solve real and local problems. Steve Jobs reminded us that we don’t need to stare at death to make big choices. </p> 
+        <h1 itemprop="name">Hacking for<br> Big Choices</h1>
+        <p>We believe that the global change takes place when individuals make “big choices” to team up together and use their talents, passions and experience to solve local problems. </p>
+<p>Steve Jobs reminded us that we don’t need to stare at death to make big choices. </p> 
 		<p> Calling the crazy ones, misfits, rebels, troublemakers, and all you who see things differently.</p>
 		
         <div class="register">
@@ -89,45 +89,46 @@ require('./wp-blog-header.php');
       
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
           <dl class="person-label">
               <dt>full name</dt>
-              <dd itemprop="name">Bill Reichert</dd>
-              <dt>Position</dt>
-              <dd class="company" itemprop="jobTitle">Entrepreneur</dd>
+              <dd itemprop="name">ZACHARY BOGUE</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Co-Managing Partner at Data Collective</dd>
               <dt>description</dt>
-              <dd class="description" itemprop="description">Managing Director at Garage Technology Ventures</dd>
+              <dd class="description" itemprop="description">Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment</dd>
           </dl>
 
         </div>
-      
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/bintabrown.jpg" />
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
           <dl class="person-label">
               <dt>full name</dt>
-              <dd itemprop="name">Binta Brown</dd>
+              <dd itemprop="name">Jeremey Howard</dd>
               <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Global Leader</dd>
+              <dd class="company" itemprop="jobTitle">Data Scientist</dd>
               <dt>description</dt>
-              <dd class="description" itemprop="description">Senior Fellow at Mossavar-Rahmani Center for Business and Government at Harvard Kennedy School of Government</dd>
+              <dd class="description" itemprop="description">Kaggle President and Chief Scientist, faculty at Singularity University.
+</dd>
           </dl>
 
         </div>
-      
         <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
-          <dl class="person-label">
-              <dt>full name</dt>
-              <dd itemprop="name">Dave Mosby</dd>
-              <dt>company</dt>
-              <dd class="company" itemprop="jobTitle">Enterprise Architect</dd>
-              <dt>description</dt>
-              <dd class="description" itemprop="description">Executive Director, Keiretsu Forum Academy</dd>
-          </dl>
+    <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/bintabrown.jpg" />
+    <dl class="person-label">
+        <dt>full name</dt>
+        <dd itemprop="name">Binta Brown</dd>
+        <dt>company</dt>
+        <dd class="company" itemprop="jobTitle">Global Leader</dd>
+        <dt>description</dt>
+        <dd class="description" itemprop="description">Senior Fellow at Mossavar-Rahmani Center for Business and Government at Harvard Kennedy School of Government</dd>
+    </dl>
 
-        </div>
+  </div>
+      
+    
       </div>
   </div>
 
@@ -215,14 +216,15 @@ require('./wp-blog-header.php');
                 </dl>
                 <div class="content">
                   <h4 itemprop="description">Opening ceremony</h4>
-                  <p>Join us for the opening ceremony of Hack for Big Choices where we'll introduce the topics and challenges.</p>
+                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young talent, reminding us that we don’t need to stare at death to make “Big Choices”.
+</p>
                 </div>
               </div>
               <div class="span2">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="button " href="google.com">Attend</a>
+                      <a class="button " href="google.com">Request an Invite</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>

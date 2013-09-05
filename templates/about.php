@@ -14,8 +14,14 @@ require('./wp-blog-header.php');
   
   <div class="section">
 
-    <h1>The Hackathon: Hack for Big Choices</h1>
-    <p class="subline">Hack for Big Choices is a non-profit organization of young entrepreneurs. We encourage future leaders to make choices that can have a positive and big impact on the world with the help of existing thought leaders (venture capitalist, academics, senior business executives, etc.).</p>
+    <h1>Hack for Big Choices: what drives us</h1>
+    <p class="subline">Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
+
+<p>We organize series of talks and hackathon worldwide. We begin by challenging local talent to group together to share knowledge and expertise to solve one of the problems in our list of challenges.</p>
+
+<p>HOW WE OPERATE?
+We identify global problems that affect local countries, provide leadership, free education, build multidisciplinary teams, inspire creativity, and give the teams the platform to solve problems together.
+.</p>
   </div>
   
   <div class="section">
@@ -23,34 +29,7 @@ require('./wp-blog-header.php');
       <h2 class="section_title">Team</h2>
     </div>
     <div class="our_team_section circle-pic-list clearfix">
-      <div class="speaker span6">
-
-      <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Eva_Diaz-Santana.jpg" />
-      <h3 class="item_head">Eva Diaz-Santana</h3>
-      <h4><span> Education Track Producer</span>
-      Co-founder, iOS Developer iNVASIVECODE</h4>
-
-      <ul class="nav-share">
-        <li class="linkedin"><a href="http://www.linkedin.com/in/evadiazsantana" target="_blank">LinkedIn</a></li>
-        <li class="twitter"><a href="http://www.twitter.com/evdiasan" target="_blank">Twitter</a></li>
-      </ul>
-
-
-      </div>
-      <div class="speaker span6">
-
-      <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Geppy_Parziale.jpg" />
-      <h3 class="item_head">Geppy Parziale</h3>
-      <h4><span> Design &amp; Tech Track Producer</span>
-      Co-founder, CEO, iOS Developer @ iNVASIVECODE</h4>
-
-      <ul class="nav-share">
-        <li class="linkedin"><a href="http://www.linkedin.com/in/gparziale" target="_blank">LinkedIn</a></li>
-        <li class="twitter"><a href="http://www.twitter.com/geppyp" target="_blank">Twitter</a></li>
-      </ul>
-
-
-      </div>  
+      
   
   
     <div class="speaker span6">
@@ -90,18 +69,7 @@ require('./wp-blog-header.php');
     </ul>
 
     </div>
-    <div class="speaker span6">
-
-    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Ziv_Gillat.jpg" />
-    <h3 class="item_head">Anita Chung</h3>
-    <h4><span> Business Development</span>
-    Independent Consultant @ Salesforce</h4>
-
-    <ul class="nav-share">
-      <li class="linkedin"><a href="http://www.linkedin.com/pub/anita-chung/3/23a/616/" target="_blank">LinkedIn</a></li>
-    </ul>
-
-    </div>
+    
     <div class="speaker span6">
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Rahman_Johnson.jpg" />
@@ -118,19 +86,46 @@ require('./wp-blog-header.php');
     </div>
     <div class="speaker span6">
 
-    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Mario_Valle.jpg" />
-    <h3 class="item_head">Mario Valle</h3>
-    <h4><span> Advisor &amp; Speaker</span>
-    Director of Business Development EA - Electronic Arts</h4>
+    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Eva_Diaz-Santana.jpg" />
+    <h3 class="item_head">Eva Diaz-Santana</h3>
+    <h4><span> Education Track Producer</span>
+    Co-founder, iOS Developer iNVASIVECODE</h4>
 
     <ul class="nav-share">
-      <li class="linkedin"><a href="http://www.linkedin.com/in/mariovalle" target="_blank">LinkedIn</a></li>
-      <li class="twitter"><a href="http://www.twitter.com/billbeny" target="_blank">Twitter</a></li>
+      <li class="linkedin"><a href="http://www.linkedin.com/in/evadiazsantana" target="_blank">LinkedIn</a></li>
+      <li class="twitter"><a href="http://www.twitter.com/evdiasan" target="_blank">Twitter</a></li>
     </ul>
 
 
+    </div>
+    <div class="speaker span6">
+
+    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Geppy_Parziale.jpg" />
+    <h3 class="item_head">Geppy Parziale</h3>
+    <h4><span> Design &amp; Tech Track Producer</span>
+    Co-founder, CEO, iOS Developer @ iNVASIVECODE</h4>
+
+    <ul class="nav-share">
+      <li class="linkedin"><a href="http://www.linkedin.com/in/gparziale" target="_blank">LinkedIn</a></li>
+      <li class="twitter"><a href="http://www.twitter.com/geppyp" target="_blank">Twitter</a></li>
+    </ul>
+
+
+    </div> 
+   
+    <div class="speaker span6">
+
+    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Ziv_Gillat.jpg" />
+    <h3 class="item_head">Anita Chung</h3>
+    <h4><span> Business Development</span>
+    Independent Consultant @ Salesforce</h4>
+
+    <ul class="nav-share">
+      <li class="linkedin"><a href="http://www.linkedin.com/pub/anita-chung/3/23a/616/" target="_blank">LinkedIn</a></li>
+    </ul>
 
     </div>
+    
     <div class="speaker span6">
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Denisse_Tostado.jpg" />
