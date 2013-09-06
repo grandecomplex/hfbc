@@ -12,7 +12,7 @@ require('./wp-blog-header.php');
 
 <div class="sections">
   
-  <div class="section">
+  <div class="section centered">
     <h1>Hack for Big Choices Talks</h1>
     <p class="subline">A series of talks on innovative technologies surrounding design, healthcare, and education.</p>
   </div>

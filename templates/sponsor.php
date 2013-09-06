@@ -14,9 +14,9 @@ require('./wp-blog-header.php');
 <script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/homepage.js"></script>
 
 <div class="sections">
-  <div class="section">
+  <div class="section centered">
     <h1>Hack for big choices partners</h1>
-    <p class='subline'>We thank our partners for the funding and for the guidance.</p>
+    <p class='subline' style="margin:auto auto">We thank our partners for the funding and for the guidance.</p>
   </div>
   
   <div id="premium" class="section circle-pic-list">
@@ -24,7 +24,7 @@ require('./wp-blog-header.php');
       <h2 class="section_title">Premium Partners</h2>
     </div>
     
-    <div class="row-fluid">
+    <div class="row-fluid" style="width:1024px;margin:auto auto">
       <div class="span2">
         <a href="http://unilever.com/" target="_blank"><img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" /></a>
       </div>
