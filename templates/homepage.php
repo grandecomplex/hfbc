@@ -90,7 +90,7 @@ require('./wp-blog-header.php');
                 </dl>
                 <div class="content">
                   <h4 itemprop="description">Opening ceremony</h4>
-                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young talent, reminding us that we don’t need to stare at death to make “Big Choices”.
+                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young talent, reminding us that we don’t need to stare at death to make “Big Choices”. Our speakers will talk about entrapreneurship and big data. During the ceremony our team will launch the challanges related to deign and technology, education and healthcare.
 </p>
                 </div>
               </div>

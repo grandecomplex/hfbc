@@ -16,7 +16,7 @@ require('./wp-blog-header.php');
 
     <h1 class="centered">what drives us</h1>
     <span>&nbsp;</span>
-    <p class="centered subline" style="width:800px;margin:auto auto;text-align:left">Hack for Big Choices is a non-profit organization of young entrepreneurs. Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
+    <p class="centered subline" style="width:800px;margin:auto auto;">Hack for Big Choices is a non-profit organization of young entrepreneurs. Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
 
   </div>
   
@@ -24,6 +24,7 @@ require('./wp-blog-header.php');
   <div class="section">
     <div class="centered">
       <h2 class="section_title">Team</h2>
+       <p class="subline" style="margin: auto 200px 20px 200px"> “My model for business is The Beatles. They were four guys who kept each other kind of negative tendencies in check. They balanced each other and the total was greater than the sum of the parts. That's how I see business: great things in business are never done by one person, they're done by a team of people.” Steve Jobs </p>
     </div>
 
     <div class="our_team_section speaker-wrapper circle-pic-list clearfix">
@@ -127,11 +128,11 @@ require('./wp-blog-header.php');
       <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/brett-garling.jpg'?>" />
 
     <h3 class="item_head">Brett Garling</h3>
-    <h4><span> Business Development</span>
-    Independent Consultant @ Salesforce</h4>
+    <h4><span>Videographer</span>
+    Freelance Writer, Videographer, Photographer and Social Media Ace</h4>
 
     <ul class="nav-share">
-      <li class="linkedin"><a href="http://www.linkedin.com/pub/anita-chung/3/23a/616/" target="_blank">LinkedIn</a></li>
+      <li class="linkedin"><a href="http://www.linkedin.com/in/brettgarling" target="_blank">LinkedIn</a></li>
     </ul>
 
     </div>
@@ -140,12 +141,8 @@ require('./wp-blog-header.php');
 
       <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/luiz-galvez.jpeg'?>" />
     <h3 class="item_head">Luiz Galvez</h3>
-    <h4><span> Business Development</span>
-    Independent Consultant @ Salesforce</h4>
-
-    <ul class="nav-share">
-      <li class="linkedin"><a href="http://www.linkedin.com/pub/anita-chung/3/23a/616/" target="_blank">LinkedIn</a></li>
-    </ul>
+    <h4><span>Branding Strategist </span>
+    Organizers of the SF Internet of Things Meetup and TEDx SF</h4>
 
     </div>
     
@@ -153,7 +150,7 @@ require('./wp-blog-header.php');
 
       <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/consuelo-griego.jpg'?>" />
     <h3 class="item_head">Consuelo Griego</h3>
-    <h4><span> Business Development</span>
+    <h4><span> User Experience Optimizer</span>
     Independent Consultant @ Salesforce</h4>
 
     <ul class="nav-share">
@@ -166,11 +163,11 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/alex-grande.png'?>" />
     <h3 class="item_head">Alex Grande</h3>
-    <h4><span> Business Development</span>
-    Independent Consultant @ Salesforce</h4>
+    <h4><span> Web Developer</span>
+      Founder of Planet.io</h4>
 
     <ul class="nav-share">
-      <li class="linkedin"><a href="http://www.linkedin.com/pub/anita-chung/3/23a/616/" target="_blank">LinkedIn</a></li>
+      <li class="linkedin"><a href="http://www.linkedin.com/in/alexgrande" target="_blank">LinkedIn</a></li>
     </ul>
 
     </div>
@@ -206,7 +203,7 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Damian_Damjanovski.jpg" />
     <h3 class="item_head">Damian Damjanovski</h3>
-    <h4><span> WW Peer - Sydney</span>
+    <h4><span> Local Manager in Sydney</span>
     Founder and Strategy Director @ Common Ventures</h4>
 
     <ul class="nav-share">
@@ -276,7 +273,7 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Evgeniya_Rybalchenko.jpg" />
     <h3 class="item_head">Evgeniya Rybalchenko</h3>
-    <h4><span> WW Peer - Moscow</span>
+    <h4><span> Local Manager Moscow</span>
     MBA Student @ Moscow School of Management SKOLKOVO</h4>
 
     <ul class="nav-share">
@@ -302,8 +299,8 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Stefan_Broda.jpg" />
     <h3 class="item_head">Stefan Broda</h3>
-    <h4><span> Heath Care Track Producer and WW Peer - Asia</span>
-    Founder @ BeforeWeDo</h4>
+    <h4><span> Heath Care Track Producer and peer in Asia</span>
+     Founder @ BeforeWeDo</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://cn.linkedin.com/in/stefanbroda" target="_blank">LinkedIn</a></li>
@@ -340,11 +337,11 @@ require('./wp-blog-header.php');
 
         <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/kwasi-asare.jpg'?>" />
       <h3 class="item_head">Kwasi Asare</h3>
-      <h4><span> Business Development</span>
-      Independent Consultant @ Salesforce</h4>
+      <h4><span>  serial entrapeneurs</span>
+      Ceo Fighters Interactive</h4>
 
       <ul class="nav-share">
-        <li class="linkedin"><a href="http://www.linkedin.com/pub/anita-chung/3/23a/616/" target="_blank">LinkedIn</a></li>
+        <li class="linkedin"><a href="http://www.linkedin.com/profile/view?id=1839820&locale=en_US&trk=tyah" target="_blank">LinkedIn</a></li>
       </ul>
 
       </div>
