@@ -30,24 +30,9 @@ require('./wp-blog-header.php');
       </div>
       <div class="span8">
         <h3>Unilever</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Unilever is one of the world’s leading suppliers of fast moving consumer goods with strong operations in more than 100 countries and sales in 180. With products that are used over two billion times a day around the world, we work to create a better future every day and help people feel good, look good and get more out of life with brands and services that are good for them and good for others. </p>
       </div>
     </div>
-    
-    <div class="row-fluid">
-      <div class="span2">
-        <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-      </div>
-      <div class="span8">
-        <h3>Unilever</h3>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-    
-    
-  </div>
-  
   
   
   <div id="normal" class="section circle-pic-list">
