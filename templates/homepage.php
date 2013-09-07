@@ -21,9 +21,9 @@ require('./wp-blog-header.php');
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
         <h1 itemprop="name">Hacking for<br>the Greater Good</h1>
-        <h2>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</h2>
-<h2>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
-</h2> 
+        <h5>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</h5>
+<h3>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
+</h3> 
 
 		
         <div class="register" style="text-align:center">

@@ -19,7 +19,7 @@ require('./wp-blog-header.php');
 
   <div id="upcoming" class="section">
     <div class="centered">
-      <h2 class="section_title">Next talk</h2>
+      <h2 class="section_title">Upcoming Event</h2>
     </div>
     <div class="row-fluid">
       <div class="span3">
@@ -29,10 +29,10 @@ require('./wp-blog-header.php');
       <div class="span6">
         <h4>Forget exit strategy, think global improvement</h4>
         <ul class="event-details clearfix">
-          <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 10th</li>
+          <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 5th</li>
           <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to deign and technology, education and healthcare.</p>
         <hr class="hr"></hr>
         <h4>Speakers</h4>
         <div class="circle-pic-list clearfix">      
