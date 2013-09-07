@@ -225,7 +225,102 @@ require('./wp-blog-header.php');
     <h2 class="section_title">SPEAKERS</h2>
     <p class="subline">Speaker's present expertise in healthcare, design, technology, and education.</p>
   
-    <?php include("speakers.php")?>
+    <?php 
+    $speakers = array(
+      array("name" => "Zachary Bogue", 
+                "image" => "/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Vivek Wadhwa", 
+                "image" => "/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg",
+                "title" => "Entrepreneur", 
+                "description" => "Vivek Wadhwa is Vice President of Innovation and Research at Singularity University.",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Bill Reichert", 
+                "image" => "/assets/img/pages/homepage/speakers/Bill-Reichert.jpg",
+                "title" => "Entrepreneur", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Binta Brown", 
+                "image" => "/assets/img/pages/homepage/speakers/bintabrown.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "David Mosby", 
+                "image" => "/assets/img/pages/homepage/speakers/dave-mosby.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "David Orban", 
+                "image" => "/assets/img/pages/homepage/speakers/David-Orban.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "David Agus", 
+                "image" => "/assets/img/pages/homepage/speakers/davidagus.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "John Roberts", 
+                "image" => "/assets/img/pages/homepage/speakers/John-Roberts.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Salil Deshpande", 
+                "image" => "/assets/img/pages/homepage/speakers/Salil.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Jeremey Howard", 
+                "image" => "/assets/img/pages/homepage/speakers/Jeremy-howard.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Bjoern Lasse Herrmann", 
+                "image" => "/assets/img/pages/homepage/speakers/bjoern-lasse.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Francis Pedraza", 
+                "image" => "/assets/img/pages/homepage/speakers/francis-pedraza.jpg",
+                "title" => "Co-Managing Partner at Data Collective", 
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
+
+      array("name" => "Kory Russel", 
+                "title" => "Co-Managing Partner at Data Collective", 
+                "image" => "/assets/img/pages/homepage/speakers/kory-russel.jpg",
+                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "talk_description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."))
+    ?>
+
+    <div class="speaker-wrapper circle-pic-list">
+      <?php foreach($speakers as $speaker) { ?>
+      <div class="row-fluid speaker-row">
+        <div class="span3">
+          <img class="circle_pic" alt="" src="<?php echo bloginfo('stylesheet_directory').$speaker['image']; ?>" />
+        </div>
+        <div class="span9">
+          <h3><?php echo $speaker["name"]?></h3>
+          <h4><?php echo $speaker["description"]?></h4>
+          <p><?php echo $speaker["talk_description"]?></p>
+        </div>
+      </div>    
+      <?php } ?>
+    </div>
+    <?php //include("speakers.php")?>
   </div>
   
   

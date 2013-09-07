@@ -66,6 +66,14 @@
   padding: 15px;
 }
 
+.speaker-row {
+  margin: 20px auto;
+}
+
+.speaker-row div {
+  text-align: left;
+}
+
 @media (max-width: 950px) {
   .page.talks .speaker, 
   .page.talks .sponsor {
