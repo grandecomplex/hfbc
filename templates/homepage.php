@@ -21,14 +21,13 @@ require('./wp-blog-header.php');
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
         <h1 itemprop="name">Hacking for<br>the Greater Good</h1>
-        <h2>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</h2>
-<h2>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
-</h2> 
+        <p>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</p>
+<p>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
+</p> 
 
 		
-        <div class="register" style="text-align:center">
-          <a class="button button-large button-primary scrollLink" style="padding-left:40px;padding-right:40px;font-size:26px !important">JOIN US</a>
-         
+        <div class="register">
+          <a class="button button-huge button-primary overlay-trigger" href="#join-us-overlay">JOIN US</a>
         </div>
 		
         <ul class="datetime clearfix row-fluid">
@@ -83,7 +82,7 @@ require('./wp-blog-header.php');
           <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
           <div class="inner">
             <div class="row-fluid marginBottom10">
-              <div class="span10">
+              <div class="span9">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
                   <dd class="title-font"  itemprop="startDate">SAT<br>OCT 5th</dd>
@@ -94,11 +93,11 @@ require('./wp-blog-header.php');
 </p>
                 </div>
               </div>
-              <div class="span2" style="margin-top:27px">
+              <div class="span3" style="margin-top:27px">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="button " href="google.com">Request an Invite</a>
+                      <a class="overlay-trigger button pull-right" href="#request-invite-open-ceremony">Request an Invite</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>
