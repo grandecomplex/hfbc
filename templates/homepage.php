@@ -21,14 +21,14 @@ require('./wp-blog-header.php');
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
         <h1 itemprop="name">Hacking for<br>the Greater Good</h1>
-        <h5>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</h5>
-<h3>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
-</h3> 
+        <p>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</p>
+<p>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
+</p> 
+>>>>>>> 25e8515354367e31bf15e607860cb1c5d138d473
 
 		
-        <div class="register" style="text-align:center">
-          <a class="button button-large button-primary scrollLink" style="padding-left:40px;padding-right:40px;font-size:26px !important">JOIN US</a>
-         
+        <div class="register">
+          <a class="button button-huge button-primary overlay-trigger" href="#join-us-overlay">JOIN US</a>
         </div>
 		
         <ul class="datetime clearfix row-fluid">
@@ -83,22 +83,22 @@ require('./wp-blog-header.php');
           <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
           <div class="inner">
             <div class="row-fluid marginBottom10">
-              <div class="span10">
+              <div class="span9">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
                   <dd class="title-font"  itemprop="startDate">SAT<br>OCT 5th</dd>
                 </dl>
                 <div class="content">
                   <h4 itemprop="description">Opening ceremony</h4>
-                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young talent, reminding us that we don’t need to stare at death to make “Big Choices”. Our speakers will talk about entrapreneurship and big data. During the ceremony our team will launch the challanges related to deign and technology, education and healthcare.
+                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to deign and technology, education and healthcare.
 </p>
                 </div>
               </div>
-              <div class="span2" style="margin-top:27px">
+              <div class="span3" style="margin-top:27px">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="button " href="google.com">Request an Invite</a>
+                      <a class="overlay-trigger button pull-right" href="#request-invite-open-ceremony">Request an Invite</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>

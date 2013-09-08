@@ -45,3 +45,8 @@
 .button-list-vertical li:last-child {
   margin-bottom: 0;
 }
+
+.button-huge {
+  padding: 20px 40px;
+  font-size:26px !important;
+}

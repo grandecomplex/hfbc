@@ -31,8 +31,8 @@ $(function() {
 </style>
 <div id="mc_embed_signup" class="mc-form">
   <div class="top">
-  	<h2>Subscribe to our mailing list</h2>
-    
+  	<h2>Join Hack For Big Choices</h2>
+    <p>Help change the worlds of health, education, and technology.</p>
   	<div id="mce-responses" class="clearfix">
   		<div class="response" id="mce-error-response" style="display:none"></div>
   		<div class="response" id="mce-success-response" style="display:none"></div>
