@@ -17,14 +17,13 @@ require('./wp-blog-header.php');
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
       <div class="span7">
-  <iframe width="100%" height="360" id="video" src="//www.youtube.com/embed/xoUfvIb-9U4?rel=0&showinfo=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+  <iframe width="320" height="315" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span5" itemscope itemtype="http://schema.org/Event">
-        <h1 itemprop="name">Hacking for<br>the Greater Good</h1>
+        <h1 itemprop="name">HACKING for<br>the GREATER GOOD</h1>
         <p>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</p>
 <p>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
 </p> 
->>>>>>> 25e8515354367e31bf15e607860cb1c5d138d473
 
 		
         <div class="register">
@@ -43,7 +42,7 @@ require('./wp-blog-header.php');
 
   <div id="section2" class="centered section">
     <h2 class="section_title">FOCUS AREAS</h2>
-    <p class="subline" style="margin: auto 300px 20px 300px">We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. Teaming up together we can solve real problems in design/technology, education, and healthcare.</p>
+    <p class="subline" style="margin: auto 200px 20px 200px">We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. Teaming up together we can solve real problems in design/technology, education, and healthcare.</p>
     <div class="row-fluid" style="margin:auto 252px">
       <div class="span4" style="width:19.62%">
         <div class="item">

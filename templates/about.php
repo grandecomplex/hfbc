@@ -14,7 +14,7 @@ require('./wp-blog-header.php');
   
   <div class="section">
 
-    <h1 class="centered">what drives us</h1>
+    <h1 class="centered">WHAT DRIVES US</h1>
     <span>&nbsp;</span>
     <p class="centered subline" style="width:800px;margin:auto auto;">Hack for Big Choices is a non-profit organization of young entrepreneurs. Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
 
@@ -34,7 +34,7 @@ require('./wp-blog-header.php');
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Aurora_Chiste.jpg" />
     <h3 class="item_head">Aurora Chisté</h3>
     <h4><span> Executive Producer and Founder</span>
-    Advisor @ Influencing with Integrity</h4>
+    Advisor @ Feykena </h4>
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/aurorachiste" target="_blank">LinkedIn</a></li>
       <li class="twitter"><a href="http://www.twitter.com/Twittaurora" target="_blank">Twitter</a></li>
@@ -57,8 +57,8 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Mandeep_Waraich.jpeg" />
     <h3 class="item_head">Mandeep Waraich</h3>
-    <h4><span> Producer</span>
-    Entrepreneur, Technology Startup</h4>
+    <h4><span> Producer </span>
+    Founder @ Technology Startup</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/mwaraich" target="_blank">LinkedIn</a></li>
@@ -86,7 +86,7 @@ require('./wp-blog-header.php');
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Eva_Diaz-Santana.jpg" />
     <h3 class="item_head">Eva Diaz-Santana</h3>
     <h4><span> Education Track Producer</span>
-    Co-founder, iOS Developer iNVASIVECODE</h4>
+    Co-founder, iOS Developer @ iNVASIVECODE</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/evadiazsantana" target="_blank">LinkedIn</a></li>
@@ -154,7 +154,7 @@ require('./wp-blog-header.php');
     Independent Consultant @ Salesforce</h4>
 
     <ul class="nav-share">
-      <li class="linkedin"><a href="http://www.linkedin.com/pub/anita-chung/3/23a/616/" target="_blank">LinkedIn</a></li>
+      <li class="linkedin"><a href="http://www.linkedin.com/profile/view?id=540912&locale=en_US&trk=tyah" target="_blank">LinkedIn</a></li>
     </ul>
 
     </div>
@@ -164,7 +164,7 @@ require('./wp-blog-header.php');
     <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/alex-grande.png'?>" />
     <h3 class="item_head">Alex Grande</h3>
     <h4><span> Web Developer</span>
-      Founder of Planet.io</h4>
+      Founder @ Planet.io</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/alexgrande" target="_blank">LinkedIn</a></li>
@@ -203,7 +203,7 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Damian_Damjanovski.jpg" />
     <h3 class="item_head">Damian Damjanovski</h3>
-    <h4><span> Local Manager in Sydney</span>
+    <h4><span> Manager in Sydney</span>
     Founder and Strategy Director @ Common Ventures</h4>
 
     <ul class="nav-share">
@@ -218,7 +218,7 @@ require('./wp-blog-header.php');
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Kat_Zorina.jpg" />
     <h3 class="item_head">Kat Zorina</h3>
     <h4><span> Graphic Designer</span>
-    Service Designer @ Copenhagen of Interaction Design</h4>
+    Designer @ IDEO</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/yzorina" target="_blank">LinkedIn</a></li>
@@ -273,7 +273,7 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Evgeniya_Rybalchenko.jpg" />
     <h3 class="item_head">Evgeniya Rybalchenko</h3>
-    <h4><span> Local Manager Moscow</span>
+    <h4><span> Manager in Moscow</span>
     MBA Student @ Moscow School of Management SKOLKOVO</h4>
 
     <ul class="nav-share">
@@ -313,7 +313,7 @@ require('./wp-blog-header.php');
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/John_Roberts.jpg" />
     <h3 class="item_head">John Roberts</h3>
-    <h4><span> WW Peer Accra &amp; Speaker</span>
+    <h4><span> Manager in Accra &amp; Speaker</span>
     Co-Founder, President @ Open University of West Africa</h4>
 
     <ul class="nav-share">
@@ -337,8 +337,8 @@ require('./wp-blog-header.php');
 
         <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/kwasi-asare.jpg'?>" />
       <h3 class="item_head">Kwasi Asare</h3>
-      <h4><span>  serial entrapeneurs</span>
-      Ceo Fighters Interactive</h4>
+      <h4><span>Advisor</span>
+      serial entrapeneur, Ceo @ Fighters Interactive</h4>
 
       <ul class="nav-share">
         <li class="linkedin"><a href="http://www.linkedin.com/profile/view?id=1839820&locale=en_US&trk=tyah" target="_blank">LinkedIn</a></li>
@@ -351,7 +351,7 @@ require('./wp-blog-header.php');
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Ziv_Gillat.jpg" />
     <h3 class="item_head">Ziv Gillat</h3>
     <h4><span> Advisor</span>
-    Founder, Sales, Business Development Eye-Fi, Inc.</h4>
+    Founder, Sales, Business Development @ Eye-Fi, Inc.</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/eyefi" target="_blank">LinkedIn</a></li>
@@ -365,7 +365,7 @@ require('./wp-blog-header.php');
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Mario_Valle.jpg" />
     <h3 class="item_head">Mario Valle</h3>
     <h4><span> Advisor &amp; Speaker</span>
-    Director of Business Development EA - Electronic Arts</h4>
+    Director of Business Development @ EA - Electronic Arts</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/mariovalle" target="_blank">LinkedIn</a></li>
