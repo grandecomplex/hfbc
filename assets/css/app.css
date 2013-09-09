@@ -28,7 +28,7 @@ ul, ol {
    ========================================================================== */
 
 body {
-  font-family: "Comic sans";
+  font-family: georgia, serif;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -39,11 +39,9 @@ body {
 h1, h2, h3,
 .navbar .nav a,
 .title-font {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h4, h5 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Pathway Gothic One', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -244,29 +242,24 @@ a:hover {
   padding: 30px 15px;
   margin-bottom: 0;
   position: relative;
+  border-bottom: 3px solid #F4F9FF;
+}
+
+.page .section:nth-child(even) {
+  background: #e9f0f4;
 }
 
 .page .section:last-child {
   margin-bottom: 0;
+  border-bottom: 0;
 }
-
-.page .sections .section:nth-child(even) {
-  background: #eff1f3;
-  border-top: 3px #d7e0e5 solid;
-  border-bottom: 3px #d7e0e5 solid;
-}
-
-.page .sections .section:nth-child(even) .hr {
-  border-color: #DEE3E6;
-}
-
 
 .section_title {
   padding: 0 3px 6px;
   margin-bottom: 16px;
   border-bottom: 3px #d7e0e5 solid;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 
@@ -346,6 +339,13 @@ a:hover {
    Helpers
    ========================================================================== */
 
+.max-850-width {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .hidden {
   display: none;
 }
@@ -366,6 +366,9 @@ p.subline {
   font-weight: 200; 
   margin-bottom: 32px;
   line-height: 23px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 + p.subline {
@@ -387,18 +390,20 @@ h1 + p.subline {
 
 .person-label dd,
 .datetime-label dd {
+  font-size: 16px;
+}
+
+.person-label [itemprop=name],
+.datetime-label [itemprop=name] {
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .person-label .description {
-  font-size: 12px;
-  font-family: "Open-sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  
+  font-size: 12px;  
 }
 
 .person-label .company {
-  font-size: 16px;
   margin-bottom: 5px;
 }
 

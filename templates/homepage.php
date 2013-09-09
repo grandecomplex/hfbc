@@ -16,55 +16,55 @@ require('./wp-blog-header.php');
 <div class="sections">
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
-      <div class="span7">
-  <iframe width="320" height="315" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
+      <div class="span5">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
       </div>
-      <div class="span5" itemscope itemtype="http://schema.org/Event">
-        <h1 itemprop="name">HACKING for<br>the GREATER GOOD</h1>
+      <div class="span7" itemscope itemtype="http://schema.org/Event">
+        <h1 itemprop="name">hacking for the greater good</h1>
         <p>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</p>
-<p>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.
-</p> 
+        <p>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.</p> 
+
+        <ul class="datetime clearfix row-fluid">
+          <li class="span6"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
+          <li class="span6"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <span class="title-font" itemprop="startDate">starting on October 5th, 2013</span></li>
+        </ul>
 
 		
         <div class="register">
           <a class="button button-huge button-primary overlay-trigger" href="#join-us-overlay">JOIN US</a>
         </div>
-		
-        <ul class="datetime clearfix row-fluid">
-          <li class="span6"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
-          <li class="span6"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <span class="title-font" itemprop="startDate">starting on October 5th, 2013</span></li>
-        </ul>
-		
-        
+
       </div>
+
     </div>
   </div>
 
   <div id="section2" class="centered section">
     <h2 class="section_title">FOCUS AREAS</h2>
-    <p class="subline" style="margin: auto 200px 20px 200px">We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. Teaming up together we can solve real problems in design/technology, education, and healthcare.</p>
-    <div class="row-fluid" style="margin:auto 252px">
-      <div class="span4" style="width:19.62%">
-        <div class="item">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/design-icon.png" />
-          <h3 class="item_head">DESIGN&TECHNOLOGY</h3>
+    <p class="subline">We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. Teaming up together we can solve real problems in design/technology, education, and healthcare.</p>
+    <div class="max-850-width">
+      <div class="row-fluid">
+        <div class="span4">
+          <div class="item">
+            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/design-icon.png" />
+            <h3 class="item_head">DESIGN &amp; TECHNOLOGY</h3>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="item">
+            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/education-icon.png" />
+            <h3 class="item_head">EDUCATION</h3>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="item">
+            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/health-icon.png" />
+            <h3 class="item_head">HEALTHCARE</h3>
+          </div>
         </div>
       </div>
-      <div class="span4" style="width:19.62%">
-        <div class="item">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/education-icon.png" />
-          <h3 class="item_head">EDUCATION</h3>
-        </div>
-      </div>
-      <div class="span4" style="width:19.62%">
-        <div class="item">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/health-icon.png" />
-          <h3 class="item_head">HEALTHCARE</h3>
-        </div>
-      </div>
-    </div>
     
-
+    </div>
   </div>
 
 
@@ -77,7 +77,7 @@ require('./wp-blog-header.php');
     <div class="inner">
     
       <div itemscope itemtype="http://schema.org/Event">
-        <div id="local" class="schedule_box" style="margin: auto 243px">
+        <div id="local" class="schedule_box max-850-width">
           <!-- <a class="overlay-trigger button pull-right" href="#attend-event-overlay">Attend an Event</a> -->
           <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
           <div class="inner">
@@ -88,7 +88,7 @@ require('./wp-blog-header.php');
                   <dd class="title-font"  itemprop="startDate">SAT<br>OCT 5th</dd>
                 </dl>
                 <div class="content">
-                  <h4 itemprop="description">Opening ceremony</h4>
+                  <h3 itemprop="description">Opening ceremony</h3>
                   <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to deign and technology, education and healthcare.
 </p>
                 </div>
@@ -119,7 +119,6 @@ require('./wp-blog-header.php');
 
   <div id="section3" class="section clearfix centered">
     <h2 class="section_title">SPEAKERS</h2>
-    <p class="subline">See all the speakers and talks in the <a href="#schedule" class="scrollLink">schedule</a></p>
 
     <div class="speaker-wrapper circle-pic-list">
       

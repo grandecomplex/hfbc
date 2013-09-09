@@ -16,7 +16,7 @@ require('./wp-blog-header.php');
 
     <h1 class="centered">WHAT DRIVES US</h1>
     <span>&nbsp;</span>
-    <p class="centered subline" style="width:800px;margin:auto auto;">Hack for Big Choices is a non-profit organization of young entrepreneurs. Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
+    <p class="centered subline" style="width:800px;margin:auto auto;">Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
 
   </div>
   
@@ -24,8 +24,6 @@ require('./wp-blog-header.php');
   <div class="section">
     <div class="centered">
       <h2 class="section_title">Team</h2>
-       <p class="subline" style="margin: auto 200px 20px 200px"> “My model for business is The Beatles. They were four guys who kept each other kind of negative tendencies in check. They balanced each other and the total was greater than the sum of the parts. That's how I see business: great things in business are never done by one person, they're done by a team of people.” Steve Jobs </p>
-    </div>
 
     <div class="our_team_section speaker-wrapper circle-pic-list clearfix">
   

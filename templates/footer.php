@@ -5,15 +5,15 @@
         <li>
           <a href="mailto:info@hackforbigchoices.com">Contact</a>
         </li>
-        <li>
+        <!-- <li>
           <a href="#">Press</a>
-        </li>
+        </li> -->
         <li>
           <a href="#join-us-overlay" class="overlay-trigger">Join Us</a>
         </li>
-        <li>
+        <!-- <li>
           <a href="/talks">Events</a>
-        </li>
+        </li> -->
         <li>
           <a href="#newsletter-overlay" class="overlay-trigger">Newsletter</a>
         </li>
