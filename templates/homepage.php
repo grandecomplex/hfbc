@@ -97,7 +97,7 @@ require('./wp-blog-header.php');
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="overlay-trigger button pull-right" href="#request-invite-open-ceremony">Request an Invite</a>
+                      <a class="overlay-trigger button pull-right button-primary" href="#request-invite-open-ceremony">Request an Invite</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>
