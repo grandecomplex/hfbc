@@ -14,7 +14,7 @@ require('./wp-blog-header.php');
   
   <div class="section">
 
-    <h1 class="centered">WHAT DRIVES US</h1>
+    <h1 class="centered">What drives us</h1>
     <span>&nbsp;</span>
     <p class="centered subline" style="width:800px;margin:auto auto;">Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
 
@@ -24,7 +24,7 @@ require('./wp-blog-header.php');
   <div class="section">
     <div class="centered">
       <h2 class="section_title">Team</h2>
-
+    </div>
     <div class="our_team_section speaker-wrapper circle-pic-list clearfix">
   
     <div class="speaker">
@@ -166,6 +166,7 @@ require('./wp-blog-header.php');
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/alexgrande" target="_blank">LinkedIn</a></li>
+      <li class="twitter"><a href="http://www.twitter.com/grandecomplex" target="_blank">Twitter</a></li>
     </ul>
 
     </div>
@@ -440,7 +441,7 @@ require('./wp-blog-header.php');
     <div class="centered">
       <h2 class="section_title"> Hack for Big Choices Projects</h2>
     </div>
-  <div class="row-fluid" style="width:800px;margin:auto auto">
+  <div class="row-fluid" style="max-width:800px; margin-left: auto; margin-right: auto;">
       <h3>Hackathon</h3>
 
       <p>The hackathons are held annually worldwide to gather together young professionals from all disciplines and backgrounds to team up and face with the challenges we provide related to design & technology, education and healthcare. </p>
