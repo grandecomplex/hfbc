@@ -396,6 +396,7 @@ h1 + p.subline {
 .person-label [itemprop=name],
 .datetime-label [itemprop=name] {
   font-family: 'Pathway Gothic One', sans-serif;
+  letter-spacing: 1px;
   font-size: 22px;
 }
 
