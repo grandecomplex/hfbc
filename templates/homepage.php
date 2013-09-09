@@ -89,7 +89,7 @@ require('./wp-blog-header.php');
                 </dl>
                 <div class="content">
                   <h3 itemprop="description">Opening ceremony</h3>
-                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to deign and technology, education and healthcare.
+                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.
 </p>
                 </div>
               </div>
@@ -371,7 +371,7 @@ require('./wp-blog-header.php');
   
   <div id="section6" class="section centered">
     <h2 class="section_title">PARTNERS</h2>
-    <p class="subline">Thanks to support our mission.</p>
+    <p class="subline">Thanks to those that support our mission.</p>
       <div id="sponsor-wrapper" class="clearfix circle-pic-list">
         <div class="sponsor">
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />

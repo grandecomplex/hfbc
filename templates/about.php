@@ -30,7 +30,7 @@ require('./wp-blog-header.php');
     <div class="speaker">
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Aurora_Chiste.jpg" />
-    <h3 class="item_head">Aurora Chisté</h3>
+    <h4 class="item_head">Aurora Chisté</h3>
     <h4><span> Executive Producer and Founder</span>
     Advisor @ Feykena </h4>
     <ul class="nav-share">
@@ -67,7 +67,7 @@ require('./wp-blog-header.php');
 
     <div class="speaker">
 
-    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Rahman_Johnson.jpg" />
+    <img class="circle_pic" alt="" src="/assets/img/pages/about/team/Rahman-Johnson.jpg" />
     <h3 class="item_head">Rahman Johnson</h3>
     <h4><span> Health Care Track Producer</span>
     Founder @ OpenMedical Data Solutions</h4>
@@ -442,18 +442,18 @@ require('./wp-blog-header.php');
       <h2 class="section_title"> Hack for Big Choices Projects</h2>
     </div>
   <div class="row-fluid" style="max-width:800px; margin-left: auto; margin-right: auto;">
-      <h3>Hackathon</h3>
+      <h4>Hackathon</h4>
 
       <p>The hackathons are held annually worldwide to gather together young professionals from all disciplines and backgrounds to team up and face with the challenges we provide related to design & technology, education and healthcare. </p>
    
       <p>While most Hackathons cater only to tech professionals, we believe a multidisciplinary approach is needed to truly inspire and sustain change. We use a 3-pronged approach: issue challenges, call for local talent, provide speeches from world’s thought leaders and free access online to knowledge. The series of 2-day hackathons will take place on in 12 cities on 5 continents and address big areas such as, education, technology, and healthcare (food safety, specialized education, sanitization, STDs, international accreditation…). We expect to create change, build community empowerment, creative solutions, and international friendships.</p>
    
-      <h3>Talks</h3>
+      <h4>Talks</h4>
       <p>Local and online events are made accessible online free of charge. Emerging pioneers, professionals and visionaries in healthcare, design &amp; technology, education and entrepreneurship share their expertise and vision: how to rethink our use of resources and how push the boundaries of education, healthcare and design &amp; technology </p>
 <p> </p>
       <p>The talks are designed to inspire and connect all who want to design the future.</p>
 
-      <h3>No Barriers</h3>
+      <h4>No Barriers</h4>
       
       <p>Supported by a innovative partners like Dot Sub and Lyte.io, we are enable communication between participants in different countries across many languages.</p>
 
@@ -464,11 +464,11 @@ require('./wp-blog-header.php');
 
       <p>This unleashes an opportunity for all participants and partners to connect and learn from each other. </p>
       
-      <h3>Make solve real problems</h3>
+      <h4>Make solve real problems</h4>
 
       <p>Thanks to Rally.org, we are able to allow supporters to contribute to the success of the projects by becoming donors. Rally.org is a fundraising platform that helps spread the word about projects and help them become concrete business.</p>
 
-      <h3>Give Back</h3>
+      <h4>Give Back</h4>
 
       <p>We want to honor Steve Jobs and keep his legacy alive, supporting cancer research and educational initiatives. Every year our fundraising efforts that will start the day of his late anniversary and will continue through our final ceremony.</p>
   </div>
