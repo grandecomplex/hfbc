@@ -23,7 +23,6 @@ $(function() {
 });
 </script>
 <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -41,33 +40,35 @@ $(function() {
     
   </div>
   
-<form action="http://hackforbigchoices.us7.list-manage1.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=f34e2daf34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="http://hackforbigchoices.us7.list-manage1.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=f34e2daf34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="name@domain.com">
 </div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+<div id="interests-buttons-group" class="buttons-group mc-field-group">
+  <label>Interests</label>
+  <a href="#talks-option" class="button button-off">Talks</a>
+  <a href="#hackathon-option" class="button button-off">Hackathon</a>
 </div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-MMERGE3">Reason </label>
-	<select name="MMERGE3" class="" id="mce-MMERGE3">
-	<option value=""></option>
-	<option value="Sponsor">Sponsor</option>
-<option value="Present">Present</option>
-<option value="Volunteer">Volunteer</option>
-<option value="Hack">Hack</option>
 
+<div class="buttons-group mc-field-group">
+  <label>Receive updates</label>
+  <a href="#design-option" class="button button-off">Design &amp; Technology</a>
+  <a href="#health-option" class="button button-off">Health</a>
+  <a href="#education-option" class="button button-off">Education</a>
+</div>
+
+<div class="mc-field-group offscreen">
+	<select name="MMERGE1" class="" id="mce-MMERGE1" multiple=true>
+    <option id="talks-option" value="Talks">Talks</option>
+    <option id="hackathon-option" value="Hackathons">Hackathons</option>
+    <option id="design-option" value="Design &amp; Technology">Design &amp; Technology</option>
+    <option id="health-option" value="Health">Health</option>
+    <option id="education-option" value="Education">Education</option>
 	</select>
 </div>
 
-  <div class="button-wrapper"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
+<div class="button-wrapper"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
 </form>
 </div>
 <script type="text/javascript">

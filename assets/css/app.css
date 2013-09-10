@@ -1,7 +1,5 @@
-@font-face {
-  font-family: habibi;
-  src: url('Habibi-Regular.otf');
-}
+<link href='http://fonts.googleapis.com/css?family=Inika:400,700' rel='stylesheet' type='text/css'>
+
 
 
 /* Resets */
@@ -42,13 +40,14 @@ body {
 h1, h2, h3,
 .navbar .nav a,
 .title-font {
-  font-family: habibi, georgia, serif;
+  font-family: 'Inika', georgia, serif;
   text-transform: capitalize;
+  font-weight: 200;
 }
 
 h1 {
   font-size: 70px;
-  font-weight: 600;
+  font-weight: 100;
   margin-bottom: 15px;
   line-height: 63px;
   margin-top: -9px;
@@ -397,7 +396,7 @@ h1 + p.subline {
 
 .person-label [itemprop=name],
 .datetime-label [itemprop=name] {
-  font-family: habibi, georgia, serif;
+  font-family: Inika, georgia, serif;
   letter-spacing: 1px;
   font-size: 22px;
 }
@@ -415,7 +414,7 @@ h1 + p.subline {
 }
 
 .offscreen {
-  position: absolute;
+  position: absolute !important;
   left: -9999px;
 }
 
@@ -434,7 +433,7 @@ h1 + p.subline {
 }
 
 #footer .nav a {
-  font-family: habibi, georgia, serif;
+  font-family: 'Inika', georgia, serif;
   text-decoration: none;
   font-size: 21px;
   display: block;

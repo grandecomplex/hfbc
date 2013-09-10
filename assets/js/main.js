@@ -14,4 +14,18 @@ $(function() {
      scrollTop: $(href).offset().top - 30 
     }); 
   });
+  
+  $document.on("click", ".buttons-group .button", function(e) {
+    var $this = $(this), href = $this.attr("href");
+    e.preventDefault();
+    
+    if ($this.hasClass("button-off")) {
+      $this.removeClass("button-off");
+      $(href).attr("selected", "selected");
+    } else {
+      $this.addClass("button-off");
+      $(href).removeAttr("selected");
+    }
+  
+  });
 });

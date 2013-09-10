@@ -24,7 +24,6 @@ $(function() {
 </script>
 
 <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -39,7 +38,7 @@ $(function() {
   	</div>	
     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
   </div>
-<form action="http://hackforbigchoices.us7.list-manage.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=91fa0bf1bb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="http://hackforbigchoices.us7.list-manage.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=91fa0bf1bb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
 
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>

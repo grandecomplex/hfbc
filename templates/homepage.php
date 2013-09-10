@@ -17,10 +17,10 @@ require('./wp-blog-header.php');
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
       <div class="span5">
-        <iframe width="420" height="335" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="335" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span7" itemscope itemtype="http://schema.org/Event">
-        <h1 itemprop="name">hacking for the greater good</h1>
+        <h1 itemprop="name">hacking for the<br> greater good</h1>
         <p>We’re looking for the crazy ones, misfits, rebels, troublemakers, and all you who see things differently to have an impact in design/technology, education, and healthcare.</p>
         <p>Hack for Big Choices is a global series of hackathons and talks to empower people worldwide to take action and use their talents to make “big choices” that impact their communities and change the world.</p> 
 
