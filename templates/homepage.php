@@ -17,7 +17,7 @@ require('./wp-blog-header.php');
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
       <div class="span5">
-        <iframe width="420" height="315" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
+        <iframe width="420" height="335" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span7" itemscope itemtype="http://schema.org/Event">
         <h1 itemprop="name">hacking for the greater good</h1>
@@ -30,12 +30,13 @@ require('./wp-blog-header.php');
         </ul>
 
 		
-        <div class="register">
-          <a class="button button-huge button-primary overlay-trigger" href="#join-us-overlay">JOIN US</a>
-        </div>
+
 
       </div>
 
+    </div>
+    <div class="register">
+      <a class="button button-primary button-large overlay-trigger" href="#join-us-overlay">Join us to Hack for Big Choices</a>
     </div>
   </div>
 
@@ -97,7 +98,7 @@ require('./wp-blog-header.php');
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="overlay-trigger button pull-right button-primary" href="#request-invite-open-ceremony">Request an Invite</a>
+                      <a class="overlay-trigger button pull-right button-primary button-large" href="#request-invite-open-ceremony">Request an Invite</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>
@@ -127,7 +128,7 @@ require('./wp-blog-header.php');
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
           <dl class="person-label">
               <dt>full name</dt>
-              <dd itemprop="name">ZACHARY BOGUE</dd>
+              <dd itemprop="name">Zachary Bogue</dd>
               <dt>company</dt>
               <dd class="company" itemprop="jobTitle">Co-Managing Partner at Data Collective</dd>
               <dt>description</dt>
@@ -191,6 +192,20 @@ require('./wp-blog-header.php');
               <dd class="company" itemprop="jobTitle">Enterprise Architect</dd>
               <dt>description</dt>
               <dd class="description" itemprop="description">Executive Director, Keiretsu Forum Academy</dd>
+          </dl>
+
+        </div>
+        
+        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/bintabrown.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">Binta Brown</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Global Leader</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">Senior Fellow at Mossavar-Rahmani Center for Business and Government at Harvard Kennedy School of Government</dd>
           </dl>
 
         </div>
@@ -298,11 +313,19 @@ require('./wp-blog-header.php');
           </dl>
 
         </div>
+        
+        <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-
-  
-      
-    
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">Mario Valle</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Director of Business Development</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">EA - Electronic Arts</dd>
+          </dl>
+        </div>
       </div>
   </div>
 

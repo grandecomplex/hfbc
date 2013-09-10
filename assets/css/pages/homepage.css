@@ -30,6 +30,7 @@
 
 .home.page #section1 .register{
   margin-top: 32px;
+  text-align: center;
 }
 .home.page #section1 .register p{
   display: inline-block;
@@ -224,7 +225,7 @@
   
   #location-map-cover .city_block .city_name {
     font-size: 40px;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: habibi, georgia, serif;
   }
   
 }
