@@ -29,33 +29,31 @@ $(function() {
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup" class="mc-form">
-  <div class="top">
-  	<h2>Join Hack For Big Choices</h2>
-    <p>Help change the worlds of health, education, and technology.</p>
-  	<div id="mce-responses" class="clearfix">
-  		<div class="response" id="mce-error-response" style="display:none"></div>
-  		<div class="response" id="mce-success-response" style="display:none"></div>
-  	</div>	
-    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-    
-  </div>
-  
+<div id="mce-responses" class="clearfix">
+	<div class="response" id="mce-error-response" style="display:none"></div>
+	<div class="response" id="mce-success-response" style="display:none"></div>
+</div>	
+
 <form action="http://hackforbigchoices.us7.list-manage1.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=f34e2daf34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="name@domain.com">
 </div>
-<div id="interests-buttons-group" class="buttons-group mc-field-group">
-  <label>Interests</label>
-  <a href="#talks-option" class="button button-off">Talks</a>
-  <a href="#hackathon-option" class="button button-off">Hackathon</a>
+<div id="interests-group" class="checkbox-group mc-field-group">
+  <h4>My topics of interest are...</h4>
+  <div class="checkboxes clearfix">
+    <label class="clearfix"><input type=checkbox data-value="#talks-option" />Talks</label>
+    <label class="clearfix"><input type=checkbox data-value="#hackathon-option" />Hackathon</label>
+  </div>
 </div>
 
-<div class="buttons-group mc-field-group">
-  <label>Receive updates</label>
-  <a href="#design-option" class="button button-off">Design &amp; Technology</a>
-  <a href="#health-option" class="button button-off">Health</a>
-  <a href="#education-option" class="button button-off">Education</a>
+<div class="checkbox-group mc-field-group">
+  <h4>I'd like update about...</h4>
+  <div class="checkboxes clearfix">
+    <label class="clearfix"><input type=checkbox data-value="#design-option" />Design &amp; Technology</label>
+    <label class="clearfix"><input type=checkbox data-value="#health-option" />Health</label>
+    <label class="clearfix"><input type=checkbox data-value="#education-option" />Education</label>
+  </div>
 </div>
 
 <div class="mc-field-group offscreen">
@@ -68,7 +66,7 @@ $(function() {
 	</select>
 </div>
 
-<div class="button-wrapper"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
+<div class="button-wrapper"><input type="submit" value="Join Hack For Big Choices" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
 </form>
 </div>
 <script type="text/javascript">

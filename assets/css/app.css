@@ -247,7 +247,7 @@ a:hover {
 }
 
 .page .section:nth-child(even) {
-  background: #e9f0f4;
+  background: #F4FAFC;
 }
 
 .page .section:last-child {
@@ -426,6 +426,7 @@ h1 + p.subline {
   padding: 60px 5px 50px;
   box-shadow: 0 1px 0 5px #F4F9FF;
   margin-top: 4px;
+  border-bottom: 5px #f7931e solid;
 }
 
 #footer p {

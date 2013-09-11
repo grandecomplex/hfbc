@@ -11,8 +11,7 @@
   left: 50%;
   margin-left: -200px;
   position: fixed;
-  box-shadow: 0 0 0px 5px rgba(0,0,0,.5);
-  background: #fff;
+  background: transparent;
 }
 
 .overlay {

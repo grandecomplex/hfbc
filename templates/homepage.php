@@ -35,8 +35,9 @@ require('./wp-blog-header.php');
       </div>
 
     </div>
+    <hr class="hr"></hr>
     <div class="register">
-      <a class="button button-primary button-large overlay-trigger" href="#join-us-overlay">Join us to Hack for Big Choices</a>
+      <a class="button button-primary button-huge overlay-trigger" href="#join-us-overlay">Join us</a>
     </div>
   </div>
 
@@ -83,7 +84,7 @@ require('./wp-blog-header.php');
           <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
           <div class="inner">
             <div class="row-fluid marginBottom10">
-              <div class="span9">
+              <div class="span8">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
                   <dd class="title-font"  itemprop="startDate">SAT<br>OCT 5th</dd>
@@ -94,7 +95,7 @@ require('./wp-blog-header.php');
 </p>
                 </div>
               </div>
-              <div class="span3" style="margin-top:27px">
+              <div class="span4" style="margin-top:40px">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>

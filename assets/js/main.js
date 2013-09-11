@@ -15,11 +15,12 @@ $(function() {
     }); 
   });
   
-  $document.on("click", ".buttons-group .button", function(e) {
-    var $this = $(this), href = $this.attr("href");
-    e.preventDefault();
+  $document.on("click", "#join-us-overlay .checkboxes input", function(e) {
+    debugger
     
-    if ($this.hasClass("button-off")) {
+    var $this = $(this), href = $this.data("value");
+    e.preventDefault();
+    if ($this.prop("checked")) {
       $this.removeClass("button-off");
       $(href).attr("selected", "selected");
     } else {

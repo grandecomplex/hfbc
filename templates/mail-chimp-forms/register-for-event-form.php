@@ -3,7 +3,6 @@
   <div class="top">
 	  <h2>Attend an event</h2>
     <p>We'll reach out to you with more event details.</p>
-    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
   </div>
 <form action="http://hackforbigchoices.us7.list-manage.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=6e0229cbb9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form mc-embedded-subscribe-form" target="_blank" novalidate>
 

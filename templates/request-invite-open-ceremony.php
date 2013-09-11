@@ -31,12 +31,11 @@ $(function() {
 </style>
 <div id="mc_embed_signup" class="mc-form">
   <div class="top">
-  	<h2>Request invite to the opening ceremony</h2>
+  	<h2>Opening Ceremony</h2>
   	<div id="mce-responses" class="clearfix">
   		<div class="response" id="mce-error-response" style="display:none"></div>
   		<div class="response" id="mce-success-response" style="display:none"></div>
   	</div>	
-    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
   </div>
 <form action="http://hackforbigchoices.us7.list-manage.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=91fa0bf1bb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
 

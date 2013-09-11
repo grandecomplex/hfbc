@@ -4,8 +4,7 @@
 }
 
 .overlay-window iframe {
-  height: 450px;
-  height: 450px;
+  height: 325px;
   width: 100%;
   border: 0;
 }
@@ -55,16 +54,14 @@
   margin-right: 15px !important;
 }
 
-#mc-embedded-subscribe-form .button-wrapper {
-  margin-right: 13px;
-}
-
 #mc-embedded-subscribe-form input.button {
   width: 100% !important;
 }
 
 #mc_embed_signup {
-  background: #EFF1F3;
+  background: #EFF1F3 !important;
+  font-family: georgia, serif !important;
+  font-size: 14px;
 }
 
 #first-last-wrapper .mc-field-group {
@@ -111,12 +108,13 @@
 
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 
-#interests-buttons-group .button {
+#interests-group .button {
   width: auto;
 }
 
-.mc-form .buttons-group label {
+.mc-form label {
   display: block;
+  margin-bottom: 5px;
 }
 
 .mc-field-group {
@@ -125,6 +123,7 @@
 
 .mc-field-group .button {
   margin-bottom: 5px;
+  font-size: 13px !important;
 }
 
 .mc-field-group input {
@@ -132,6 +131,28 @@
   width: 100%;
   padding: 8px 0;
   text-indent: 2%;
+  height: 35px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ie-box-sizing: border-box;
 }
 
+#join-us-overlay iframe {
+  height: 301px;
+}
 
+.checkbox-group input {
+  color: #414141;
+}
+
+.checkbox-group .checkboxes label {
+  margin-bottom: 5px;
+  float: left;
+  width: 110px;
+}
+
+.checkbox-group input[type=checkbox] {
+  float: left;
+  width: 15px;
+  height: 15px;
+}

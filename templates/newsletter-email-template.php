@@ -31,17 +31,11 @@ $(function() {
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup" class="mc-form">
-  <div class="top">
-    <h2>Newsletter</h2>
-    <p>Sign up to receive updates about Hack For Big Choices.</p>
-  	<div id="mce-responses" class="clearfix">
-  		<div class="response" id="mce-error-response" style="display:none"></div>
-  		<div class="response" id="mce-success-response" style="display:none"></div>
-  	</div>	
-    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-    
-  </div>
-<form action="http://hackforbigchoices.us7.list-manage.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=0d43f3f463" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mce-responses" class="clearfix">
+	<div class="response" id="mce-error-response" style="display:none"></div>
+	<div class="response" id="mce-success-response" style="display:none"></div>
+</div>	
+<form action="http://hackforbigchoices.us7.list-manage.com/subscribe/post?u=84324a24b8bb798baeadac59e&amp;id=0d43f3f463" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
 
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -57,7 +51,7 @@ $(function() {
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 
-  <div class="button-wrapper"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
+  <div class="button-wrapper"><input type="submit" value="Sign up for the newsletter" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
 </form>
 </div>
 <script type="text/javascript">
