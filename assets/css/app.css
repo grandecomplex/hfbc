@@ -380,6 +380,11 @@ span.plus {
   display: block;
 }
 
+#sponsor-circle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #be-sponsor:hover #sponsor-circle {
   color: #1dc1dd;
   background: white;

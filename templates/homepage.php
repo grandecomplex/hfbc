@@ -472,11 +472,13 @@ require('./wp-blog-header.php');
           </dl>
         </div>
         
-        <a id="be-sponsor" href="mailto:info@hackforbigchoices.com?subject=Sponsorship&body=My company would like to partner with Hack For Big Choices." class="sponsor">
-          <div id="sponsor-circle">
-            <h4>Your Company</h4>
-          </div>
-        </a>
+        <div class="sponsor">
+          <a id="be-sponsor" href="mailto:info@hackforbigchoices.com?subject=Sponsorship&body=My company would like to partner with Hack For Big Choices." class="sponsor">
+            <div id="sponsor-circle">
+              <h4>Your Company</h4>
+            </div>
+          </a>
+        </div>
         
         
       </div>
