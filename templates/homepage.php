@@ -14,6 +14,7 @@ require('./wp-blog-header.php');
 <script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/homepage.js"></script>
 
 <div class="sections">
+  
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
       <div class="span5">
@@ -28,10 +29,6 @@ require('./wp-blog-header.php');
           <li class="span6 clearfix"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
           <li class="span6 clearfix"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <span class="title-font" itemprop="startDate">starting on October 5th, 2013</span></li>
         </ul>
-
-		
-
-
       </div>
 
     </div>
@@ -68,7 +65,6 @@ require('./wp-blog-header.php');
     
     </div>
   </div>
-
 
   <div id="section5" class="section">
     <div class="centered">
@@ -115,9 +111,6 @@ require('./wp-blog-header.php');
       </div>
     </div>
   </div>
-
-
-
 
   <div id="section3" class="section clearfix centered">
     <h2 class="section_title">SPEAKERS</h2>
@@ -330,7 +323,6 @@ require('./wp-blog-header.php');
       </div>
   </div>
 
-
   <div id="section4" class="centered section">
     <h2 id="locations" class="section_title">Global Hackathons</h2>
     <p class="subline">Pick your city to <a class="button button-primary overlay-trigger" href="#sign-up-overlay">register</a></p>
@@ -389,10 +381,6 @@ require('./wp-blog-header.php');
     </div>
   </div>
 
-
-
-
-  
   <div id="section6" class="section centered">
     <h2 class="section_title">PARTNERS</h2>
     <p class="subline">Thanks to those that support our mission.</p>
@@ -471,6 +459,19 @@ require('./wp-blog-header.php');
           </dl>
         </div>
 
+        <div class="sponsor">
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/bizzabo.jpg" />
+          <dl class="person-label">
+            <dt>Company Name</dt>
+            <dd itemprop="name">Bizzabo</dd>
+          </dl>
+        </div>
+        
+        <a id="be-sponsor" href="mailto:info@hackforbigchoices.com&subject=Sponsorship" class="sponsor">
+          <div id="sponsor-circle">
+            <h4>Your Company</h4>
+          </div>
+        </a>
         
         
       </div>

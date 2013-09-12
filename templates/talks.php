@@ -22,50 +22,51 @@ require('./wp-blog-header.php');
       <h2 class="section_title">Upcoming Event</h2>
     </div>
     <div class="row-fluid">
-      <div class="span3">
-        <h3 class="subline">Opening Ceremony</h3>
-      </div>
-      <div class="span6">
-        <h4>Forget exit strategy, think global improvement</h4>
-        <ul class="event-details clearfix">
-          <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th</li>
-          <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
-        </ul>
-        <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.</p>
-        <hr class="hr"></hr>
-        <h4>Speakers</h4>
-        <div class="circle-pic-list clearfix">      
-          <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
-            <p>Zachary Bogue</p>
-
-          </div>
-          <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
-            <p>Dave Mosby</p>
-
-          </div>
-          <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
-            <p>Jeremy Howars</p>
-
-          </div>
-          <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/francis-pedraza.jpg" />
-            <p>Francis Pedranza</p>
-
-          </div>
+      <div class="schedule-item">
+        <div class="span3">
+          <h3 class="subline">Opening Ceremony</h3>
         </div>
+        <div class="span7">
+          <h4>Forget exit strategy, think global improvement</h4>
+          <ul class="event-details clearfix">
+            <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th</li>
+            <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
+          </ul>
+          <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.</p>
+          <hr class="hr"></hr>
+          <h4>Speakers</h4>
+          <div class="circle-pic-list clearfix">      
+            <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
+              <p>Zachary Bogue</p>
+
+            </div>
+            <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
+              <p>Dave Mosby</p>
+
+            </div>
+            <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
+              <p>Jeremy Howars</p>
+
+            </div>
+            <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/francis-pedraza.jpg" />
+              <p>Francis Pedranza</p>
+
+            </div>
+          </div>
         
+        </div>
       </div>
-      
     
-      <div class="span2 offset1 centered">
-        <a href="#" class="button button-primary button-large">Buy Tickets</a>
+      <div class="span2 centered">
+        <a href="#" class="button button-primary button-large">Request Invite</a>
       </div>
     </div>
    
@@ -99,7 +100,7 @@ require('./wp-blog-header.php');
               </div>
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Mario_Valle.jpg" />
+                <img class="circle_pic" alt="" src="/assets/img/pages/homepage/speakers/mario-valle.jpg" />
                 <p>Mario Valle</p>
 
               </div>
@@ -112,7 +113,7 @@ require('./wp-blog-header.php');
             </div>
           </div>
           <div class="span2">
-            <a href="#" class="button">Buy tickets</a>
+            <a href="#" class="button">Request Invite</a>
           </div>
         </div>
       </li>
@@ -124,7 +125,9 @@ require('./wp-blog-header.php');
               <h3>The End of Illness</h3>
               <ul class="event-details clearfix">
                 <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />TBA</li>
-                <li><a target="_blank" />Online, Google Hangout</a></li>
+                <li><a target="_blank" />
+                  <span class="plus"></span><span class="plus-hangout-text">Online, Google Hangout</span>
+                </a></li>
               </ul>
               <p>Dr. David Agus one of Steve Jobs's oncologists and has been talking to Steve Jobs nearly every day for years. Doctor David's approach is radical, and it goes against the grain of traditional western medicine. As a professor of medicine and engineering and a leading cancer physician, he says that the focus of his profession needs to shift from understanding to controlling diseases. His suggestions in the book are like algorithms for a life style, because he gives advice on how to prevent and postpone illness rather than cure it. David Agus wants people to die of old age rather than cancer or Alzheimer’s, and the only way we can do that, he thinks, is by living healthy lives for our individual and often complex bodies. </p>
             </div>
@@ -140,7 +143,7 @@ require('./wp-blog-header.php');
               </div>
             </div>
             <div class="span2">
-              <a href="https://plus.google.com/b/109626750900950113826/events/c3bnouh68gquoj15lj378jr6hfk" class="button">Register></a>
+              <a href="https://plus.google.com/b/109626750900950113826/events/c3bnouh68gquoj15lj378jr6hfk" class="button">Register</a>
             </div>
           </div>
         </div>
@@ -155,8 +158,7 @@ require('./wp-blog-header.php');
               <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 2013</li>
               <li>
                 <a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16">
-                  <img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />
-                  Online, Google Hangout
+                  <span class="plus"></span><span class="plus-hangout-text">Online, Google Hangout</span>
                 </a>
               </li>
             </ul>

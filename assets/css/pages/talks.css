@@ -20,6 +20,7 @@
   text-align: center;
   margin-bottom: 0;
   width: 117px;
+  height: 138px;
 }
 
 .page.talks #upcoming .speaker .circle_pic {
@@ -34,10 +35,6 @@
 .page.talks #schedule .circle_pic {
   width: 100px;
   height: 100px;
-}
-
-.page.talks #schedule .row-fluid {
-
 }
 
 .page.talks #schedule .row-fluid:last-child {
@@ -58,7 +55,7 @@
   height: 129px;
 }
 
-.page.talks #schedule .schedule-item {
+.page.talks .schedule-item {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;

@@ -30,11 +30,9 @@
     </div>
     
     <div class="span2">
-      <?php include("social-links.php")?>
+      <?php include("social-links-white.php")?>
     </div>
   </div>
-  
-
 
 </footer>
 

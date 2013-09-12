@@ -1,6 +1,4 @@
-<link href='http://fonts.googleapis.com/css?family=Inika:400,700' rel='stylesheet' type='text/css'>
-
-
+@import url(http://fonts.googleapis.com/css?family=Average);
 
 /* Resets */
 
@@ -40,7 +38,7 @@ body {
 h1, h2, h3,
 .navbar .nav a,
 .title-font {
-  font-family: 'Inika', georgia, serif;
+  font-family: 'Average', georgia, serif;
   text-transform: capitalize;
   font-weight: 200;
 }
@@ -136,13 +134,15 @@ a:hover {
   margin-top: 11px;
 }
 
-.nav-share li {
+.nav-share li,
+.nav-share-white li {
   list-style: none;
   float: left;
   margin-right: 10px;
 }
 
-.nav-share a {
+.nav-share a,
+span.plus {
   display: block;
   text-indent: -9999px;
   background:transparent url('../img/chrome/nav-share.png') no-repeat 0 0;
@@ -157,7 +157,8 @@ a:hover {
   -webkit-transform: scale(1.05);
 }
 
-.nav-share li:last-child {
+.nav-share li:last-child,
+.nav-share-white li:last-child {
   margin-right: 0;
 }
 
@@ -173,7 +174,8 @@ a:hover {
   background-position: -40px 0;
 }
 
-.nav-share .plus a {
+.nav-share .plus a,
+span.plus {
   background-position: -20px 0;
 }
 
@@ -183,6 +185,44 @@ a:hover {
 
 .nav-share .linkedin a {
   background-position: -80px 0;
+}
+
+.nav-share-white a {
+  display: block;
+  text-indent: -9999px;
+  background: transparent url('../img/chrome/share-white.png') no-repeat 0 0;
+  height: 20px;
+  width: 20px;
+}
+
+.nav-share-white .fb {
+  margin-right: 4px;
+}
+
+.nav-share-white .fb a {
+  background-position: 0 0;
+}
+
+.nav-share-white .twitter a {
+  background-position: -60px 0;
+}
+
+.nav-share-white .plus a {
+  background-position: -30px 0;
+}
+
+.nav-share-white .youtube a {
+  background-position: -100px 0;
+}
+
+span.plus {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.plus-hangout-text {
+  position: relative;
+  top: -4px;
 }
 
 #navbar-aside .button {
@@ -223,16 +263,19 @@ a:hover {
 }
 
 
-/* =============================================================================
+/* =========================================================================
    Lists
    ========================================================================== */
 
-.circle-pic-list img {
+.circle-pic-list img,
+#sponsor-circle {
     -webkit-border-radius:80px;
     -moz-border-radius:80px;
     border-radius:80px;
     max-width: 150px;
     max-height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 /* =============================================================================
@@ -334,6 +377,26 @@ a:hover {
   } 
 }
 
+#be-sponsor {
+  display: block;
+}
+
+#be-sponsor:hover #sponsor-circle {
+  color: #1dc1dd;
+  background: white;
+}
+
+#sponsor-circle {
+  background: #1dc1dd;
+  text-align: center;
+  color: white;
+}
+
+#be-sponsor h4 {
+  position: relative;
+  top: 67px;
+  display: inline;
+}
 
 
 /* =============================================================================
@@ -424,17 +487,14 @@ h1 + p.subline {
 
 #footer {
   padding: 60px 5px 50px;
-  box-shadow: 0 1px 0 5px #F4F9FF;
   margin-top: 4px;
-  border-bottom: 5px #f7931e solid;
-}
-
-#footer p {
-  color: #666;
+  border-top: 5px #f7931e solid;
+  background: #4E576B;
+  color: white;
 }
 
 #footer .nav a {
-  font-family: 'Inika', georgia, serif;
+  font-family: 'Average', georgia, serif;
   text-decoration: none;
   font-size: 21px;
   display: block;
@@ -443,6 +503,7 @@ h1 + p.subline {
   transition: .15s background linear;
   padding: 4px 0 5px 5px;
   border-radius: 3px;
+  color: white;
 }
 
 #footer .nav a:hover {
