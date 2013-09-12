@@ -21,16 +21,13 @@ require('./wp-blog-header.php');
     <div class="centered">
       <h2 class="section_title">Upcoming Event</h2>
     </div>
-    <div class="row-fluid">
+    <div class="row-fluid max-850-width">
       <div class="schedule-item">
-        <div class="span3">
+        <div class="span9">
           <h3 class="subline">Opening Ceremony</h3>
-        </div>
-        <div class="span7">
-          <h4>Forget exit strategy, think global improvement</h4>
           <ul class="event-details clearfix">
             <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th</li>
-            <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
+            <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
           </ul>
           <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.</p>
           <hr class="hr"></hr>
@@ -65,7 +62,7 @@ require('./wp-blog-header.php');
         </div>
       </div>
     
-      <div class="span2 centered">
+      <div class="span3 centered">
         <a href="#request-invite-open-ceremony" class="button button-primary button-large overlay-trigger">Request Invite</a>
       </div>
     </div>
@@ -82,10 +79,10 @@ require('./wp-blog-header.php');
       <li><div class="schedule-item">
           <div class="row-fluid">
           <div class="span5">
-            <h3>THE FUTURE OF EDUCATION</h3>
+            <h3>The Future of Education</h3>
             <ul class="event-details clearfix">
               <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 2013</li>
-              <li><a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1433 Market St., San Francisco</a></li>
+              <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
             </ul>
             <p></p>
           </div>
@@ -113,7 +110,7 @@ require('./wp-blog-header.php');
             </div>
           </div>
           <div class="span2">
-            <a href="#" class="button">Request Invite</a>
+            <a href="#request-invite-educational" class="button overlay-trigger">Request Invite</a>
           </div>
         </div>
       </li>
@@ -185,7 +182,7 @@ require('./wp-blog-header.php');
   </div>
   
   <div id="section3" class="section clearfix centered">
-    <h2 class="section_title">SPEAKERS</h2>
+    <h2 class="section_title">Speakers</h2>
     <p class="subline">Speaker's present expertise in healthcare, design, technology, and education.</p>
   
     <?php 
@@ -316,4 +313,8 @@ Kory is an EPA Star Fellow. He also received a 2009-2010 James H. Polhemus Fello
 
 <div id="request-invite-open-ceremony" class="hidden mc_form overlay-window">
   <iframe src="/request-invite-opening-ceremony" height=450></iframe>
+</div>
+
+<div id="request-invite-educational" class="hidden mc_form overlay-window">
+  <iframe src="/request-invite-to-educational-talk" height=450></iframe>
 </div>

@@ -98,6 +98,10 @@
   padding: 15px 10px;
 }
 
+.mc-form .top h2 {
+  margin-bottom: 0;
+}
+
 .mc-form .form {
   padding: 10px;
 }

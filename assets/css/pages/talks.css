@@ -28,10 +28,6 @@
   height: 100px;
 }
 
-.page.talks #upcoming h3 {
-  color: #57B9D7;
-}
-
 .page.talks #schedule .circle_pic {
   width: 100px;
   height: 100px;
@@ -48,7 +44,7 @@
 
 .page.talks #schedule > li:nth-child(even) {
   border-left: 3px solid #f7931e;  
-  background: #e9f0f4;
+  background: #FAFCFD;
 }
 
 .pages.talks .speaker {

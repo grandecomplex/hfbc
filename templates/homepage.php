@@ -27,7 +27,7 @@ require('./wp-blog-header.php');
 
         <ul class="datetime clearfix row-fluid">
           <li class="span6 clearfix"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
-          <li class="span6 clearfix"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <span class="title-font" itemprop="startDate">starting on October 5th, 2013</span></li>
+          <li class="span6 clearfix"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <span class="title-font" itemprop="startDate">starting on October 4th, 2013</span></li>
         </ul>
       </div>
 
@@ -46,19 +46,19 @@ require('./wp-blog-header.php');
         <div class="span4">
           <div class="item">
             <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/design-icon.png" />
-            <h3 class="item_head">DESIGN &amp; TECHNOLOGY</h3>
+            <h3 class="item_head">Design &amp; Technology</h3>
           </div>
         </div>
         <div class="span4">
           <div class="item">
             <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/education-icon.png" />
-            <h3 class="item_head">EDUCATION</h3>
+            <h3 class="item_head">Education</h3>
           </div>
         </div>
         <div class="span4">
           <div class="item">
             <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/health-icon.png" />
-            <h3 class="item_head">HEALTHCARE</h3>
+            <h3 class="item_head">Healthcare</h3>
           </div>
         </div>
       </div>
@@ -86,7 +86,12 @@ require('./wp-blog-header.php');
                   <dd class="title-font"  itemprop="startDate">SAT<br>OCT 5th</dd>
                 </dl>
                 <div class="content">
-                  <h3 itemprop="description">Opening ceremony</h3>
+                  <h3>Opening Ceremony</h3>
+                  
+                  <ul class="event-details clearfix">
+                    <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
+                  </ul>
+                  
                   <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.
 </p>
                 </div>
@@ -467,7 +472,7 @@ require('./wp-blog-header.php');
           </dl>
         </div>
         
-        <a id="be-sponsor" href="mailto:info@hackforbigchoices.com&subject=Sponsorship" class="sponsor">
+        <a id="be-sponsor" href="mailto:info@hackforbigchoices.com&subject=Sponsorship&body=My company would like to partner with Hack For Big Choices." class="sponsor">
           <div id="sponsor-circle">
             <h4>Your Company</h4>
           </div>
