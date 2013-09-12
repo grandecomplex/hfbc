@@ -473,7 +473,23 @@ require('./wp-blog-header.php');
         </div>
         
         <div class="sponsor">
-          <a id="be-sponsor" href="mailto:info@hackforbigchoices.com?subject=Sponsorship&body=My company would like to partner with Hack For Big Choices." class="sponsor">
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/mita.png" />
+          <dl class="person-label">
+            <dt>Company Name</dt>
+            <dd itemprop="name"><a href="http://mitainstitute.com/techtalks/" target="_blank">MITA</a></dd>
+          </dl>
+        </div>
+        
+        <div class="sponsor">
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/slicebiz.png" />
+          <dl class="person-label">
+            <dt>Company Name</dt>
+            <dd itemprop="name">SliceBiz</dd>
+          </dl>
+        </div>
+        
+        <div class="sponsor">
+          <a id="be-sponsor" href="mailto:partner@hackforbigchoices.com?subject=Sponsorship&body=My company would like to partner with Hack For Big Choices." class="sponsor">
             <div id="sponsor-circle">
               <h4>Your Company</h4>
             </div>
