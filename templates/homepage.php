@@ -403,7 +403,7 @@ require('./wp-blog-header.php');
           "link" => "http://www.eye.fi/"),
           
           array("name" => "Lyte", 
-          "image" => "Lyte.jpg",
+          "image" => "lyte.jpg",
           "link" => "http://lyte.io"),
           
           array("name" => "InvasiveCode", 
