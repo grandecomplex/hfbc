@@ -39,7 +39,7 @@ require('./wp-blog-header.php');
   </div>
 
   <div id="section2" class="centered section">
-    <h2 class="section_title">FOCUS AREAS</h2>
+    <h2 class="section_title">Focus Areas</h2>
     <p class="subline">We believe that every person with passion and talent can have an impact on their communities, neighborhoods, cities and countries. Teaming up together we can solve real problems in design/technology, education, and healthcare.</p>
     <div class="max-850-width">
       <div class="row-fluid">
@@ -68,7 +68,7 @@ require('./wp-blog-header.php');
 
   <div id="section5" class="section">
     <div class="centered">
-      <h2 id="schedule" class="section_title">UPCOMING EVENTS</h2>
+      <h2 id="schedule" class="section_title">Upcoming Events</h2>
       <p class="subline">A series of talks to inspire the world.</p>
     </div>
     
@@ -118,7 +118,7 @@ require('./wp-blog-header.php');
   </div>
 
   <div id="section3" class="section clearfix centered">
-    <h2 class="section_title">SPEAKERS</h2>
+    <h2 class="section_title">Speakers</h2>
 
     <div class="speaker-wrapper circle-pic-list">
       
@@ -387,7 +387,7 @@ require('./wp-blog-header.php');
   </div>
 
   <div id="section6" class="section centered">
-    <h2 class="section_title">PARTNERS</h2>
+    <h2 class="section_title">Partners</h2>
     <p class="subline">Thanks to those that support our mission.</p>
       <div id="sponsor-wrapper" class="clearfix circle-pic-list">
         <div class="sponsor">

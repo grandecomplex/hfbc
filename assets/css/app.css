@@ -453,14 +453,14 @@ h1 + p.subline {
 
 .person-label dd,
 .datetime-label dd {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .person-label [itemprop=name],
 .datetime-label [itemprop=name] {
   font-family: Inika, georgia, serif;
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .person-label .description {
