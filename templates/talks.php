@@ -10,7 +10,7 @@ define('WP_USE_THEMES', true);
 require('./wp-blog-header.php');
 ?>
 
-<div class="sections">
+<div class="sections main-content">
   
   <div class="section centered">
     <h1>Talks</h1>
@@ -66,7 +66,7 @@ require('./wp-blog-header.php');
       </div>
     
       <div class="span2 centered">
-        <a href="#" class="button button-primary button-large">Request Invite</a>
+        <a href="#request-invite-open-ceremony" class="button button-primary button-large overlay-trigger">Request Invite</a>
       </div>
     </div>
    
@@ -125,7 +125,7 @@ require('./wp-blog-header.php');
               <h3>The End of Illness</h3>
               <ul class="event-details clearfix">
                 <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />TBA</li>
-                <li><a target="_blank" />
+                <li><a target="_blank" href="https://plus.google.com/events/c3bnouh68gquoj15lj378jr6hfk" />
                   <span class="plus"></span><span class="plus-hangout-text">Online, Google Hangout</span>
                 </a></li>
               </ul>
@@ -143,7 +143,7 @@ require('./wp-blog-header.php');
               </div>
             </div>
             <div class="span2">
-              <a href="https://plus.google.com/b/109626750900950113826/events/c3bnouh68gquoj15lj378jr6hfk" class="button">Register</a>
+              <a href="https://plus.google.com/events/c3bnouh68gquoj15lj378jr6hfk" target="_blank" class="button">Register</a>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ require('./wp-blog-header.php');
             <ul class="event-details clearfix">
               <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 2013</li>
               <li>
-                <a target="_blank" href="https://maps.google.com/maps?q=1433+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1433+market+st.&hnear=1433+Market+St,+San+Francisco,+California+94102&t=m&z=16">
+                <a target="_blank" href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g">
                   <span class="plus"></span><span class="plus-hangout-text">Online, Google Hangout</span>
                 </a>
               </li>
@@ -176,7 +176,7 @@ require('./wp-blog-header.php');
             </div>
           </div>
           <div class="span2">
-            <a href="#" class="button">Register</a>
+            <a href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g" target="_blank" class="button">Register</a>
           </div>
         </div>
       </li>
@@ -312,4 +312,8 @@ Kory is an EPA Star Fellow. He also received a 2009-2010 James H. Polhemus Fello
   </div>
   
   
+</div>
+
+<div id="request-invite-open-ceremony" class="hidden mc_form overlay-window">
+  <iframe src="/request-invite-opening-ceremony" height=450></iframe>
 </div>

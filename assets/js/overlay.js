@@ -3,7 +3,7 @@ $(function() {
   var $document = window.$document || $(document);
   var isOverlayOpen = false;
   var $body = window.$body || $(document.body);
-  var $main = $(".main.col-lg-12");
+  var $main = $(".main-content");
   var $overlay;
   
   window.overlay = {

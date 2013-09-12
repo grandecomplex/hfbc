@@ -13,7 +13,7 @@ require('./wp-blog-header.php');
 
 <script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/homepage.js"></script>
 
-<div class="sections">
+<div class="sections main-content">
   
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
