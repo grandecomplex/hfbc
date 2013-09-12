@@ -14,7 +14,7 @@ require('./wp-blog-header.php');
   
   <div class="section centered">
     <h1>Talks</h1>
-    <p class="centered subline" style="width:800px;margin:auto auto;">A series of talks on innovative technologies surrounding design, healthcare, and education.</p>
+    <p class="subline">A series of talks on innovative technologies surrounding design, healthcare, and education.</p>
   </div>
 
   <div id="upcoming" class="section">

@@ -16,7 +16,7 @@ require('./wp-blog-header.php');
 
     <h1 class="centered">What drives us</h1>
     <span>&nbsp;</span>
-    <p class="centered subline" style="width:800px;margin:auto auto;">Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
+    <p class="centered subline" style="max-width:800px;margin:auto auto;">Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
 
   </div>
   
