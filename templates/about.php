@@ -411,30 +411,29 @@ require('./wp-blog-header.php');
     <div class="centered">
       <h2 class="section_title">About Hack For Big Choices</h2>
     </div>
-    <div class="row-fluid centered" style="width:800px;margin:auto auto;text-align:left">
-        <h3>Principles</h3>
+    <div  style="max-width:800px; margin-left: auto; margin-right: auto;">
+      <h3>Principles</h3>
 
-        <h4>Everyone is Welcome</h4>
-        <p>Our hackathon is open to everyone: computer programmers, doctors, politicians, designers, scientists, educators and all other professionals. Our event is an active forum for people to come together and make a huge impact on the world.</p>
-        <h4>Solving Real Problems</h4>
-        <p>We identify real global problems and challenge the participants to work on solutions that can be executed locally and continued to be developed after the hackathon.</p>
-        <h4>Global Scale</h4>
-        <p>While most hackathons are local in nature, ours is global and will be held in 12 cities around the world,  simultaneously connecting developing and developed countries.</p>
-        <h4>Inspiring Talks</h4>
-        <p>We provide free knowledge online, offering all video sessions in multiple languages. Our talks will helps to spread ideas and create conversations that will inspire action.</p>
+      <h4>Everyone is Welcome</h4>
+      <p>Our hackathon is open to everyone: computer programmers, doctors, politicians, designers, scientists, educators and all other professionals. Our event is an active forum for people to come together and make a huge impact on the world.</p>
+      <h4>Solving Real Problems</h4>
+      <p>We identify real global problems and challenge the participants to work on solutions that can be executed locally and continued to be developed after the hackathon.</p>
+      <h4>Global Scale</h4>
+      <p>While most hackathons are local in nature, ours is global and will be held in 12 cities around the world,  simultaneously connecting developing and developed countries.</p>
+      <h4>Inspiring Talks</h4>
+      <p>We provide free knowledge online, offering all video sessions in multiple languages. Our talks will helps to spread ideas and create conversations that will inspire action.</p>
 
-        <h4>Helping Local Economies to be Sustainable</h4>
+      <h4>Helping Local Economies to be Sustainable</h4>
 
-        <p>We motivate and empower young people across the world to shed their fears, stand up and discover how to use their talents to become the next generation of leaders in their local economies.</p>
-        <p>Through our events, we evangelize the culture of entrepreneurship - we believe it’s a powerful tool to showcase talents, innovate and quickly improve our world.</p>
+      <p>We motivate and empower young people across the world to shed their fears, stand up and discover how to use their talents to become the next generation of leaders in their local economies.</p>
+      <p>Through our events, we evangelize the culture of entrepreneurship - we believe it’s a powerful tool to showcase talents, innovate and quickly improve our world.</p>
 
-        <h4>Annual Competition</h4>
-        <p>This series of hackathon will be an annual event to honor Steve Jobs’ legacy by encouraging future leaders to make "Big Choices".</p>
-        
+      <h4>Annual Competition</h4>
+      <p>This series of hackathon will be an annual event to honor Steve Jobs’ legacy by encouraging future leaders to make "Big Choices".</p>
     </div>
   </div>
-  
-  
+
+
 
 
   <div class="section">
