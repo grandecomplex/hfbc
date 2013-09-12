@@ -122,7 +122,7 @@ require('./wp-blog-header.php');
 
     <div class="speaker-wrapper circle-pic-list">
       
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
           <dl class="person-label">
@@ -134,8 +134,8 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment</dd>
           </dl>
 
-        </div>
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        </a>
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
           <dl class="person-label">
@@ -148,11 +148,11 @@ require('./wp-blog-header.php');
 </dd>
           </dl>
 
-        </div>
+        </a>
 
   
 
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
           <dl class="person-label">
@@ -164,9 +164,9 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Vivek Wadhwa is Vice President of Innovation and Research at Singularity University.</dd>
           </dl>
 
-        </div>
+        </a>
       
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
           <dl class="person-label">
@@ -178,10 +178,10 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Managing Director at Garage Technology Ventures</dd>
           </dl>
 
-        </div>
+        </a>
       
       
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
           <dl class="person-label">
@@ -193,9 +193,9 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Executive Director, Keiretsu Forum Academy</dd>
           </dl>
 
-        </div>
+        </a>
         
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/bintabrown.jpg" />
           <dl class="person-label">
@@ -207,10 +207,10 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Senior Fellow at Mossavar-Rahmani Center for Business and Government at Harvard Kennedy School of Government</dd>
           </dl>
 
-        </div>
+        </a>
 
       
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/David-Orban.jpg" />
           <dl class="person-label">
@@ -222,9 +222,9 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">CEO, Dotsub / Entrepreneur</dd>
           </dl>
 
-        </div>
+        </a>
       
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/davidagus.jpg" />
           <dl class="person-label">
@@ -236,11 +236,11 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Professor of Medicine and Engineering, University of Southern California</dd>
           </dl>
 
-        </div>
+        </a>
       
 
       
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/John-Roberts.jpg" />
           <dl class="person-label">
@@ -252,8 +252,8 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Co-Founder and President (pro tempore) at Open University of West Africa</dd>
           </dl>
 
-        </div>
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        </a>
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Salil.jpg" />
           <dl class="person-label">
@@ -265,10 +265,10 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Top 100 Vc by Forbes, Managing Director at Bain Capital</dd>
           </dl>
 
-        </div>
+        </a>
 
         
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/bjoern-lasse.jpg" />
           <dl class="person-label">
@@ -281,9 +281,9 @@ require('./wp-blog-header.php');
 </dd>
           </dl>
 
-        </div>
+        </a>
         
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/francis-pedraza.jpg" />
           <dl class="person-label">
@@ -296,9 +296,9 @@ require('./wp-blog-header.php');
 </dd>
           </dl>
 
-        </div>
+        </a>
 		
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/kory-russel.jpg" />
           <dl class="person-label">
@@ -311,9 +311,9 @@ require('./wp-blog-header.php');
 </dd>
           </dl>
 
-        </div>
+        </a>
         
-        <div class="speaker" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
           <dl class="person-label">
@@ -324,7 +324,7 @@ require('./wp-blog-header.php');
               <dt>description</dt>
               <dd class="description" itemprop="description">EA - Electronic Arts</dd>
           </dl>
-        </div>
+        </a>
       </div>
   </div>
 
