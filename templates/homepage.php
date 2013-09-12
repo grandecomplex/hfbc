@@ -390,103 +390,76 @@ require('./wp-blog-header.php');
     <h2 class="section_title">Partners</h2>
     <p class="subline">Thanks to those that support our mission.</p>
       <div id="sponsor-wrapper" class="clearfix circle-pic-list">
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Unilever</dd>
-          </dl>
-        </div>
-
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/eye-fi.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Eye Fi</dd>
-          </dl>
-        </div>
-
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/lyte.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Lyte</dd>
-          </dl>
-        </div>
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/invasive_code.png" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">InvasiveCode</dd>
-          </dl>
-        </div>
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/google.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Google</dd>
-          </dl>
-        </div>
         
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/dotsub.png" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">dotsub</dd>
-          </dl>
-        </div>
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/garage.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Garage</dd>
-          </dl>
-        </div>
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/rally.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Rally</dd>
-          </dl>
-        </div>
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/umano.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Umano</dd>
-          </dl>
-        </div>
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/markerly.png" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Markerly</dd>
-          </dl>
-        </div>
-
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/bizzabo.jpg" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">Bizzabo</dd>
-          </dl>
-        </div>
+        <?php
         
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/mita.png" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name"><a href="http://mitainstitute.com/techtalks/" target="_blank">MITA</a></dd>
-          </dl>
-        </div>
+        $sponsors = array(
+          array("name" => "Unilever", 
+            "image" => "unilever.jpg",
+            "link" => "http://www.unilever.com/"),
+            
+          array("name" => "Eye Fi", 
+          "image" => "eye-fi.jpg",
+          "link" => "http://www.eye.fi/"),
+          
+          array("name" => "Lyte", 
+          "image" => "Lyte.jpg",
+          "link" => "http://lyte.io"),
+          
+          array("name" => "InvasiveCode", 
+          "image" => "invasive_code.png",
+          "link" => "http://www.invasivecode.com/"),
+          
+          array("name" => "Google", 
+          "image" => "google.jpg",
+          "link" => "http://google.com"),
+          
+          array("name" => "dotsub", 
+          "image" => "dotsub.png",
+          "link" => "http://dotsub.com/"),
+          
+          array("name" => "Garage", 
+          "image" => "garage.jpg",
+          "link" => "http://www.garage.com/"),
+          
+          array("name" => "Rally", 
+          "image" => "rally.jpg",
+          "link" => "https://rally.org/"),
+          
+          array("name" => "Umano", 
+          "image" => "umano.jpg",
+          "link" => "http://umanoapp.com/"),   
+               
+          array("name" => "Markerly", 
+          "image" => "markerly.png",
+          "link" => "http://www.markerly.com/"),   
+          
+          array("name" => "Bizzabo", 
+          "image" => "bizzabo.jpg",
+          "link" => "http://www.bizzabo.com/"),   
+          
+          array("name" => "MITA", 
+          "image" => "mita.png",
+          "link" => "http://mitainstitute.com/techtalks/"),   
+          
+          array("name" => "SliceBiz", 
+          "image" => "slicebiz.png",
+          "link" => "http://www.slicebiz.co/")
+        )
         
-        <div class="sponsor">
-          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/slicebiz.png" />
-          <dl class="person-label">
-            <dt>Company Name</dt>
-            <dd itemprop="name">SliceBiz</dd>
-          </dl>
-        </div>
+        ?>
+    
+        <?php foreach($sponsors as $sponsor) {?>
+        
+          <div class="sponsor">
+            <img class="circle_pic" alt="" src='<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/<?php echo $sponsor["image"]?>' />
+            <dl class="person-label">
+              <dt>Company Name</dt>
+              <dd itemprop="name"><a target="_blank" href="<?php echo $sponsor["link"]?>"><?php echo $sponsor["name"]?></a></dd>
+            </dl>
+          </div>
+        <?php } ?>
+    
         
         <div class="sponsor">
           <a id="be-sponsor" href="mailto:partner@hackforbigchoices.com?subject=Sponsorship&body=My company would like to partner with Hack For Big Choices." class="sponsor">
