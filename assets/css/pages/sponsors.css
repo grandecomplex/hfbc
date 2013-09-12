@@ -1,23 +1,46 @@
 
-.page.sponsors #premium .row-fluid {
+.page.partners #premium .row-fluid {
   border-bottom: 1px solid #D7E0E5;
   padding: 27px 0;
 }
 
-.page.sponsors #premium .span2 {
+.page.partners #premium .span2 {
 
   text-align: center;
 }
 
 
-.page.sponsors #premium .row-fluid:last-child {
+.page.partners #premium .row-fluid:last-child {
   border-bottom: none;
 }
 
-.page.sponsors #normal .span6 .row-fluid {
+.page.partners #normal .span6 .row-fluid {
   margin-bottom: 50px;
 }
 
-.page.sponsors #normal .row-fluid:last-child .span6 .row-fluid:last-child {
+.page.partners #normal .row-fluid:last-child .span6 .row-fluid:last-child {
   margin-bottom: 0;
+}
+
+.page.partners .sponsors {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page.partners .sponsor-list-item {
+  width: 45%;
+  margin: 0 5% 20px 0;
+  float: left;
+  height: 280px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .page.partners .sponsor-list-item {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    height: auto;
+  }
 }

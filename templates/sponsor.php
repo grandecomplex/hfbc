@@ -10,9 +10,6 @@ define('WP_USE_THEMES', true);
 require('./wp-blog-header.php');
 ?>
 
-
-<script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/homepage.js"></script>
-
 <div class="sections">
   <div class="section centered">
     <h1>Our partners</h1>
@@ -34,110 +31,36 @@ require('./wp-blog-header.php');
       </div>
     </div>
   
+  </div>
   
   <div id="normal" class="section circle-pic-list">
     <div class="centered">
       <h2 class="section_title">Partners</h2>
     </div>
     
-    <div class="row-fluid">
-      <div class="span6">
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/eye-fi.jpg"" />
-          </div>
-  
+    <div class="sponsors clearfix">
+     
+      <?php include("sponsor-list.php")?>
+
+
+      <?php foreach($sponsors as $key=>$sponsor) { ?>
+        <?php if ($key == 0) {continue;} ?>
+        <div class="sponsor-list-item">
+          <div class="row-fluid">
+            <div class="span5">
+              <img class="circle_pic" alt="<?php echo $sponsor["name"]?>" src='<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/<?php echo $sponsor["image"]?>' />
+            </div>
           
-          <div class="span8">
-            <h3>Eye-Fi</h3>
-            <p>Eye-Fi is dedicated to building products and services that help consumers manage, nurture and share their digital memories. Eye-Fi’s patented and patent-pending technology wirelessly and automatically uploads photos and videos from digital cameras and smartphones to online, in-home and retail destinations. Eye-Fi has helped people wirelessly upload more than 400 million photos since being founded in 2005.</p>
+            <div class="span7">
+              <h3><a href="<?php echo $sponsor["link"]?>" target="_blank"><?php echo $sponsor["name"]?></a></h3>
+              <p><?php echo $sponsor["description"]?></p>
+            </div>
           </div>
+          <hr class="hr"></hr>
+          
         </div>
-  
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-          </div>
-          <div class="span8">
-            <h3>Unilever</h3>
-      
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-      </div>
-    
-    
-    
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); " />
-          </div>
-          <div class="span8">
-            <h3>Invasivecode</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-    
-    
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-          </div>
-          <div class="span8">
-            <h3>Unilever</h3>
-        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="row-fluid">
-      <div class="span6">
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-          </div>
-          <div class="span8">
-            <h3>Unilever</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-  
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-          </div>
-          <div class="span8">
-            <h3>Unilever</h3>
-      
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-      </div>
-    
-    
-      <div class="span6">
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-          </div>
-          <div class="span8">
-            <h3>Unilever</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-    
-        <div class="row-fluid">
-          <div class="span4">
-            <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/unilever.jpg" />
-          </div>
-          <div class="span8">
-            <h3>Unilever</h3>
-        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-      </div>
+        <?php } ?>
+
     </div>
     
   </div>
