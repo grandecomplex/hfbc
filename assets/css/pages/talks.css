@@ -19,8 +19,13 @@
   margin-right: 30px !important;
   text-align: center;
   margin-bottom: 0;
-  width: 117px;
+  width: 109px;
   height: 138px;
+}
+
+.page.talks #upcoming .speaker:last-child,
+.page.talks #schedule .speaker:last-child {
+  margin-right: 0 !important;
 }
 
 .page.talks #upcoming .speaker .circle_pic {

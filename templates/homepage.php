@@ -179,6 +179,21 @@ require('./wp-blog-header.php');
           </dl>
 
         </a>
+        
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/tom-serres.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">Tom Serres</dd>
+              <dt>Position</dt>
+              <dd class="company" itemprop="jobTitle">Entrepreneur</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">Founder &amp; CEO at Rally.org</dd>
+          </dl>
+
+        </a>
+
       
       
         <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
@@ -372,7 +387,7 @@ require('./wp-blog-header.php');
         </a>
         <a class="city_block" id="singapore" href="#">
           <div class="city_circle"></div>
-          <div class="city_name">Singapore, Malaysia</div>
+          <div class="city_name">Singapore</div>
         </a>
         <a class="city_block" id="hongkong" href="#">
           <div class="city_circle"></div>

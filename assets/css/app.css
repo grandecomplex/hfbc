@@ -413,6 +413,11 @@ span.plus {
   margin-right: auto;
 }
 
+.max-900-width {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .hidden {
   display: none;

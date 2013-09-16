@@ -36,7 +36,7 @@
 <option id="london-form" value="London, UK">London, UK</option>
 <option id="moscow-form" value="Moscow, Russia">Moscow, Russia</option>
 <option id="bangalore-form" value="Bangalore, India">Bangalore, India</option>
-<option id="singapore-form" value="Singapore, Malaysia">Singapore, Malaysia</option>
+<option id="singapore-form" value="Singapore">Singapore</option>
 <option id="hongkong-form" value="Hong Kong, China">Hong Kong, China</option>
 <option id="shanghai-form" value="Shanghai, China">Shanghai, China</option>
 <option id="sydney-form" value="Sydney, Australia">Sydney, Australia</option>

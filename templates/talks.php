@@ -21,7 +21,7 @@ require('./wp-blog-header.php');
     <div class="centered">
       <h2 class="section_title">Upcoming Event</h2>
     </div>
-    <div class="row-fluid max-850-width">
+    <div class="row-fluid max-900-width">
       <div class="schedule-item">
         <div class="span9">
           <h3 class="subline">Opening Ceremony</h3>
@@ -57,6 +57,14 @@ require('./wp-blog-header.php');
               <p>Francis Pedranza</p>
 
             </div>
+            
+            <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/tom-serres.jpg" />
+              <p>Tom Serres</p>
+
+            </div>
+            
           </div>
         
         </div>
@@ -198,11 +206,9 @@ require('./wp-blog-header.php');
                 "title" => "Entrepreneur", 
                 "description" => "Vice President of Innovation and Research at Singularity University.",
                 "talk_description" => "Vivek Wadhwa is Vice President of Academics and Innovation at Singularity University; Fellow, Arthur & Toni Rembe Rock Center for Corporate Governance, Stanford University; Director of Research at the Center for Entrepreneurship and Research Commercialization at the Pratt School of Engineering, Duke University; and distinguished visiting scholar, Halle Institute of Global Learning, Emory University.
-Wadhwa oversees the academic programs at Singularity University, which educates a select group of leaders about the exponentially growing technologies that are soon going to change our world. These advances—in fields such as robotics, A.I., computing, synthetic biology, 3D printing, medicine, and nanomaterials—are making it possible for small teams to do what was once possible only for governments and large corporations to do: solve the grand challenges in education, water, food, shelter, health, and security.
+Wadhwa oversees the academic programs at Singularity University, which educates a select group of leaders about the exponentially growing technologies that are soon going to change our world. These advances—in fields such as robotics, A.I., computing, synthetic biology, 3D printing, medicine, and nanomaterials—are making it possible for small teams to do what was once possible only for governments and large corporations to do: solve the grand challenges in education, water, food, shelter, health, and security."),
 
 
-Read more: http://www.crunchbase.com/person/vivek-wadhwa#ixzz2eQMxPi7Q 
-Follow us: @crunchbase on Twitter | crunchbase on Facebook"),
 
       array("name" => "Bill Reichert", 
                 "image" => "/assets/img/pages/homepage/speakers/Bill-Reichert.jpg",
@@ -243,6 +249,14 @@ Dr. Agus is professor of medicine and engineering at the University of Southern 
 Dr. Agus’s honors and awards include the American Cancer Society Physician Research Award, a Clinical Scholar Award from the Sloan-Kettering Institute, and the 2009 Geoffrey Beene Foundation’s Rock Stars of Science Award.
 
 "),
+
+      array("name" => "Tom Serres", 
+                "image" => "/assets/img/pages/homepage/speakers/tom-serres.jpg",
+                "title" => "Entrepreneur", 
+                "description" => "CEO and co-founder of Rally.org",
+                "talk_description" => "Tom Serres is CEO and co-founder of Rally.org, the largest online fundraising platform for what matters. He is one of country’s leading thinkers on social giving, the cause economy, and digital fundraising.
+Recently named one of America’s Most Promising CEO’s under 35 by Forbes Magazine, Tom has helped millions of supporters connect with nonprofits, advocacy groups, political campaigns, and individual causes to raise awareness and money online."
+                ),
 
       array("name" => "John Roberts", 
                 "image" => "/assets/img/pages/homepage/speakers/John-Roberts.jpg",
@@ -305,7 +319,6 @@ Kory is an EPA Star Fellow. He also received a 2009-2010 James H. Polhemus Fello
       </div>    
       <?php } ?>
     </div>
-    <?php //include("speakers.php")?>
   </div>
   
   
