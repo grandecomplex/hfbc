@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Homepage
+ * Template Name: Tweet Map
  * Description: Homepage for HFBC
  */
 
