@@ -330,6 +330,19 @@ require('./wp-blog-header.php');
         
         <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Heather-anne-cochran.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">Heather Anne Cochran</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Co-Founder at Hub Accra &amp; SliceBiz</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">Social worker and humanitarian</dd>
+          </dl>
+        </a>
+        
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
           <dl class="person-label">
               <dt>full name</dt>
@@ -340,6 +353,21 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">EA - Electronic Arts</dd>
           </dl>
         </a>
+        
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/jack-andraka.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">Jack Andraka</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Inventor, scientist and cancer researcher</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">High school student</dd>
+          </dl>
+        </a>
+        
+
       </div>
   </div>
 

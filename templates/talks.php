@@ -293,6 +293,19 @@ Most recently he & his team set out to decrease the massive failure rate of busi
                 "title" => "Co-Managing Partner at Data Collective", 
                 "description" => "CEO of Everest",
                 "talk_description" => "Francis Pedraza is CEO and co-founder of Everest, a technology start-up helping people reach personal goals and live their dreams. He previously founded DoBand and dreams to one day to run all of England’s National Trails."),
+                
+                
+                array("name" => "Heather Anne Cochran", 
+                          "image" => "/assets/img/pages/homepage/speakers/Heather-anne-cochran.jpg",
+                          "title" => "Social worker and humanitarian", 
+                          "description" => "Co-Founder at Hub Accra &amp; SliceBiz",
+                          "talk_description" => "Heather is known for her work for building the startup ecosystem in West Africa. She is dedicated to her work with entrepreneurs and helping startups succeed. She is both an entrepreneur and mentor, with groups such as TedXTeen . She has an interest in Tech and women in STEM."),
+                          
+                          array("name" => "Jack Andraka", 
+                                    "image" => "/assets/img/pages/homepage/speakers/jack-andraka.jpg",
+                                    "title" => "High school student", 
+                                    "description" => "Inventor, scientist and cancer researcher",
+                                    "talk_description" => "Jack Andraka is a Maryland high school sophomore who at age 15 invented an inexpensive and sensitive dipstick-like sensor for the rapid and early detection of pancreatic, ovarian and lung cancers. After a close family friend died of pancreatic cancer, Jack (then a ninth grader) became interested in finding a better early-detection diagnostic test."),
 
       array("name" => "Kory Russel", 
                 "title" => " Stanford Phd Student in Civil & Environmental Engineering,", 
