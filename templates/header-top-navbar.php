@@ -10,7 +10,8 @@
       <ul id="menu-primary-navigation" class="nav navbar-nav"><li class="active menu-home">      
         <li><a href="/about">About</a></li>
         <li><a href="/talks">Talks</a></li>
-        <!--<li><a href="/partners">Partners</a></li> -->
+        <li><a href="/hackathon">Hackathon</a></li>
+        <!-- <li><a href="/partners">Partners</a></li> -->
       </ul>
       <!-- <?php
         if (has_nav_menu('primary_navigation')) :

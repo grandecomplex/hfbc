@@ -10,9 +10,6 @@ define('WP_USE_THEMES', true);
 require('./wp-blog-header.php');
 ?>
 
-
-<script type="text/javascript" charset="utf-8" src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/homepage.js"></script>
-
 <div class="sections main-content">
   
   <div id="section1" class="section">
@@ -374,59 +371,7 @@ require('./wp-blog-header.php');
   <div id="section4" class="centered section">
     <h2 id="locations" class="section_title">Global Hackathons</h2>
     <p class="subline">Pick your city to <a class="button button-primary overlay-trigger" href="#sign-up-overlay">register</a></p>
-    <div id="location-map-wrapper">
-      <div id="location-map-cover">
-        <a class="city_block" id="sanFrancisco" href="#sign-up-overlay">
-          <div class="city_name">San Francisco, USA</div>
-          <div class="city_circle"></div>
-          
-        </a>
-        <a class="city_block" id="mexicoCity" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Mexico City, Mexico</div>
-        </a>
-        <a class="city_block" id="saoPaulo" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">S&#227;o Paulo, Brazil</div>
-        </a>
-        <a class="city_block" id="sydney" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Sydney, Australia</div>
-        </a>
-        <a class="city_block" id="london" href="#">
-          <div class="city_name">London, UK</div>
-          <div class="city_circle"></div>
-        </a>
-        <a class="city_block" id="venice" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Venice, Italy</div>
-        </a>
-        <a class="city_block" id="moscow" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Moscow, Russia</div>
-        </a>
-        <a class="city_block" id="accra" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Accra, Ghana</div>
-        </a>
-        <a class="city_block" id="bangalore" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Bangalore, India</div>
-        </a>
-        <a class="city_block" id="singapore" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Singapore</div>
-        </a>
-        <a class="city_block" id="hongkong" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Hong Kong, China</div>
-        </a>
-        <a class="city_block" id="shanghai" href="#">
-          <div class="city_circle"></div>
-          <div class="city_name">Shanghai, China</div>
-        </a>
-      </div>
-    </div>
+    <?php include "map.php" ?>
   </div>
 
   <div id="section6" class="section centered">
