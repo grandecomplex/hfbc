@@ -39,12 +39,12 @@ require('./wp-blog-header.php');
               <p>Zachary Bogue</p>
 
             </div>
-            <div class="speaker" itemscope itemtype="http://schema.org/Person">
+            <!-- <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
               <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
               <p>Dave Mosby</p>
 
-            </div>
+            </div> -->
             <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
               <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
@@ -58,12 +58,12 @@ require('./wp-blog-header.php');
 
             </div>
             
-            <div class="speaker" itemscope itemtype="http://schema.org/Person">
+<!--             <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
               <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/tom-serres.jpg" />
               <p>Tom Serres</p>
 
-            </div>
+            </div> -->
             
           </div>
         
@@ -250,13 +250,13 @@ Dr. Agus’s honors and awards include the American Cancer Society Physician Res
 
 "),
 
-      array("name" => "Tom Serres", 
-                "image" => "/assets/img/pages/homepage/speakers/tom-serres.jpg",
-                "title" => "Entrepreneur", 
-                "description" => "CEO and co-founder of Rally.org",
-                "talk_description" => "Tom Serres is CEO and co-founder of Rally.org, the largest online fundraising platform for what matters. He is one of country’s leading thinkers on social giving, the cause economy, and digital fundraising.
-Recently named one of America’s Most Promising CEO’s under 35 by Forbes Magazine, Tom has helped millions of supporters connect with nonprofits, advocacy groups, political campaigns, and individual causes to raise awareness and money online."
-                ),
+  //    array("name" =>  "Tom Serres", 
+//                 "image" => "/assets/img/pages/homepage/speakers/tom-serres.jpg",
+//                 "title" => "Entrepreneur", 
+//                 "description" => "CEO and co-founder of Rally.org",
+//                 "talk_description" => "Tom Serres is CEO and co-founder of Rally.org, the largest online fundraising platform for what matters. He is one of country’s leading thinkers on social giving, the cause economy, and digital fundraising.
+// Recently named one of America’s Most Promising CEO’s under 35 by Forbes Magazine, Tom has helped millions of supporters connect with nonprofits, advocacy groups, political campaigns, and individual causes to raise awareness and money online."
+//                 ),
 
       array("name" => "John Roberts", 
                 "image" => "/assets/img/pages/homepage/speakers/John-Roberts.jpg",

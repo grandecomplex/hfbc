@@ -177,7 +177,7 @@ require('./wp-blog-header.php');
 
         </a>
         
-        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+<!--         <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/tom-serres.jpg" />
           <dl class="person-label">
@@ -189,7 +189,7 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Founder &amp; CEO at Rally.org</dd>
           </dl>
 
-        </a>
+        </a> -->
 
       
       

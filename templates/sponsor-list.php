@@ -1,12 +1,6 @@
         <?php
         
         $sponsors = array(
-          
-          array("name" => "Unilever", 
-            "image" => "unilever.jpg",
-            "link" => "http://www.unilever.com/",
-            "description" => "lorem ipsum..."
-          ),
             
           array("name" => "Eye Fi", 
           "image" => "eye-fi.jpg",
