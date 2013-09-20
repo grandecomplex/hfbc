@@ -80,7 +80,7 @@
   padding-right: 0;
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 1150px) {
   .datetime li {
     width: 100% !important;
     float: none !important;
