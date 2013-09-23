@@ -71,7 +71,7 @@ require('./wp-blog-header.php');
       </div>
     
       <div class="span3 centered">
-        <a href="#request-invite-open-ceremony" class="button button-primary button-large overlay-trigger">Request Invite</a>
+        <a href="#request-invite-open-ceremony" class="button button-primary button-large overlay-trigger">Request an Invite</a>
       </div>
     </div>
    
@@ -87,10 +87,10 @@ require('./wp-blog-header.php');
       <li><div class="schedule-item">
           <div class="row-fluid">
           <div class="span5">
-            <h3>The Future of Education</h3>
+            <h3>The New Role of Education</h3>
             <ul class="event-details clearfix">
-              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 2013</li>
-              <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
+              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />November 2013</li>
+              <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />Silicon Valley</a></li>
             </ul>
             <p></p>
           </div>
@@ -118,7 +118,7 @@ require('./wp-blog-header.php');
             </div>
           </div>
           <div class="span2">
-            <a href="#request-invite-educational" class="button overlay-trigger">Request Invite</a>
+            <a href="#request-invite-educational" class="button overlay-trigger">Request an Invite</a>
           </div>
         </div>
       </li>
@@ -299,7 +299,7 @@ Most recently he & his team set out to decrease the massive failure rate of busi
                           "image" => "/assets/img/pages/homepage/speakers/Heather-anne-cochran.jpg",
                           "title" => "Social worker and humanitarian", 
                           "description" => "Co-Founder at Hub Accra &amp; SliceBiz",
-                          "talk_description" => "Heather is known for her work for building the startup ecosystem in West Africa. She is dedicated to her work with entrepreneurs and helping startups succeed. She is both an entrepreneur and mentor, with groups such as TedXTeen . She has an interest in Tech and women in STEM."),
+                          "talk_description" => "Heather Cochran is a Cofounder and Chief Operating Officer of SliceBiz. Her background is human-focused, having tackled countless challenges in the US as a Social Worker. Heather has worked in both the foster care and school system to advocate for the rights of youth. She completed her Bachelors of Arts in Sociology at San Diego State University, and a Masters in Social Work from Arizona State University. Heather moved to Africa to work as Chief Impact Officer at the Open University of West Africa to conduct research on entrepreneurship and educations.She then joined a team and won Startup Weekend Accra to form SliceBiz. Her startup has won several awards to include Apps4Africa and World Bank top 20 new SME's. As an advocate of gender equality, Heather organizes events and projects to promote female entrepreneurship in Africa. She is a Kairos Global Fellow, and has been named Top 50 People to know involved with Africa."),
                           
                           array("name" => "Jack Andraka", 
                                     "image" => "/assets/img/pages/homepage/speakers/jack-andraka.jpg",
