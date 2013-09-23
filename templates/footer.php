@@ -5,9 +5,9 @@
         <li>
           <a href="mailto:info@hackforbigchoices.com">Contact</a>
         </li>
-        <!-- <li>
-          <a href="#">Press</a>
-        </li> -->
+        <li>
+          <a href="https://www.dropbox.com/sh/v8pog4jmeyzj2ko/NtZFm-1tGP" target="_blank">Press</a>
+        </li>
         <li>
           <a href="#join-us-overlay" class="overlay-trigger">Join Us</a>
         </li>

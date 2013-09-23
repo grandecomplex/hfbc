@@ -86,7 +86,7 @@ require('./wp-blog-header.php');
     <ul id="schedule">
       <li><div class="schedule-item">
           <div class="row-fluid">
-          <div class="span5">
+          <div class="span4">
             <h3>The New Role of Education</h3>
             <ul class="event-details clearfix">
               <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />November 2013</li>
@@ -117,8 +117,8 @@ require('./wp-blog-header.php');
               </div>
             </div>
           </div>
-          <div class="span2">
-            <a href="#request-invite-educational" class="button overlay-trigger">Request an Invite</a>
+          <div class="span3">
+            <a href="#request-invite-educational" class="button button-large overlay-trigger">Request an Invite</a>
           </div>
         </div>
       </li>
@@ -136,7 +136,7 @@ require('./wp-blog-header.php');
               </ul>
               <p>Dr. David Agus one of Steve Jobs's oncologists and has been talking to Steve Jobs nearly every day for years. Doctor David's approach is radical, and it goes against the grain of traditional western medicine. As a professor of medicine and engineering and a leading cancer physician, he says that the focus of his profession needs to shift from understanding to controlling diseases. His suggestions in the book are like algorithms for a life style, because he gives advice on how to prevent and postpone illness rather than cure it. David Agus wants people to die of old age rather than cancer or Alzheimer’s, and the only way we can do that, he thinks, is by living healthy lives for our individual and often complex bodies. </p>
             </div>
-            <div class="span5">
+            <div class="span4">
               <h4 class="offscreen">Speakers</h4>
               <div class="circle-pic-list clearfix">
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
@@ -147,8 +147,8 @@ require('./wp-blog-header.php');
                 </div>
               </div>
             </div>
-            <div class="span2">
-              <a href="https://plus.google.com/events/c3bnouh68gquoj15lj378jr6hfk" target="_blank" class="button">Register</a>
+            <div class="span3">
+              <a href="https://plus.google.com/events/c3bnouh68gquoj15lj378jr6hfk" target="_blank" class="button button-large">Register</a>
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@ require('./wp-blog-header.php');
             </ul>
             <p>“Individually we can do little. Together we can heal the world.” John is the Founder of Heal the World, an organization aiming to improve the educational structures of developing countries. Currently he’s launching The Open University of West Africa to solve the region’s most pressing teaching challenges.</p>
           </div>
-          <div class="span5">
+          <div class="span4">
             <h4 class="offscreen">Speakers</h4>
             <div class="circle-pic-list clearfix">      
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
@@ -180,8 +180,8 @@ require('./wp-blog-header.php');
               </div>
             </div>
           </div>
-          <div class="span2">
-            <a href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g" target="_blank" class="button">Register</a>
+          <div class="span3">
+            <a href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g" target="_blank" class="button button-large">Register</a>
           </div>
         </div>
       </li>
