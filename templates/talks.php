@@ -48,7 +48,7 @@ require('./wp-blog-header.php');
             <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
               <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
-              <p>Jeremy Howars</p>
+              <p>Jeremy Howard</p>
 
             </div>
             <div class="speaker" itemscope itemtype="http://schema.org/Person">
