@@ -149,7 +149,7 @@ require('./wp-blog-header.php');
       <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/consuelo-griego.jpg'?>" />
     <h3 class="item_head">Consuelo Griego</h3>
     <h4><span> User Experience Optimizer</span>
-    Independent Consultant @ Salesforce</h4>
+    Founder @ Global Impact</h4>
 
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/profile/view?id=540912&locale=en_US&trk=tyah" target="_blank">LinkedIn</a></li>
