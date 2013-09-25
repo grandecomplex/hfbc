@@ -42,7 +42,7 @@ require('./wp-blog-header.php');
 			    <h3>Press Releases <i>PDF</i></h3>
 			    <ul class="media-items">
 			    	<li>
-			    		<a href="/assets/img/media-kit/PR-HackforBigChoices-launch.pdf">
+			    		<a target="_blank" href="https://docs.google.com/document/d/14syC5xn6iDZDAQ_xVUm9LSp5y0SexYwAyBNPKtumT2E/edit">
 			    			<h4><i>09/20/13</i> - Hack For Big Choices launch press release</h4>
 			    		</a>
 			    	</li>
