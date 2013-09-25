@@ -15,7 +15,7 @@ require('./wp-blog-header.php');
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
       <div class="span5">
-        <iframe width="100%" height="335" src="//www.youtube.com/embed/vRMFX9TawLk" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="335" src="//www.youtube.com/embed/vRMFX9TawLk&rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span7" itemscope itemtype="http://schema.org/Event">
         <h1 itemprop="name">hacking for the<br> greater good</h1>

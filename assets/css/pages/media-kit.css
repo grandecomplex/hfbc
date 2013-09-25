@@ -1,0 +1,11 @@
+.media-items img {
+	max-width: 300px;
+}
+
+.media-items li {
+	margin: 30px auto 10px;
+}
+
+.header {
+	margin-bottom: 40px;
+}
