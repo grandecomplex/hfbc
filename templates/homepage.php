@@ -15,7 +15,7 @@ require('./wp-blog-header.php');
   <div id="section1" class="section">
     <div class="row-fluid" id="section1">
       <div class="span5">
-        <iframe width="100%" height="335" src="//www.youtube.com/embed/vRMFX9TawLk&rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="335" src="//www.youtube.com/embed/vRMFX9TawLk?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="span7" itemscope itemtype="http://schema.org/Event">
         <h1 itemprop="name">hacking for the<br> greater good</h1>
@@ -177,7 +177,7 @@ require('./wp-blog-header.php');
 
         </a>
         
-<!--         <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+         <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/tom-serres.jpg" />
           <dl class="person-label">
@@ -189,7 +189,7 @@ require('./wp-blog-header.php');
               <dd class="description" itemprop="description">Founder &amp; CEO at Rally.org</dd>
           </dl>
 
-        </a> -->
+        </a>
 
       
       
