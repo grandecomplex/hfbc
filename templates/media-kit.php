@@ -1,7 +1,7 @@
 <?php
 /*
  * Template Name: Media Kit
- * Description: Homepage for HFBC
+ * Description: Media Kit for HFBC
  */
 
 define('WP_USE_THEMES', true);
