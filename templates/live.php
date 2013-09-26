@@ -19,7 +19,7 @@ require('./wp-blog-header.php');
 
 <div class="section">
 
-  <div id="widget"></div>
+  <div id="widget" style="min-height: 250px;"></div>
 
 </div>
 
