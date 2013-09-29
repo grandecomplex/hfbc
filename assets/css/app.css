@@ -413,6 +413,11 @@ span.plus {
    Helpers
    ========================================================================== */
 
+.paragraph-block {
+  margin-bottom: 6px;
+  display: block;
+}
+
 .max-850-width {
   max-width: 850px;
   margin-left: auto;

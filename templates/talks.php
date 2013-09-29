@@ -198,7 +198,7 @@ require('./wp-blog-header.php');
       array("name" => "Zachary Bogue", 
                 "image" => "/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg",
                 "title" => "Co-Managing Partner at Data Collective", 
-                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
+                "description" => "Data Collective (<a href='http://twitter.com/DCVC' target='_blank'>@DCVC</a>); Founders Den (<a href='http://twitter.com/foundersden' target='_blank'>@foundersden</a>); data; startups; environment",
                 "talk_description" => "Zack is a cofounder of Data Collective, a venture fund with a unique team of experienced venture capitalists, technology entrepreneurs and practicing engineers, investing together in seed and early stage Big Data and IT infrastructure companies. Zack also is a cofounder and managing partner of Founders Den, a shared workspace for experienced technology entrepreneurs."),
 
       array("name" => "Vivek Wadhwa", 
@@ -254,7 +254,7 @@ Dr. Agus’s honors and awards include the American Cancer Society Physician Res
                 "image" => "/assets/img/pages/homepage/speakers/tom-serres.jpg",
                 "title" => "Entrepreneur", 
                 "description" => "CEO and co-founder of Rally.org",
-                "talk_description" => "Tom Serres is Founder and CEO of Rally.org, an online funding platform for causes. He is one of country’s leading thinkers on social giving, the cause economy, and digital fund raising.  Through Rally, Tom has helped millions of supports connect with nonprofits, charities, advocacy groups, political campaigns, school groups, and independent causes to raise awareness and money online.<br>
+                "talk_description" => "Tom Serres is Founder and CEO of Rally.org, an online funding platform for causes. He is one of country’s leading thinkers on social giving, the cause economy, and digital fund raising.  Through Rally, Tom has helped millions of supports connect with nonprofits, charities, advocacy groups, political campaigns, school groups, and independent causes to raise awareness and money online.<span class='paragraph-block'></span>
 
 Tom received the Campaigns & Election's Innovator Award for in April of 2012, and back in 2009, he was named a Rising Political Star by the organization. The New Leaders Council also awarded Tom the title of “40 under 40” that same year. "
                 ),
@@ -274,9 +274,9 @@ Tom received the Campaigns & Election's Innovator Award for in April of 2012, an
       array("name" => "Jeremey Howard", 
                 "image" => "/assets/img/pages/homepage/speakers/Jeremy-howard.jpg",
                 "title" => "Co-Managing Partner at Data Collective", 
-                "description" => "Data Collective (@DCVC); Founders Den (@foundersden); data; startups; environment",
-                "talk_description" => "Jeremy Howard is president and chief scientist at Kaggle, a consulting platform that hosts competitions in which scientists from many disciplines use predictive modeling to solve problems that require analyzing large amounts of data. A self-taught data analyst, Howard began competing in Kaggle contests because he enjoyed the intellectual challenge, earning the top spot on Kaggle’s overall competitor rankings of 20,000 data scientists before assuming his leadership role.<br>
-Howard studied philosophy and worked as a management consultant before developing a passion for applying algorithms to data. Today he competes regularly in data mining competitions, which he uses to test himself and stay on the leading edge of machine learning and predictive modeling technology.<br>
+                "description" => "Kaggle President and Chief Scientist, faculty at Singularity University",
+                "talk_description" => "Jeremy Howard is president and chief scientist at Kaggle, a consulting platform that hosts competitions in which scientists from many disciplines use predictive modeling to solve problems that require analyzing large amounts of data. A self-taught data analyst, Howard began competing in Kaggle contests because he enjoyed the intellectual challenge, earning the top spot on Kaggle’s overall competitor rankings of 20,000 data scientists before assuming his leadership role.<span class='paragraph-block'></span>
+Howard studied philosophy and worked as a management consultant before developing a passion for applying algorithms to data. Today he competes regularly in data mining competitions, which he uses to test himself and stay on the leading edge of machine learning and predictive modeling technology.<span class='paragraph-block'></span>
 
 Before joining Kaggle he founded and sold two successful companies. His first commercial effort using algorithms was an insurance pricing company that became the Optimal Decisions Group. He then created FastMail, an independent-hosted email company in Australia that had over a million users before being sold."),
                 
