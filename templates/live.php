@@ -26,13 +26,13 @@ require('./wp-blog-header.php');
 
  <script type="text/javascript">
 
- var _lyteWidgets = _lyteWidgets || [];
- _lyteWidgets.push({container: '#widget', group: '1'});
+	 var _lyteWidgets = _lyteWidgets || [];
+	 _lyteWidgets.push({container: '#widget', group: '5'});
 
- (function() {
-   var lw = document.createElement('script'); lw.type = 'text/javascript'; lw.async = true;
-   lw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'localhost:3000/widgets/threads.js';
-   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lw, s);
- })();
+	 (function() {
+	   var lw = document.createElement('script'); lw.type = 'text/javascript'; lw.async = true;
+	   lw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'localhost:3000/widgets/threads.js';
+	   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lw, s);
+	 })();
 
 </script>
