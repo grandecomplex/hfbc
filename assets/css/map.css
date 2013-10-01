@@ -5,6 +5,7 @@
     position: relative;
     width: 933px;
     margin: auto;
+    background-size: auto auto;
 }
 
 #location-map-cover .city_block {
