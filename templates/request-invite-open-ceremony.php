@@ -8,7 +8,7 @@
 
 <style type="text/css" media="screen">
   .navbar {
-    display: none;
+    display: none;  
   }
   
   #footer {
