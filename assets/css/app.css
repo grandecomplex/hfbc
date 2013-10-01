@@ -32,7 +32,7 @@ body {
   padding: 0;
   margin: 0;
   color: #414141;
-  
+  position: relative;
 }
 
 h1, h2, h3,
@@ -107,7 +107,6 @@ textarea, input {
 /* =============================================================================
    Header
    ========================================================================== */
-
 
 .navbar .nav > li {
   list-style: none;
@@ -238,7 +237,7 @@ span.plus {
 }
 
 
-@media (max-width: 979px) {
+@media (max-width: 772px) {
   .navbar .nav > li {
     margin-top: 5px;
   }  
@@ -268,6 +267,19 @@ span.plus {
   }
 }
 
+@media (min-width: 772px) {
+  body {
+    padding-top: 60px;
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+}
 
 /* =========================================================================
    Lists
