@@ -13,7 +13,7 @@
         "description" => "lorem ipsum..."),
           
           array("name" => "InvasiveCode", 
-          "image" => "invasive_code.png",
+          "image" => "invasive_code.jpg",
           "link" => "http://www.invasivecode.com/",
         "description" => "lorem ipsum..."),
           

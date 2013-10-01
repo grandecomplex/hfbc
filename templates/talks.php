@@ -253,10 +253,10 @@ Dr. Agus’s honors and awards include the American Cancer Society Physician Res
      array("name" =>  "Tom Serres", 
                 "image" => "/assets/img/pages/homepage/speakers/tom-serres.jpg",
                 "title" => "Entrepreneur", 
-                "description" => "CEO and co-founder of Rally.org",
+                "description" => "Founder and Chief Rally Officer",
                 "talk_description" => "Tom Serres is Founder and CEO of Rally.org, an online funding platform for causes. He is one of country’s leading thinkers on social giving, the cause economy, and digital fund raising.  Through Rally, Tom has helped millions of supports connect with nonprofits, charities, advocacy groups, political campaigns, school groups, and independent causes to raise awareness and money online.<span class='paragraph-block'></span>
 
-Tom received the Campaigns & Election's Innovator Award for in April of 2012, and back in 2009, he was named a Rising Political Star by the organization. The New Leaders Council also awarded Tom the title of “40 under 40” that same year. "
+Tom received the Campaigns & Election's Innovator Award in April of 2012, and back in 2009, he was named a Rising Political Star by the organization. The New Leaders Council also awarded Tom the title of “40 under 40” that same year. "
                 ),
 
       array("name" => "John Roberts", 

@@ -385,7 +385,7 @@ require('./wp-blog-header.php');
         <?php foreach($sponsors as $sponsor) {?>
         
           <div class="sponsor">
-            <img class="circle_pic" alt="" src='<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/<?php echo $sponsor["image"]?>' />
+            <img class="circle_pic" alt="" src='<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/partners/<?php echo $sponsor["image"]?>' width=150 height=150 />
             <dl class="person-label">
               <dt>Sponsor Name</dt>
               <dd itemprop="name"><a target="_blank" href="<?php echo $sponsor["link"]?>"><?php echo $sponsor["name"]?></a></dd>
