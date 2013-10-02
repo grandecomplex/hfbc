@@ -26,7 +26,7 @@ require('./wp-blog-header.php');
         <div class="span9">
           <h3 class="subline">Opening Ceremony</h3>
           <ul class="event-details clearfix">
-            <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th</li>
+            <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th, 6:30pm</li>
             <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
           </ul>
           <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.</p>

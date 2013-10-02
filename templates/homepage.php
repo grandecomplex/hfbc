@@ -80,7 +80,7 @@ require('./wp-blog-header.php');
               <div class="span8">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
-                  <dd class="title-font"  itemprop="startDate">FRI<br>OCT 4th</dd>
+                  <dd class="title-font"  itemprop="startDate">FRI<br>OCT 4th<br>6:30pm</dd>
                 </dl>
                 <div class="content">
                   <h3>Opening Ceremony</h3>

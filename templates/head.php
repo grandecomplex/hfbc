@@ -1,5 +1,5 @@
 <?php
-  $description = "A month long Hackathon and talks surrounding design &amp; technology, education, and healthcare.";
+  $description = "Month long series of talks and hackathon surrounding design &amp; technology, education, and healthcare.";
   $favicon = "/assets/img/chrome/logo-mark.png";
   $url = "http://www.hackforbigchoices.com";
   $siteName = "Hack For Big Choices";
