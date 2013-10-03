@@ -75,35 +75,35 @@ require('./wp-blog-header.php');
             
         array("time" => "7:00pm", 
         "description" => 'Unveil "Hack for Big Choices"',
-        "presenter" => "Aurora Chiste and Irina Issakova"),
+        "presenter" => "Aurora Chiste and Irina Issakova, founders of Hack for Big Choices."),
 
         array("time" => "7:15pm", 
         "description" => '"Why Big Data is Hot"',
-        "presenter" => "Zach Bogue"),
+        "presenter" => "Zach Bogue,  managing partner at Data Collective and cofounder Founders Den."),
 
         array("time" => "7:35pm", 
         "description" => '"Data Science and Machine Learning: Discovery Tools for Any Domain"',
-        "presenter" => "Jeremy Howard"),
+        "presenter" => "Jeremy Howard, president and chief scientist of Kaggle."),
 
         array("time" => "7:55pm", 
         "description" => '"Digital Fundraising for Social Impact"',
-        "presenter" => "Tom Serres"),
+        "presenter" => "Tom Serres, founder and chief officer at Rally.org."),
 
         array("time" => "8:15pm", 
         "description" => 'Introduces Design &amp; Technology Challenges',
-        "presenter" => "Geppy Parziale"),         
+        "presenter" => "Geppy Parziale, CEO Invasivecode."),         
 
         array("time" => "8:30pm", 
         "description" => 'Introduces Healthcare Challenges',
-        "presenter" => "Rahman Johnson and Stefan Broda"),   
+        "presenter" => "Rahman Johnson, founder at OpenMedical Data Solutions,  and Stefan Broda, founder at BeforeWeDo."),   
 
         array("time" => "8:45pm", 
         "description" => 'Introduces Education Challenges',
-        "presenter" => "Eva Diaz"),   
+        "presenter" => "Eva Diaz, founder Invasivecode."),   
 
         array("time" => "9:00pm", 
         "description" => '"How to Achieve Goals in Life"',
-        "presenter" => "Francis Pedraza"),                  
+        "presenter" => "Francis Pedraza, cofounder and CEO at Everest."),                  
         );
           
   
@@ -114,7 +114,7 @@ require('./wp-blog-header.php');
 
           <div style="position: relative">
             <h5 style="position: absolute; top: 0; left: 0;"><?php echo $agendaItem["time"] ?></h5>
-            <p style="padding-left: 80px;"><?php echo $agendaItem["description"] ?><br><em><?php echo $agendaItem["presenter"] ?></em></p>
+            <p style="padding-left: 80px;"><strong><?php echo $agendaItem["description"] ?></strong><br><?php echo $agendaItem["presenter"] ?></p>
           </div>
 
 <?php } ?>
