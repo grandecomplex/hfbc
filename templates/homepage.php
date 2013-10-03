@@ -77,7 +77,7 @@ require('./wp-blog-header.php');
           <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
           <div class="inner">
             <div class="row-fluid marginBottom10">
-              <div class="span8">
+              <div class="span8 clearfix">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
                   <dd class="title-font"  itemprop="startDate">FRI<br>OCT 4th<br>6:30pm</dd>
@@ -94,11 +94,11 @@ require('./wp-blog-header.php');
 <a href="/talks" class="button">Read more</a>
                 </div>
               </div>
-              <div class="span4" style="margin-top:40px">
+              <div class="span4 clearfix" style="margin-top:40px">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="button pull-right button-primary button-large" href="https://hackforbigchoices-openingceremony.eventbrite.com/" target="_blank">Get tickets</a>
+                      <a class="button button-primary button-large" href="https://hackforbigchoices-openingceremony.eventbrite.com/" target="_blank">Get tickets</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>
