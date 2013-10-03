@@ -91,7 +91,7 @@ require('./wp-blog-header.php');
 
         array("time" => "8:15pm", 
         "description" => 'Introduces Design &amp; Technology Challenges',
-        "presenter" => "Geppy Parziale, CEO Invasivecode."),         
+        "presenter" => "Geppy Parziale, cofounder at Invasivecode."),         
 
         array("time" => "8:30pm", 
         "description" => 'Introduces Healthcare Challenges',
@@ -99,7 +99,7 @@ require('./wp-blog-header.php');
 
         array("time" => "8:45pm", 
         "description" => 'Introduces Education Challenges',
-        "presenter" => "Eva Diaz, founder Invasivecode."),   
+        "presenter" => "Eva Diaz, cofounder at Invasivecode."),   
 
         array("time" => "9:00pm", 
         "description" => '"How to Achieve Goals in Life"',
