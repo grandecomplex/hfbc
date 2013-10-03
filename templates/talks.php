@@ -66,11 +66,58 @@ require('./wp-blog-header.php');
             </div>
             
           </div>
-<!--           <hr class="hr"></hr>
+          <hr class="hr"></hr>
 
           <h4>Agenda</h4>
-          <p></p> -->
-        
+
+<?php 
+  $agenda = array(
+            
+        array("time" => "7:00pm", 
+        "description" => 'Unveil "Hack for Big Choices"',
+        "presenter" => "Aurora Chiste and Irina Issakova"),
+
+        array("time" => "7:15pm", 
+        "description" => '"Why Big Data is Hot"',
+        "presenter" => "Zach Bogue"),
+
+        array("time" => "7:35pm", 
+        "description" => '"Data Science and Machine Learning: Discovery Tools for Any Domain"',
+        "presenter" => "Jeremy Howard"),
+
+        array("time" => "7:55pm", 
+        "description" => '"Digital Fundraising for Social Impact"',
+        "presenter" => "Tom Serres"),
+
+        array("time" => "8:15pm", 
+        "description" => 'Introduces Design &amp; Technology Challenges',
+        "presenter" => "Geppy Parziale"),         
+
+        array("time" => "8:30pm", 
+        "description" => 'Introduces Healthcare Challenges',
+        "presenter" => "Rahman Johnson and Stefan Broda"),   
+
+        array("time" => "8:45pm", 
+        "description" => 'Introduces Education Challenges',
+        "presenter" => "Eva Diaz"),   
+
+        array("time" => "9:00pm", 
+        "description" => '"How to Achieve Goals in Life"',
+        "presenter" => "Francis Pedraza"),                  
+        );
+          
+  
+?>
+
+
+  <?php foreach($agenda as $agendaItem) { ?>
+
+          <div style="position: relative">
+            <h5 style="position: absolute; top: 0; left: 0;"><?php echo $agendaItem["time"] ?></h5>
+            <p style="padding-left: 80px;"><?php echo $agendaItem["description"] ?><br><em><?php echo $agendaItem["presenter"] ?></em></p>
+          </div>
+
+<?php } ?>
         </div>
       </div>
     
