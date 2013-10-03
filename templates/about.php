@@ -30,7 +30,7 @@ require('./wp-blog-header.php');
     <div class="speaker">
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Aurora_Chiste.jpg" />
-    <h4 class="item_head">Aurora Chisté</h3>
+    <h3 class="item_head">Aurora Chisté</h3>
     <h4><span> Executive Producer and Founder</span>
     Advisor @ Feykena </h4>
     <ul class="nav-share">
