@@ -1,7 +1,7 @@
 <?php
 /*
  * Template Name: Talks
- * Description: About for HFBC
+ * Description: Talks at HFBC
  */
 
 define('WP_USE_THEMES', true);

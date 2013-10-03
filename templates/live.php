@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Live
+ * Template Name: Conversations
  * Description: Homepage for HFBC
  */
 
