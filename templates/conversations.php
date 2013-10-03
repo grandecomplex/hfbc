@@ -27,7 +27,7 @@ require('./wp-blog-header.php');
  <script type="text/javascript">
 
 	 var _lyteWidgets = _lyteWidgets || [];
-	 _lyteWidgets.push({container: '#widget', group: '16'});
+	 _lyteWidgets.push({container: '#widget', group: '45'});
 
 	 (function() {
 	   var lw = document.createElement('script'); lw.type = 'text/javascript'; lw.async = true;
