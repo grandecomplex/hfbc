@@ -24,7 +24,7 @@ require('./wp-blog-header.php');
 
         <ul class="datetime clearfix row-fluid">
           <li class="span6 clearfix"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
-          <li class="span6 clearfix"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <span class="title-font" itemprop="startDate">starting on October 4th, 2013</span></li>
+          <li class="span6 clearfix"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <a href="/talks"><span class="title-font" itemprop="startDate">starting on October 4th, 2013</span></a></li>
         </ul>
       </div>
 
@@ -97,7 +97,7 @@ require('./wp-blog-header.php');
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="overlay-trigger button pull-right button-primary button-large" href="#request-invite-open-ceremony">Request an Invite</a>
+                      <a class="button pull-right button-primary button-large" href="https://hackforbigchoices-openingceremony.eventbrite.com/" target="_blank">Get tickets</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>

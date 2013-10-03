@@ -66,12 +66,16 @@ require('./wp-blog-header.php');
             </div>
             
           </div>
+<!--           <hr class="hr"></hr>
+
+          <h4>Agenda</h4>
+          <p></p> -->
         
         </div>
       </div>
     
       <div class="span3 centered">
-        <a href="#request-invite-open-ceremony" class="button button-primary button-large overlay-trigger">Request an Invite</a>
+        <a href="https://hackforbigchoices-openingceremony.eventbrite.com/" target="_blank" class="button button-primary button-large">Get tickets</a>
       </div>
     </div>
    
