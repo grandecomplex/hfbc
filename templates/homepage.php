@@ -91,6 +91,7 @@ require('./wp-blog-header.php');
                   
                   <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.
 </p>
+<a href="/talks" class="button">Read more</a>
                 </div>
               </div>
               <div class="span4" style="margin-top:40px">
