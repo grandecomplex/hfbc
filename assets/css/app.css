@@ -262,6 +262,11 @@ span.plus {
 
 
 @media (max-width: 480px) {
+  .main-content h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
   #navbar-aside,
   #logo {
     float: none !important;
