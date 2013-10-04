@@ -11,15 +11,16 @@ require('./wp-blog-header.php');
 ?>
 
 <div class="sections main-content">
+
   <div class="section centered">
     <h1>Conversations</h1>
     <p class="subline">Join a discussion with Hack For Big Choices participants.</p>
   </div>
+
   <div class="section">
-
     <div id="widget" style="min-height: 250px;"></div>
-
   </div>
+
 </div>
 
 
