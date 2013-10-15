@@ -448,6 +448,12 @@ span.plus {
   margin-right: auto;
 }
 
+.max-1000-width {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hidden {
   display: none;
 }

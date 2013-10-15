@@ -20,7 +20,7 @@ require('./wp-blog-header.php');
 
   <div id="upcoming" class="section">
     <div class="centered">
-      <h2 class="section_title">His approach is like algorithms for life</h2>
+      <h2 class="section_title">His book, <em>The End of Illness</em>, outlines algorithms for life</h2>
     </div>
 
     <div class="max-900-width">

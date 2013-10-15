@@ -6,6 +6,16 @@
 	margin: 30px auto 10px;
 }
 
-.header {
+.media-kit .header {
 	margin-bottom: 40px;
+}
+
+
+@media (max-width: 1000px) {
+  .media-kit #media .span4 {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
