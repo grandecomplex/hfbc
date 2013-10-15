@@ -120,7 +120,7 @@
 
 #section5 .schedule_box .content {
   float: left;
-  width: 70%;
+  max-width: 540px;
   padding-left: 10px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -138,6 +138,20 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+  #section5 .schedule_box .content {
+    max-width: 360px;
+  }
+
+  .home.page  #section5 .button-list-vertical,
+  .home.page  #section5 .button-list-vertical .button
+   {
+    width: 100%;
+    float: none;
+  }
+
+}
+
 
 @media (max-width: 480px) {
 
@@ -151,10 +165,6 @@
 
   .home.page  #section5 .button-list-vertical {
     float: none !important;
-  }
-  
-  .home.page  #section5 .button-list-vertical .button {
-    width: 100%;
   }
 
   .home.page .wrap {

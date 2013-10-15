@@ -24,7 +24,7 @@ require('./wp-blog-header.php');
 
         <ul class="datetime clearfix row-fluid">
           <li class="span6 clearfix"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" /> <span class="title-font">12 Locations, 5 continents</span></li>
-          <li class="span6 clearfix"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <a href="/talks"><span class="title-font" itemprop="startDate">starting on October 4th, 2013</span></a></li>
+          <li class="span6 clearfix"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif /> <a href="/talks"><span class="title-font" itemprop="startDate">Started on October 4th, 2013</span></a></li>
         </ul>
       </div>
 
@@ -71,34 +71,60 @@ require('./wp-blog-header.php');
     
     <div class="inner">
     
-      <div itemscope itemtype="http://schema.org/Event">
-        <div id="local" class="schedule_box max-850-width">
+      <div id="upcoming" itemscope itemtype="http://schema.org/Event">
+        <div id="local" class="schedule_box max-900-width">
           <!-- <a class="overlay-trigger button pull-right" href="#attend-event-overlay">Attend an Event</a> -->
           <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
           <div class="inner">
             <div class="row-fluid marginBottom10">
-              <div class="span8 clearfix">
+              <div class="span9 clearfix">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
-                  <dd class="title-font"  itemprop="startDate">FRI<br>OCT 4th<br>6:30pm</dd>
+                  <dd class="title-font"  itemprop="startDate">NOV<br>2013</dd>
                 </dl>
                 <div class="content">
-                  <h3>Opening Ceremony</h3>
+                  <div class="row-fluid">
+                    <div class="span4">
+                      <div class="circle-pic-list clearfix">      
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
+                <p>Vivek Wadhwa</p>
+
+              </div>
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="/assets/img/pages/homepage/speakers/mario-valle.jpg" />
+                <p>Mario Valle</p>
+
+              </div>
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
+                <p>Bill Reichert</p>
+
+              </div>
+            </div>
+                  </div>
+                  <div class="span8">
+                  <h3>The New Role Of Education</h3>
                   
-                  <ul class="event-details clearfix">
+ <!--                  <ul class="event-details clearfix">
                     <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
                   </ul>
-                  
-                  <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.
-</p>
-<a href="/talks" class="button">Read more</a>
+                   -->
+                 
+ 
+<!-- <a href="/talks" class="button">Read more</a>
+ --></div>
+</div>
                 </div>
               </div>
-              <div class="span4 clearfix" style="margin-top:40px">
+              <div class="span3 clearfix" style="margin-top:40px">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a class="button button-primary button-large" href="https://hackforbigchoices-openingceremony.eventbrite.com/" target="_blank">Get tickets</a>
+                      <a href="#request-invite-educational" class="button button-primary button-large overlay-trigger">Request an Invite</a>
                     </li>
                     <!-- <li>
                       <a class="button button-secondary" href="google.com">Liveview</a>
@@ -415,8 +441,8 @@ require('./wp-blog-header.php');
   <?php include("mail-chimp-forms/register-to-hack-form.php") ?>
 </div>
 
-<div id="request-invite-open-ceremony" class="hidden mc_form overlay-window">
-  <iframe src="/request-invite-opening-ceremony" height=450></iframe>
+<div id="request-invite-educational" class="hidden mc_form overlay-window">
+  <iframe src="/request-invite-to-educational-talk" height=450></iframe>
 </div>
 
 <!-- <div id="attend-event-overlay" class="hidden mc_form overlay-window">

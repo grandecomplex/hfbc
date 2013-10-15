@@ -14,7 +14,7 @@
   margin-bottom: -5px;
 }
 
-.page.talks #upcoming .speaker,
+.page #upcoming .speaker,
 .page.talks #schedule .speaker {
   margin-right: 30px !important;
   text-align: center;
@@ -23,12 +23,12 @@
   height: 138px;
 }
 
-.page.talks #upcoming .speaker:last-child,
+.page #upcoming .speaker:last-child,
 .page.talks #schedule .speaker:last-child {
   margin-right: 0 !important;
 }
 
-.page.talks #upcoming .speaker .circle_pic {
+.page #upcoming .speaker .circle_pic {
   width: 100px;
   height: 100px;
 }
@@ -80,6 +80,10 @@
 
 .speaker-row div {
   text-align: left;
+}
+
+.past-events li {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 950px) {

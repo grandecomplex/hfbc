@@ -17,121 +17,11 @@ require('./wp-blog-header.php');
     <p class="subline">A series of talks on innovative technologies surrounding design, healthcare, and education.</p>
   </div>
 
-  <div id="upcoming" class="section">
-    <div class="centered">
-      <h2 class="section_title">Upcoming Event</h2>
-    </div>
-    <div class="row-fluid max-900-width">
-      <div class="schedule-item">
-        <div class="span9">
-          <h3 class="subline">Opening Ceremony</h3>
-          <ul class="event-details clearfix">
-            <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th, 6:30pm</li>
-            <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
-          </ul>
-          <p>This is an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He has inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers will talk about entrepreneurship and big data. During the ceremony, our team will launch the challenges related to design and technology, education and healthcare.</p>
-          <hr class="hr"></hr>
-          <h4>Speakers</h4>
-          <div class="circle-pic-list clearfix">      
-            <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
-              <p>Zachary Bogue</p>
-
-            </div>
-            <!-- <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
-              <p>Dave Mosby</p>
-
-            </div> -->
-            <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
-              <p>Jeremy Howard</p>
-
-            </div>
-            <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/francis-pedraza.jpg" />
-              <p>Francis Pedranza</p>
-
-            </div>
-            
-             <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-              <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/tom-serres.jpg" />
-              <p>Tom Serres</p>
-
-            </div>
-            
-          </div>
-          <hr class="hr"></hr>
-
-          <h4>Agenda</h4>
-
-<?php 
-  $agenda = array(
-            
-        array("time" => "7:00pm", 
-        "description" => 'Unveil "Hack for Big Choices"',
-        "presenter" => "Aurora Chiste and Irina Issakova, founders of Hack for Big Choices."),
-
-        array("time" => "7:15pm", 
-        "description" => '"Why Big Data is Hot"',
-        "presenter" => "Zach Bogue,  managing partner at Data Collective and cofounder Founders Den."),
-
-        array("time" => "7:35pm", 
-        "description" => '"Data Science and Machine Learning: Discovery Tools for Any Domain"',
-        "presenter" => "Jeremy Howard, president and chief scientist of Kaggle."),
-
-        array("time" => "7:55pm", 
-        "description" => '"Digital Fundraising for Social Impact"',
-        "presenter" => "Tom Serres, founder and chief officer at Rally.org."),
-
-        array("time" => "8:15pm", 
-        "description" => 'Introduces Design &amp; Technology Challenges',
-        "presenter" => "Geppy Parziale, cofounder at Invasivecode."),         
-
-        array("time" => "8:30pm", 
-        "description" => 'Introduces Healthcare Challenges',
-        "presenter" => "Rahman Johnson, founder at OpenMedical Data Solutions,  and Stefan Broda, founder at BeforeWeDo."),   
-
-        array("time" => "8:45pm", 
-        "description" => 'Introduces Education Challenges',
-        "presenter" => "Eva Diaz, cofounder at Invasivecode."),   
-
-        array("time" => "9:00pm", 
-        "description" => '"How to Achieve Goals in Life"',
-        "presenter" => "Francis Pedraza, cofounder and CEO at Everest."),                  
-        );
-          
-  
-?>
-
-
-  <?php foreach($agenda as $agendaItem) { ?>
-
-          <div style="position: relative">
-            <h5 style="position: absolute; top: 0; left: 0;"><?php echo $agendaItem["time"] ?></h5>
-            <p style="padding-left: 80px;"><strong><?php echo $agendaItem["description"] ?></strong><br><?php echo $agendaItem["presenter"] ?></p>
-          </div>
-
-<?php } ?>
-        </div>
-      </div>
-    
-      <div class="span3 centered">
-        <a href="https://hackforbigchoices-openingceremony.eventbrite.com/" target="_blank" class="button button-primary button-large">Get tickets</a>
-      </div>
-    </div>
-   
-  </div>
 
 
   <div id="events" class="section">
     <div class="centered">
-      <h2 class="section_title">Event Schedule</h2>
+      <h2 class="section_title">Upcoming Events</h2>
     </div>
     
     <ul id="schedule">
@@ -173,38 +63,7 @@ require('./wp-blog-header.php');
           </div>
         </div>
       </li>
-        
-      <li>
-        <div class="schedule-item">
-          <div class="row-fluid">
-            <div class="span5">
-              <h3>The End of Illness</h3>
-              <ul class="event-details clearfix">
-                <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />TBA</li>
-                <li><a target="_blank" href="https://plus.google.com/events/c3bnouh68gquoj15lj378jr6hfk" />
-                  <span class="plus"></span><span class="plus-hangout-text">Online, Google Hangout</span>
-                </a></li>
-              </ul>
-              <p>Dr. David Agus one of Steve Jobs's oncologists and has been talking to Steve Jobs nearly every day for years. Doctor David's approach is radical, and it goes against the grain of traditional western medicine. As a professor of medicine and engineering and a leading cancer physician, he says that the focus of his profession needs to shift from understanding to controlling diseases. His suggestions in the book are like algorithms for a life style, because he gives advice on how to prevent and postpone illness rather than cure it. David Agus wants people to die of old age rather than cancer or Alzheimer’s, and the only way we can do that, he thinks, is by living healthy lives for our individual and often complex bodies. </p>
-            </div>
-            <div class="span4">
-              <h4 class="offscreen">Speakers</h4>
-              <div class="circle-pic-list clearfix">
-                <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                  <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/davidagus.jpg" />
-                  <p>David Agus</p>
-
-                </div>
-              </div>
-            </div>
-            <div class="span3">
-              <a href="https://plus.google.com/events/c3bnouh68gquoj15lj378jr6hfk" target="_blank" class="button button-large">Register</a>
-            </div>
-          </div>
-        </div>
-      </li>
-        
+      
       <li>
         <div class="schedule-item">
           <div class="row-fluid">
@@ -238,6 +97,33 @@ require('./wp-blog-header.php');
       </li>
        
     </ul>
+  </div>
+
+  <div id="section4" class="section clearfix centered">
+    <h2 class="section_title">Past Events</h2>
+    <p class="subline">Video and information about the event is available on individual event pages.</p>
+    <ul class="past-events">
+      <li>
+
+        <dl class="datetime-label">
+        <dt>Date time</dt>
+        <dd class="title-font"  itemprop="startDate">FRI, OCT 10th, 2013</dd>
+        </dl>
+
+        <a href="/opening-ceremony"><h3>Opening Ceremony</h3></a>
+      </li>
+
+        <li>
+
+          <dl class="datetime-label">
+          <dt>Date time</dt>
+          <dd class="title-font"  itemprop="startDate">FRI, OCT 11th, 2013</dd>
+          </dl>
+
+          <a href="/the-end-of-illness"><h3>The End of Illness</h3></a>
+        </li>
+    </ul>
+
   </div>
   
   <div id="section3" class="section clearfix centered">
@@ -390,10 +276,6 @@ Kory is an EPA Star Fellow. He also received a 2009-2010 James H. Polhemus Fello
   </div>
   
   
-</div>
-
-<div id="request-invite-open-ceremony" class="hidden mc_form overlay-window">
-  <iframe src="/request-invite-opening-ceremony" height=450></iframe>
 </div>
 
 <div id="request-invite-educational" class="hidden mc_form overlay-window">

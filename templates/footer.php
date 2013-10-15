@@ -6,7 +6,7 @@
           <a href="mailto:info@hackforbigchoices.com">Contact</a>
         </li>
         <li>
-          <a href="/media-kit/" target="_blank">Media Kit</a>
+          <a href="/media-kit/" target="_blank">Press</a>
         </li>
         <li>
           <a href="#join-us-overlay" class="overlay-trigger">Join Us</a>
