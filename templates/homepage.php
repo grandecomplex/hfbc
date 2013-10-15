@@ -146,7 +146,7 @@ require('./wp-blog-header.php');
 
     <div class="speaker-wrapper circle-pic-list">
       
-        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/opening-ceremony/" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dcvc-zachary-bogue.jpg" />
           <dl class="person-label">
@@ -159,7 +159,7 @@ require('./wp-blog-header.php');
           </dl>
 
         </a>
-        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/opening-ceremony/" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Jeremy-howard.jpg" />
           <dl class="person-label">
@@ -204,7 +204,7 @@ require('./wp-blog-header.php');
 
         </a>
         
-         <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+         <a class="speaker" href="/opening-ceremony/" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/tom-serres.jpg" />
           <dl class="person-label">
@@ -263,7 +263,7 @@ require('./wp-blog-header.php');
 
         </a>
       
-        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/the-end-of-illness" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/davidagus.jpg" />
           <dl class="person-label">
@@ -322,7 +322,7 @@ require('./wp-blog-header.php');
 
         </a>
         
-        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+        <a class="speaker" href="/opening-ceremony/" itemscope itemtype="http://schema.org/Person">
 
           <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/francis-pedraza.jpg" />
           <dl class="person-label">

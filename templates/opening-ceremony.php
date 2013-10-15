@@ -25,8 +25,6 @@ require('./wp-blog-header.php');
     <div class="row-fluid max-900-width">
       <div class="schedule-item">
         <div class="span12">
-          <p></p>
-          <hr class="hr"></hr>
           <h3>Speakers</h3>
           <div class="circle-pic-list clearfix">      
             <div class="speaker" itemscope itemtype="http://schema.org/Person">
