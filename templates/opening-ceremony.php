@@ -1,7 +1,7 @@
  <?php
 /*
- * Template Name: Opening Ceremony
- * Description: Talks at HFBC
+ * Template Name: Opening
+ * Description: Opening Ceremony
  */
 
 define('WP_USE_THEMES', true);
