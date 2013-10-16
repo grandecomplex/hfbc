@@ -1,6 +1,6 @@
  <?php
 /*
- * Template Name: illness
+ * Template Name: Illness
  * Description: Illness
  */
 
@@ -13,7 +13,7 @@ require('./wp-blog-header.php');
 <div class="sections main-content">
   
   <div class="section centered">
-    <h1>The End of Illness</h1>
+    <h1><?php the_title();?></h1>
     <p class="subline">Dr. David Agus one of Steve Jobs's oncologists and had been talking to Steve Jobs nearly every day for years. Doctor David's approach is radical, and it goes against the grain of traditional western medicine. As a professor of medicine and engineering and a leading cancer physician, he says that the focus of his profession needs to shift from understanding to controlling diseases. In his book, he gives advice on how to prevent and postpone illness rather than cure it. David Agus wants people to die of old age rather than cancer or Alzheimer’s, and the only way we can do that, he thinks, is by living healthy lives for our individual and often complex bodies. </p>
   </div>
 
