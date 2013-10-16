@@ -329,6 +329,14 @@ span.plus {
   display: inline-block;
 }
 
+.well {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
 
 /* =============================================================================
    Sponsor and Speaker sections

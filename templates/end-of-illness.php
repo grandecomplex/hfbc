@@ -19,10 +19,6 @@ require('./wp-blog-header.php');
 
 
   <div id="upcoming" class="section">
-    <div class="centered">
-      <h2 class="section_title">His book, <em>The End of Illness</em>, outlines algorithms for life</h2>
-    </div>
-
     <div class="max-900-width">
       <div class="row-fluid">
       <div class="schedule-item span4">
@@ -42,7 +38,6 @@ require('./wp-blog-header.php');
           </ul>   
         </div>
         <div class="span8">
-          <h3>Google Hangout live stream</h3>
           <iframe height="400" src="//www.youtube.com/embed/h1Gdybyn0oQ?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 

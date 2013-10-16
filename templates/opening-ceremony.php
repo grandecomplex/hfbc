@@ -11,7 +11,9 @@ require('./wp-blog-header.php');
 ?>
 
 <div class="sections main-content">
-  
+
+<!--                   
+ -->
   <div class="section centered">
     <h1>Opening Ceremony</h1>
     <p class="subline">This was an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers spoke about entrepreneurship and big data. During the ceremony, our team launched the challenges related to design and technology, education and healthcare.</p>
@@ -19,12 +21,13 @@ require('./wp-blog-header.php');
 
 
   <div id="upcoming" class="section">
-    <div class="centered">
-      <h2 class="section_title">Emphasis on big data, deep learning alogrithms, and achieving one's goals</h2>
-    </div>
     <div class="row-fluid max-900-width">
       <div class="schedule-item">
-        <div class="span12">
+        <div class="span2">
+          <img alt="some_text" width=26 src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />
+          <h4>October 4th, 2013, 6:30pm</h4>
+        </div>
+        <div class="span8">
           <h3>Speakers</h3>
           <div class="circle-pic-list clearfix">      
             <div class="speaker" itemscope itemtype="http://schema.org/Person">
@@ -113,14 +116,21 @@ require('./wp-blog-header.php');
           </div>
 
 <?php } ?>
-        </div>
-      </div>
 
       <h3>Event Details</h3>
       <ul class="event-details clearfix">
         <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th, 6:30pm</li>
         <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
       </ul>
+        </div>
+
+        <div class="span2">
+          <a href="/talks" class="button pull-right">Upcoming Events</a>
+        </div>
+
+      </div>
+
+
 
     
     </div>
