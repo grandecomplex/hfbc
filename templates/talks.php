@@ -109,8 +109,8 @@ require('./wp-blog-header.php');
         <dt>Date time</dt>
         <dd class="title-font"  itemprop="startDate">FRI, OCT 10th, 2013</dd>
         </dl>
-
-        <a href="/opening-ceremony"><h3>Opening Ceremony</h3></a>
+        <h3>Opening Ceremony</h3>
+        <!-- <a href="/opening-ceremony"><h3>Opening Ceremony</h3></a> -->
       </li>
 
         <li>
@@ -119,8 +119,8 @@ require('./wp-blog-header.php');
           <dt>Date time</dt>
           <dd class="title-font"  itemprop="startDate">FRI, OCT 11th, 2013</dd>
           </dl>
-
-          <a href="/the-end-of-illness"><h3>The End of Illness</h3></a>
+          <h3>The End of Illness</h3>
+          <!-- <a href="/the-end-of-illness"><h3>The End of Illness</h3></a> -->
         </li>
     </ul>
 
