@@ -86,6 +86,11 @@
   margin-bottom: 20px;
 }
 
+.the-end-of-illness .event-details li {
+  display: block;
+  margin: 4px 0;
+}
+
 @media (max-width: 950px) {
   .page.talks .speaker, 
   .page.talks .sponsor {

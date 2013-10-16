@@ -117,6 +117,8 @@ require('./wp-blog-header.php');
 
 <?php } ?>
 
+      <hr class="hr"></hr>
+
       <h3>Event Details</h3>
       <ul class="event-details clearfix">
         <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 4th, 6:30pm</li>

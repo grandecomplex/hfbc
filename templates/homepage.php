@@ -72,63 +72,44 @@ require('./wp-blog-header.php');
     <div class="inner">
     
       <div id="upcoming" itemscope itemtype="http://schema.org/Event">
-        <div id="local" class="schedule_box max-900-width">
-          <!-- <a class="overlay-trigger button pull-right" href="#attend-event-overlay">Attend an Event</a> -->
-          <!-- <a class="overlay-trigger button" href="#attend-event-overlay">Sign up</a> -->
+        <div id="local" class="schedule_box max-1000-width">
           <div class="inner">
             <div class="row-fluid marginBottom10">
-              <div class="span9 clearfix">
+              <div class="span2 clearfix">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
                   <dd class="title-font"  itemprop="startDate">NOV<br>2013</dd>
                 </dl>
-                <div class="content">
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <div class="circle-pic-list clearfix">      
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+              </div>
+              <div class="span6">
+                <h3>The New Role Of Education</h3>
+                <div class="circle-pic-list clearfix">      
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
                 <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
                 <p>Vivek Wadhwa</p>
 
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
                 <img class="circle_pic" alt="" src="/assets/img/pages/homepage/speakers/mario-valle.jpg" />
                 <p>Mario Valle</p>
 
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
                 <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
                 <p>Bill Reichert</p>
 
-              </div>
-            </div>
-                  </div>
-                  <div class="span8">
-                  <h3>The New Role Of Education</h3>
-                  
- <!--                  <ul class="event-details clearfix">
-                    <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />1355 Market St., San Francisco</a></li>
-                  </ul>
-                   -->
-                 
- 
-<!-- <a href="/talks" class="button">Read more</a>
- --></div>
-</div>
+                </div>
                 </div>
               </div>
-              <div class="span3 clearfix" style="margin-top:40px">
+              <div class="span4 clearfix" style="margin-top:40px">
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
                       <a href="#request-invite-educational" class="button button-primary button-large overlay-trigger">Request an Invite</a>
                     </li>
-                    <!-- <li>
-                      <a class="button button-secondary" href="google.com">Liveview</a>
-                    </li> -->
                   </ul>
                 </div>
               </div>

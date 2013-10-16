@@ -21,7 +21,7 @@ require('./wp-blog-header.php');
   <div id="upcoming" class="section">
     <div class="max-900-width">
       <div class="row-fluid">
-      <div class="schedule-item span4">
+      <div class="schedule-item span3">
           <h3>Speaker</h3>
           <div class="circle-pic-list clearfix">      
             <div class="speaker" itemscope itemtype="http://schema.org/Person">
@@ -37,8 +37,11 @@ require('./wp-blog-header.php');
             <li><a target="_blank" href="https://plus.google.com/events/c3bnouh68gquoj15lj378jr6hfk"><span class="plus"></span>Google Plus</a></li>
           </ul>   
         </div>
-        <div class="span8">
+        <div class="span7">
           <iframe height="400" src="//www.youtube.com/embed/h1Gdybyn0oQ?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="span2">
+          <a href="/talks" class="button pull-right">Upcoming Events</a>
         </div>
 
       </div>
