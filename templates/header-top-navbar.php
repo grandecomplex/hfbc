@@ -12,6 +12,7 @@
         <li><a href="/talks">Talks</a></li>
         <li><a href="/hackathon">Hackathon</a></li>
         <li><a href="/conversations">Conversations</a></li>
+        <li><a href="/experts-by-your-side/">Experts</a></li>
         <!-- <li><a href="/partners">Partners</a></li> -->
       </ul>
       <!-- <?php

@@ -97,38 +97,7 @@ require('./wp-blog-header.php');
           </div>
         </div>
       </li>
-      
-      <li>
-        <div class="schedule-item">
-          <div class="row-fluid">
-          <div class="span5">
-            <h3>The First Open University of West Africa</h3>
-            <ul class="event-details clearfix">
-              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />October 2013</li>
-              <li>
-                <a target="_blank" href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g">
-                  <span class="plus"></span><span class="plus-hangout-text">Online, Google Hangout</span>
-                </a>
-              </li>
-            </ul>
-            <p>“Individually we can do little. Together we can heal the world.” John is the Founder of Heal the World, an organization aiming to improve the educational structures of developing countries. Currently he’s launching The Open University of West Africa to solve the region’s most pressing teaching challenges.</p>
-          </div>
-          <div class="span4">
-            <h4 class="offscreen">Speakers</h4>
-            <div class="circle-pic-list clearfix">      
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="John Roberts portrait" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/John-Roberts.jpg" />
-                <p>John Roberts</p>
-
-              </div>
-            </div>
-          </div>
-          <div class="span3">
-            <a href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g" target="_blank" class="button button-large"><span class="social-white-icon plus-white"></span> Register</a>
-          </div>
-        </div>
-      </li>
        
     </ul>
   </div>
