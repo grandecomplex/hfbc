@@ -1,4 +1,4 @@
- <?php
+<?php
 /*
  * Template Name: Opening
  * Description: Opening Ceremony
@@ -15,7 +15,7 @@ require('./wp-blog-header.php');
 <!--                   
  -->
   <div class="section centered">
-    <h1><?php the_title();?></h1>
+    <h1>Opening Ceremony</h1>
     <p class="subline">This was an occasion to commemorate the 2nd anniversary of the late Steve Jobs. He inspired us and encouraged young people, reminding us that we don’t need to stare death in the face to make “Big Choices”. Our speakers spoke about entrepreneurship and big data. During the ceremony, our team launched the challenges related to design and technology, education and healthcare.</p>
   </div>
 
