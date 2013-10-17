@@ -107,6 +107,21 @@ require('./wp-blog-header.php');
 
 
     </div> 
+
+    <div class="speaker">
+
+    <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/elina-elek.jpg'?>" />
+
+    <h3 class="item_head">Elina Elek, CPA</h3>
+    <h4><span>Entrepreneur</span> 
+      Founder &amp; CEO of SunnyKarma. </h4>
+
+    <ul class="nav-share">
+      <li class="linkedin"><a href="http://www.linkedin.com/in/elinaelek" target="_blank">LinkedIn</a></li>
+      <li class="twitter"><a href="https://twitter.com/Elina_Elek" target="_blank">Twitter</a></li>
+    </ul>
+
+    </div>
    
     <div class="speaker">
 

@@ -70,8 +70,45 @@ require('./wp-blog-header.php');
     </div>
     
     <div class="inner">
-    
-      <div id="upcoming" itemscope itemtype="http://schema.org/Event">
+      <div id="upcoming">
+        <div itemscope itemtype="http://schema.org/Event">
+        <div class="schedule_box max-1000-width">
+          <div class="inner">
+            <div class="row-fluid marginBottom10">
+              <div class="span2 clearfix">
+                <dl class="datetime-label">
+                  <dt>Date time</dt>
+                  <dd class="title-font"  itemprop="startDate">Tue 22th 2:00pm<br>OCT, 2013</dd>
+                </dl>
+              </div>
+              <div class="span7">
+                <h3>The Powerful Combination of Empathy and Technology</h3>
+                <p>The evolution of technology allows us to amplify our powers as humans, not only for increased physical leverage, but also for emotional amplification. How can we implement systems which engender virtuous feedback circles? What is the role of empathy in a connected world of instantaneous communication?</p>
+                <div class="circle-pic-list clearfix">      
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/David-Orban.jpg" />
+                <p>David Orban</p>
+
+                </div>
+                </div>
+                </div>
+              <div class="span3 clearfix" style="margin-top:40px">
+                <div class="button-outer">
+                  <ul class="button-list-vertical pull-right">
+                    <li>
+                      <a href="https://plus.google.com/events/cu6v4nkr8l7p2o9rjl19sm7hka8" class="button button-primary button-large" target="_blank"><span class="social-white-icon plus-white"></span> Register</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+                    
+          </div>
+        </div>
+      </div>
+
+      <div itemscope itemtype="http://schema.org/Event">
         <div id="local" class="schedule_box max-1000-width">
           <div class="inner">
             <div class="row-fluid marginBottom10">
@@ -117,11 +154,10 @@ require('./wp-blog-header.php');
                     
           </div>
         </div>
-      
       </div>
     </div>
   </div>
-
+</div>
   <div id="section3" class="section clearfix centered">
     <h2 class="section_title">Speakers</h2>
 

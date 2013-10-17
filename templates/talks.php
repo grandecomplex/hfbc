@@ -25,6 +25,40 @@ require('./wp-blog-header.php');
     </div>
     
     <ul id="schedule">
+        <li><div class="schedule-item">
+          <div class="row-fluid">
+          <div class="span4">
+            <h3>The Powerful Combination of Empathy and Technology</h3>
+            <ul class="event-details clearfix">
+              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />2:00pm, TUE, OCT 22, 2013</li>
+              <li>
+                <a target="_blank" href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g">
+                  <span class="plus"></span><span class="plus-hangout-text">Online, Google Hangout</span>
+                </a>
+              </li>
+            </ul>
+            <p>The evolution of technology allows us to amplify our powers as humans, not only for increased physical leverage, but also for emotional amplification. How can we implement systems which engender virtuous feedback circles? What is the role of empathy in a connected world of instantaneous communication?</p>
+          </div>
+          <div class="span5">
+            <h4 class="offscreen">Speakers</h4>
+            <div class="circle-pic-list clearfix">      
+              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/David-Orban.jpg" />
+                <p>David Orban</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <a href="https://plus.google.com/events/cu6v4nkr8l7p2o9rjl19sm7hka8" class="button button-primary button-large" target="_blank"><span class="social-white-icon plus-white"></span> Register</a>
+          </div>
+        </div>
+      </li>
+
+
+
+
       <li><div class="schedule-item">
           <div class="row-fluid">
           <div class="span4">
@@ -91,7 +125,7 @@ require('./wp-blog-header.php');
             </div>
           </div>
           <div class="span3">
-            <a href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g" target="_blank" class="button button-large">Register</a>
+            <a href="https://plus.google.com/events/cho5tbjvshjflbrij99sbsf079g" target="_blank" class="button button-large"><span class="social-white-icon plus-white"></span> Register</a>
           </div>
         </div>
       </li>

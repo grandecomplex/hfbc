@@ -193,7 +193,8 @@ span.plus {
   background-position: -80px 0;
 }
 
-.nav-share-white a {
+.nav-share-white a,
+.social-white-icon {
   display: block;
   text-indent: -9999px;
   background: transparent url('../img/chrome/share-white.png') no-repeat 0 0;
@@ -213,7 +214,8 @@ span.plus {
   background-position: -60px 0;
 }
 
-.nav-share-white .plus a {
+.nav-share-white .plus a,
+.social-white-icon.plus-white {
   background-position: -30px 0;
 }
 
@@ -235,6 +237,12 @@ span.plus {
   position: relative;
   top: -5px;
   margin-left: 12px;
+}
+
+.social-white-icon {
+  display: inline-block;
+  position: relative;
+  top: 4px;
 }
 
 

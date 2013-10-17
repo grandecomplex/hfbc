@@ -60,6 +60,11 @@
           array("name" => "SliceBiz", 
           "image" => "slicebiz.png",
           "link" => "http://www.slicebiz.co/",
+          "description" => "lorem ipsum..."),
+
+          array("name" => "SunnyKarma", 
+          "image" => "sunnykarma.png",
+          "link" => "http://sunnykarma.com/",
           "description" => "lorem ipsum...")
         )
         
