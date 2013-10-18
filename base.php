@@ -1,7 +1,7 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
-  <!--[if lt IE 7]><div class="alert"><?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?></div><![endif]-->
+  <!--[if lt IE 9]><div class="alert"><?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?></div><![endif]-->
 
   <?php
     do_action('get_header');
@@ -27,6 +27,14 @@
   </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
+
+
+
+<script type="text/javascript">stLight.options({publisher: "d12867cf-8e25-4884-a8ab-93eac90dac65", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script>
+var options={ "publisher": "d12867cf-8e25-4884-a8ab-93eac90dac65", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "yammer", "email", "googleplus"]}};
+var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+</script>
 
 </body>
 </html>
