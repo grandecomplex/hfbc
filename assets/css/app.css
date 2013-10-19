@@ -104,6 +104,19 @@ textarea, input {
   padding: 0 30px;
 }
 
+#sharethis {
+  position: fixed;
+  right: 0;
+  top: 400px;
+  background: rgba(255,255,255,0.95);
+  padding: 5px;
+}
+
+#sharethis span {
+  display: block
+}
+ 
+
 
 /* =============================================================================
    Header

@@ -28,13 +28,13 @@
 
   <?php get_template_part('templates/footer'); ?>
 
-
-
-<script type="text/javascript">stLight.options({publisher: "d12867cf-8e25-4884-a8ab-93eac90dac65", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-<script>
-var options={ "publisher": "d12867cf-8e25-4884-a8ab-93eac90dac65", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "yammer", "email", "googleplus"]}};
-var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
-</script>
-
+  <div id="sharethis">
+    <p>Share</p>
+    <span class='st_facebook_large' displayText='Facebook'></span>
+    <span class='st_twitter_large' displayText='Tweet'></span>
+    <span class='st_linkedin_large' displayText='LinkedIn'></span>
+    <span class='st_googleplus_large' displayText='Google +'></span>
+    <span class='st_email_large' displayText='Email'></span>
+  </div>
 </body>
 </html>
