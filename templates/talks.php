@@ -110,7 +110,7 @@ require('./wp-blog-header.php');
 
         <dl class="datetime-label">
         <dt>Date time</dt>
-        <dd class="title-font"  itemprop="startDate">FRI, OCT 10th, 2013</dd>
+        <dd class="title-font"  itemprop="startDate">FRI, OCT 4th, 2013</dd>
         </dl>
         <a href="/opening-ceremony"><h3>Opening Ceremony</h3></a>
       </li>
