@@ -54,28 +54,44 @@ require('./wp-blog-header.php');
 		    </ul>
 		</div>
 		<div class="span4">
-		    <h3>Publications</h3>
+		    <h3>Media Coverage</h3>
 		    <ul class="media-items">
 		    	<li>
 		    		<a target="_blank" href="http://www.sfgate.com/business/press-releases/article/The-Intellectual-Heritage-of-Steve-Jobs-Empowers-4848035.php">
-		    			<h4><em>SF Gate</em><br>  The Intellectual Heritage of Steve Jobs Empowers People to Change the World</h4>
+		    			<h4>SF Gate</h4>
+		    			<p>The Intellectual Heritage of Steve Jobs Empowers People to Change the World</p>
 		    		</a>
 		    	</li>		    	
 		    	<li>
 		    		<a target="_blank" href="http://www.huffingtonpost.com/penina-rybak/a-call-to-action_b_4027281.html">
-		    			<h4><em>Huffington Post</em><br>  To Heed or Not to Heed a Call to Action: What's a Female Entrepreneur to Do?</h4>
+		    			<h4>Huffington Post</h4>
+		    			<p> To Heed or Not to Heed a Call to Action: What's a Female Entrepreneur to Do?</p>
 		    		</a>
 		    	</li>
 		    	<li>
 		    		<a href="http://www.huffingtonpost.com/penina-rybak/transitioning-from-me-to-_b_4033714.html">
-		    			<h4><em>Huffington Post</em><br> Transitioning From Me to We: Tips for Becoming a Socially Conscious, Startup Female Entrepreneur</h4>
+		    			<h4>Huffington Post</h4>
+		    			<p>Transitioning From Me to We: Tips for Becoming a Socially Conscious, Startup Female Entrepreneur</p>
 		    		</a>
 		    	</li>
 		    	<li>
 		    		<a href="http://www.newschannel5.com/story/23539772/the-intellectual-heritage-of-steve-jobs-empowers-people-to-change-the-world">
-		    			<h4><em>News Channel 5</em><br> The Intellectual Heritage of Steve Jobs Empowers People to Change the World</h4>
+		    			<h4>News Channel 5</h4>
+		    			<p>The Intellectual Heritage of Steve Jobs Empowers People to Change the World</p>
 		    		</a>
-		    	</li>		    	
+		    	</li>		
+		    	<li>
+		    		<a href="http://sanfranciscoitaly.com/post/62903714491/hack-for-big-choices-launches-this-friday-in-sf">
+		    			<h4>San Francisco, Italy</h4>
+		    			<p>Hack For Big Choices Launches This Friday In SF</p>
+		    		</a>
+		    	</li>
+		    	<li>
+		    		<a href="http://www.benzinga.com/pressreleases/13/09/p3945683/the-intellectual-heritage-of-steve-jobs-empowers-people-to-change-the-w">
+		    			<h4>Benzinga</h4>
+		    			<p>The Intellectual Heritage of Steve Jobs Empowers People to Change the World</p>
+		    		</a>
+		    	</li>	    					    	    	
 		    </ul>
 		</div>
 		</div>
