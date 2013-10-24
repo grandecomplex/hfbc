@@ -71,7 +71,9 @@ require('./wp-blog-header.php');
     
     <div class="inner">
       <div id="upcoming">
-        <div itemscope itemtype="http://schema.org/Event">
+
+
+<!--     Commented out event    <div itemscope itemtype="http://schema.org/Event">
         <div class="schedule_box max-1000-width">
           <div class="inner">
             <div class="row-fluid marginBottom10">
@@ -106,7 +108,7 @@ require('./wp-blog-header.php');
                     
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div itemscope itemtype="http://schema.org/Event">
         <div id="local" class="schedule_box max-1000-width">

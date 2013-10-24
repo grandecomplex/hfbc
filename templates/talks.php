@@ -25,7 +25,7 @@ require('./wp-blog-header.php');
     </div>
     
     <ul id="schedule">
-        <li><div class="schedule-item">
+<!--     Past event    <li><div class="schedule-item">
           <div class="row-fluid">
           <div class="span4">
             <h3>The Powerful Combination of Empathy and Technology</h3>
@@ -55,7 +55,7 @@ require('./wp-blog-header.php');
           </div>
         </div>
       </li>
-
+ -->
 
 
 
@@ -123,6 +123,15 @@ require('./wp-blog-header.php');
           </dl>
           <a href="/the-end-of-illness"><h3>The End of Illness</h3></a>
         </li>
+        <li>
+
+          <dl class="datetime-label">
+          <dt>Date time</dt>
+          <dd class="title-font"  itemprop="startDate">TUE, OCT 22nd, 2013</dd>
+          </dl>
+          <h3>The Powerful Combination of Empathy and Technology</h3>
+        </li>
+        
     </ul>
 
   </div>
