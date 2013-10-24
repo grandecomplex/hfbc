@@ -29,6 +29,10 @@
   margin-right: 0 !important;
 }
 
+.page.talks #schedule .button {
+  margin-right: 50px;
+}
+
 .page #upcoming .speaker .circle_pic {
   width: 100px;
   height: 100px;

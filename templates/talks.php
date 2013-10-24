@@ -37,10 +37,10 @@ require('./wp-blog-header.php');
                 </a>
               </li>
             </ul>
-            <p>The evolution of technology allows us to amplify our powers as humans, not only for increased physical leverage, but also for emotional amplification. How can we implement systems which engender virtuous feedback circles? What is the role of empathy in a connected world of instantaneous communication?</p>
           </div>
           <div class="span5">
-            <h4 class="offscreen">Speakers</h4>
+            <p style="margin-bottom: 15px;">The evolution of technology allows us to amplify our powers as humans, not only for increased physical leverage, but also for emotional amplification. How can we implement systems which engender virtuous feedback circles? What is the role of empathy in a connected world of instantaneous communication?</p>
+            <h4>Speakers</h4>
             <div class="circle-pic-list clearfix">      
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
@@ -51,7 +51,7 @@ require('./wp-blog-header.php');
             </div>
           </div>
           <div class="span3">
-            <a href="https://plus.google.com/events/cu6v4nkr8l7p2o9rjl19sm7hka8" class="button button-primary button-large" target="_blank"><span class="social-white-icon plus-white"></span> Register</a>
+            <a href="https://plus.google.com/events/cu6v4nkr8l7p2o9rjl19sm7hka8" class="button button-primary button-large pull-right" target="_blank"><span class="social-white-icon plus-white"></span> Register</a>
           </div>
         </div>
       </li>
@@ -70,7 +70,7 @@ require('./wp-blog-header.php');
             <p></p>
           </div>
           <div class="span5">
-            <h4 class="offscreen">Speakers</h4>
+            <h4>Speakers</h4>
             <div class="circle-pic-list clearfix">      
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
@@ -93,7 +93,7 @@ require('./wp-blog-header.php');
             </div>
           </div>
           <div class="span3">
-            <a href="#request-invite-educational" class="button button-large overlay-trigger">Request an Invite</a>
+            <a href="#request-invite-educational" class="button button-large overlay-trigger pull-right">Request an Invite</a>
           </div>
         </div>
       </li>
