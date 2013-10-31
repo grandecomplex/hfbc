@@ -61,15 +61,35 @@ require('./wp-blog-header.php');
 
       <li><div class="schedule-item">
           <div class="row-fluid">
-          <div class="span4">
-            <h3>The New Role of Education</h3>
+          <div class="span3">
             <ul class="event-details clearfix">
-              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />November 2013</li>
-              <li><a target="_blank" href="https://maps.google.com/maps?q=1355+Market+St,+San+Francisco,+CA&hl=en&sll=37.7577,-122.4376&sspn=0.192446,0.277748&oq=1355+market+st.&hnear=1355+Market+St,+San+Francisco,+California+94102&t=m&z=16"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif" />Silicon Valley</a></li>
+              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />Thu 21th, NOV, 2013</li>
             </ul>
-            <p></p>
+            <ul class="event-details clearfix">
+              <li><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="http://localhost:8888/assets/img/icons/point.gif">AOL Palo Alto</a></li>
+            </ul>
+
+
           </div>
-          <div class="span5">
+          <div class="span6">
+            <h3>The Future of Education in a Globally Connected World</h3>
+
+            <p>An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
+
+            <p>Entrepreneurs, key drivers of innovation locally and globally, in general tend to be highly-educated, but is attaining a high level of education the only way to be capable of starting new businesses?</p>
+
+            <p>The nexus of education and entrepreneurship carries great potential to drive global economic development and social progress. How can we realize such potential?</p>
+
+            <p>This panel, "The Future of Education in a Globally Connected World" will be a gathering of thought leaders from a broad range of disciplines to discuss how to shape the future of education and entrepreneurship. Below are the main talking points to be covered:</p>
+                        <ul class="bullet-list">
+            <li>How technology can play a major role in the future of education.</li>
+            <li>What skills need to be taught in the Era of Information in developing and developed countries.</li>
+            <li>What impact education can have in developing/ed countries.</li>
+            <li>How entrepreneurs need to be educated.</li>
+            <li>What investment is needed in the education space.</li>
+            </ul>
+            <p>Moderated by <strong>Eva Santana</strong>, Ceo of Invasive Code and <strong>Heather Cochran</strong>, founder of SliceBiz and The Next Wave Africa.</p>
+
             <h4>Speakers</h4>
             <div class="circle-pic-list clearfix">      
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
@@ -77,24 +97,40 @@ require('./wp-blog-header.php');
                 <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
                 <p>Vivek Wadhwa</p>
 
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="/assets/img/pages/homepage/speakers/mario-valle.jpg" />
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
                 <p>Mario Valle</p>
 
-              </div>
-              <div class="speaker" itemscope itemtype="http://schema.org/Person">
+                </div>
+                                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
+                <p>Penina Rybak</p>
+
+
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
                 <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
                 <p>Bill Reichert</p>
 
+
+                </div>
+
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
+                <p>Dwalu Khasu</p>
+              </div>
               </div>
             </div>
+                      <div class="span3">
+            <a href="#" class="button button-large overlay-trigger pull-right">Event Invite<br>Coming Soon</a>
           </div>
-          <div class="span3">
-            <a href="#request-invite-educational" class="button button-large overlay-trigger pull-right">Request an Invite</a>
           </div>
+
         </div>
       </li>
 

@@ -73,24 +73,69 @@ require('./wp-blog-header.php');
       <div id="upcoming">
 
 
-<!--     Commented out event    <div itemscope itemtype="http://schema.org/Event">
+<div itemscope itemtype="http://schema.org/Event">
         <div class="schedule_box max-1000-width">
           <div class="inner">
             <div class="row-fluid marginBottom10">
               <div class="span2 clearfix">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
-                  <dd class="title-font"  itemprop="startDate">Tue 22th 2:00pm<br>OCT, 2013</dd>
+                  <dd class="title-font"  itemprop="startDate">Thu 21th<br>NOV, 2013</dd>
+                  <dt>Location</dt>
+                  <dd class="event-details"><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="http://localhost:8888/assets/img/icons/point.gif">AOL Palo Alto</a></dd>
                 </dl>
               </div>
               <div class="span7">
-                <h3>The Powerful Combination of Empathy and Technology</h3>
-                <p>The evolution of technology allows us to amplify our powers as humans, not only for increased physical leverage, but also for emotional amplification. How can we implement systems which engender virtuous feedback circles? What is the role of empathy in a connected world of instantaneous communication?</p>
+                <h3>The Future of Education in a Globally Connected World</h3>
+                <p>An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
+
+                <p>Entrepreneurs, key drivers of innovation locally and globally, in general tend to be highly-educated, but is attaining a high level of education the only way to be capable of starting new businesses?</p>
+
+                <p>The nexus of education and entrepreneurship carries great potential to drive global economic development and social progress. How can we realize such potential?</p>
+
+                <p>This panel, "The Future of Education in a Globally Connected World" will be a gathering of thought leaders from a broad range of disciplines to discuss how to shape the future of education and entrepreneurship. Below are the main talking points to be covered:</p>
+                <ul class="bullet-list">
+                <li>How technology can play a major role in the future of education.</li>
+                <li>What skills need to be taught in the Era of Information in developing and developed countries.</li>
+                <li>What impact education can have in developing/ed countries.</li>
+                <li>How entrepreneurs need to be educated.</li>
+                <li>What investment is needed in the education space.</li>
+                </ul>
+                <p>Moderated by <strong>Eva Santana</strong>, Ceo of Invasive Code and <strong>Heather Cochran</strong>, founder of SliceBiz and The Next Wave Africa.</p>
+
                 <div class="circle-pic-list clearfix">      
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/David-Orban.jpg" />
-                <p>David Orban</p>
+   
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
+                <p>Vivek Wadhwa</p>
+
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
+                <p>Mario Valle</p>
+
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
+                <p>Bill Reichert</p>
+
+
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
+                <p>Penina Rybak</p>
+
+
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
+                <p>Dwalu Khasu</p>
+
 
                 </div>
                 </div>
@@ -99,55 +144,7 @@ require('./wp-blog-header.php');
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <a href="https://plus.google.com/events/cu6v4nkr8l7p2o9rjl19sm7hka8" class="button button-primary button-large" target="_blank"><span class="social-white-icon plus-white"></span> Register</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-                    
-          </div>
-        </div>
-      </div> -->
-
-      <div itemscope itemtype="http://schema.org/Event">
-        <div id="local" class="schedule_box max-1000-width">
-          <div class="inner">
-            <div class="row-fluid marginBottom10">
-              <div class="span2 clearfix">
-                <dl class="datetime-label">
-                  <dt>Date time</dt>
-                  <dd class="title-font"  itemprop="startDate">NOV<br>2013</dd>
-                </dl>
-              </div>
-              <div class="span6">
-                <h3>The New Role Of Education</h3>
-                <div class="circle-pic-list clearfix">      
-                <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
-                <p>Vivek Wadhwa</p>
-
-                </div>
-                <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="/assets/img/pages/homepage/speakers/mario-valle.jpg" />
-                <p>Mario Valle</p>
-
-                </div>
-                <div class="speaker" itemscope itemtype="http://schema.org/Person">
-
-                <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
-                <p>Bill Reichert</p>
-
-                </div>
-                </div>
-              </div>
-              <div class="span4 clearfix" style="margin-top:40px">
-                <div class="button-outer">
-                  <ul class="button-list-vertical pull-right">
-                    <li>
-                      <a href="#request-invite-educational" class="button button-primary button-large overlay-trigger">Request an Invite</a>
+                      <div class="button">Event Invite<br>Coming Soon</div>
                     </li>
                   </ul>
                 </div>
@@ -157,6 +154,7 @@ require('./wp-blog-header.php');
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -194,6 +192,33 @@ require('./wp-blog-header.php');
         </a>
 
   
+          <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">Penina Rybak</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Author</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">Author of Socially Speaking&trade; Social Skills Curriculum</dd>
+          </dl>
+
+        </a>
+
+        <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
+
+          <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
+          <dl class="person-label">
+              <dt>full name</dt>
+              <dd itemprop="name">Dwalu Khasu</dd>
+              <dt>company</dt>
+              <dd class="company" itemprop="jobTitle">Entrepreneur</dd>
+              <dt>description</dt>
+              <dd class="description" itemprop="description">Principal/Founder of KDM Technology Solutions</dd>
+          </dl>
+
+        </a>
 
         <a class="speaker" href="/talks" itemscope itemtype="http://schema.org/Person">
 

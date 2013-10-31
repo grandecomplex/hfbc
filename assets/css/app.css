@@ -96,6 +96,18 @@ textarea, input {
   font-family: 'Average', georgia, serif;
 }
 
+ul.bullet-list,
+ul.bullet-list li {
+  list-style: disc;
+  list-style-position: inside;
+  margin-bottom: 5px;
+}
+
+ul.bullet-list {
+  margin: 15px 0;
+}
+
+
 /* =============================================================================
    Chrome
    ========================================================================== */
