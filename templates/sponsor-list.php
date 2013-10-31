@@ -1,11 +1,23 @@
         <?php
         
         $sponsors = array(
+
+        array("name" => "AOL", 
+          "image" => "aol.png",
+          "link" => "http://www.aol.com",
+        "description" => ""),
+          
+
+          array("name" => "younoodle", 
+          "image" => "younoodle.png",
+          "link" => "http://www.younoodle.com",
+        "description" => ""),
+          
             
           array("name" => "Eye Fi", 
           "image" => "eye-fi.jpg",
           "link" => "http://www.eye.fi/",
-        "description" => "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "),
+        "description" => ""),
           
           array("name" => "Lyte", 
           "image" => "lyte.jpg",
