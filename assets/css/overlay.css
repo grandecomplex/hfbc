@@ -11,7 +11,9 @@
   left: 50%;
   margin-left: -200px;
   position: fixed;
-  background: transparent;
+  background: #EFF1F3;
+  height: 270px;
+  padding: 15px;
 }
 
 .overlay {
