@@ -39,7 +39,7 @@
 <div class="mc-field-group">
   <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address">
 </div>
 
   <div class="button-wrapper"><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
