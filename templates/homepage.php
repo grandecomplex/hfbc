@@ -82,7 +82,7 @@ require('./wp-blog-header.php');
                   <dt>Date time</dt>
                   <dd class="title-font"  itemprop="startDate">Thu 21th<br>NOV, 2013</dd>
                   <dt>Location</dt>
-                  <dd class="event-details"><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="http://localhost:8888/assets/img/icons/point.gif">AOL Palo Alto</a></dd>
+                  <dd class="event-details"><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif">AOL Palo Alto</a></dd>
                 </dl>
               </div>
               <div class="span7">

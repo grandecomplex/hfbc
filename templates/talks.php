@@ -66,7 +66,7 @@ require('./wp-blog-header.php');
               <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />Thu 21th, NOV, 2013</li>
             </ul>
             <ul class="event-details clearfix">
-              <li><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="http://localhost:8888/assets/img/icons/point.gif">AOL Palo Alto</a></li>
+              <li><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif">AOL Palo Alto</a></li>
             </ul>
 
 
