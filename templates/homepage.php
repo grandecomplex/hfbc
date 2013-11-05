@@ -87,23 +87,7 @@ require('./wp-blog-header.php');
               </div>
               <div class="span7">
                 <h3>The Future of Education in a Globally Connected World</h3>
-                <p>In sub-Saharan Africa: 1.8 million lives could be saved each year just if all women had a secondary education. An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
-
-                <p>Entrepreneurs, key drivers of innovation locally and globally, in general tend to be highly-educated, but is attaining a high level of education the only way to be capable of starting new businesses?</p>
-
-                <p>The nexus of education and entrepreneurship carries great potential to drive global economic development and social progress. How can we realize such potential?</p>
-
-                <p>This panel, "The Future of Education in a Globally Connected World" will be a gathering of thought leaders from a broad range of disciplines to discuss how to shape the future of education and entrepreneurship. Below are the main talking points to be covered:</p>
-                <ul class="bullet-list">
-                <li>How technology can play a major role in the future of education.</li>
-                <li>What skills need to be taught in the Era of Information in developing and developed countries.</li>
-                <li>What impact education can have in developing/ed countries.</li>
-                <li>How entrepreneurs need to be educated.</li>
-                <li>What investment is needed in the education space.</li>
-                </ul>
-                <p>Moderated by <strong>Eva Santana</strong>, Ceo of Invasive Code and <strong>Heather Cochran</strong>, founder of SliceBiz and The Next Wave Africa.</p>
-
-                <div class="circle-pic-list clearfix">      
+                              <div class="circle-pic-list clearfix">      
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
    
@@ -146,6 +130,23 @@ require('./wp-blog-header.php');
 
                 </div>
                 </div>
+                <p>In sub-Saharan Africa: 1.8 million lives could be saved each year just if all women had a secondary education. An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
+
+                <p>Entrepreneurs, key drivers of innovation locally and globally, in general tend to be highly-educated, but is attaining a high level of education the only way to be capable of starting new businesses?</p>
+
+                <p>The nexus of education and entrepreneurship carries great potential to drive global economic development and social progress. How can we realize such potential?</p>
+
+                <p>This panel, "The Future of Education in a Globally Connected World" will be a gathering of thought leaders from a broad range of disciplines to discuss how to shape the future of education and entrepreneurship. Below are the main talking points to be covered:</p>
+                <ul class="bullet-list">
+                <li>How technology can play a major role in the future of education.</li>
+                <li>What skills need to be taught in the Era of Information in developing and developed countries.</li>
+                <li>What impact education can have in developing/ed countries.</li>
+                <li>How entrepreneurs need to be educated.</li>
+                <li>What investment is needed in the education space.</li>
+                </ul>
+                <p>Moderated by <strong>Eva Santana</strong>, Ceo of Invasive Code and <strong>Heather Cochran</strong>, founder of SliceBiz and The Next Wave Africa.</p>
+
+  
                 </div>
               <div class="span3 clearfix" style="margin-top:40px">
                 <div class="button-outer">
