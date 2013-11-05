@@ -441,7 +441,7 @@ require('./wp-blog-header.php');
 
   <div id="section4" class="centered section">
     <h2 id="locations" class="section_title">Global Hackathons</h2>
-    <p class="subline">Pick your city to <a class="button button-primary overlay-trigger" href="#sign-up-overlay">register</a></p>
+    <p class="subline">Pick your city to <a class="button button-primary overlay-trigger" href="#join-us-overlay">register</a></p>
     <?php include "map.php" ?>
   </div>
 
