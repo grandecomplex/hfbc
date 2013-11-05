@@ -88,6 +88,8 @@ body.join-us-form {
   margin: 5px 0px !important;
   width: 100% !important;
   padding: 10px !important;
+  color: #06A006;
+  font-weight: 600;
 }
 
 .mc-form,
