@@ -11,12 +11,6 @@
         <li>
           <a href="#join-us-overlay" class="overlay-trigger">Join Us</a>
         </li>
-        <!-- <li>
-          <a href="/talks">Events</a>
-        </li> -->
-        <li>
-          <a href="#newsletter-overlay" class="overlay-trigger">Newsletter</a>
-        </li>
       </ul>
     </div>
     <div class="span6">
@@ -40,8 +34,4 @@
 
 <div id="join-us-overlay" class="hidden mc_form overlay-window">
   <iframe src="/join-us-form"></iframe>
-</div>
-
-<div id="newsletter-overlay" class="hidden mc_form overlay-window">
-  <iframe src="/newsletter-form" height=450></iframe>
 </div>

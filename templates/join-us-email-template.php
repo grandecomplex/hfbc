@@ -6,19 +6,8 @@
 
 ?>
 
-<style type="text/css" media="screen">
-  .navbar {
-    display: none;
-  }
-  
-  #footer {
-    display: none;
-  }
-</style>
-
 <script type="text/javascript" charset="utf-8">
 $(function() {
-  $("#newsletter-overlay").remove();
   $("#join-us-overlay").remove();
 });
 </script>

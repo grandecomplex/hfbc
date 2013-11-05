@@ -60,7 +60,7 @@ $(function() {
   $document.on("click", ".city_block", function(e) {
     var $cityOption = $("#"+$(this).prop("id")+"-form");
     e.preventDefault();
-    overlay.toggle("#sign-up-overlay");
+    overlay.toggle("#join-us-overlay");
     
     $cityOption.parent().prop("selectedIndex", $cityOption.index() );
   });
