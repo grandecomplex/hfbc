@@ -87,7 +87,7 @@ require('./wp-blog-header.php');
               </div>
               <div class="span7">
                 <h3>The Future of Education in a Globally Connected World</h3>
-                <p>An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
+                <p>In sub-Saharan Africa: 1.8 million lives could be saved each year just if all women had a secondary education. An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
 
                 <p>Entrepreneurs, key drivers of innovation locally and globally, in general tend to be highly-educated, but is attaining a high level of education the only way to be capable of starting new businesses?</p>
 
@@ -113,28 +113,35 @@ require('./wp-blog-header.php');
                 </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
+                <img class="circle_pic" alt="Mario Valle" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
                 <p>Mario Valle</p>
 
                 </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
+                <img class="circle_pic" alt="Bill Reichert" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
                 <p>Bill Reichert</p>
 
 
                 </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
+                <img class="circle_pic" alt="Penina Rybak" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
                 <p>Penina Rybak</p>
 
 
                 </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
+                <img class="circle_pic" alt="Dwalu Khasu" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
                 <p>Dwalu Khasu</p>
+
+
+                </div>
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="Dave Mosby" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
+                <p>Dave Mosby</p>
 
 
                 </div>
@@ -144,7 +151,7 @@ require('./wp-blog-header.php');
                 <div class="button-outer">
                   <ul class="button-list-vertical pull-right">
                     <li>
-                      <div class="button">Event Invite<br>Coming Soon</div>
+                      <a href="http://h4bcthefutureofeducation.eventbrite.com/"  target="_blank" class="button button-large">Register Now</a>
                     </li>
                   </ul>
                 </div>
