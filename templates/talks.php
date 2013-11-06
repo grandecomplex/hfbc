@@ -63,7 +63,7 @@ require('./wp-blog-header.php');
           <div class="row-fluid">
           <div class="span3">
             <ul class="event-details clearfix">
-              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />Thu 21th, NOV, 2013</li>
+              <li class="datetime"><img alt="some_text" src=<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/cal.gif />Mon 25th, NOV, 2013</li>
             </ul>
             <ul class="event-details clearfix">
               <li><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif">AOL Palo Alto</a></li>
@@ -86,13 +86,7 @@ require('./wp-blog-header.php');
                 <p>Mario Valle</p>
 
                 </div>
-                                <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
-                <p>Penina Rybak</p>
-
-
-                </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
                 <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />

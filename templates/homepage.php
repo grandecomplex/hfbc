@@ -80,7 +80,7 @@ require('./wp-blog-header.php');
               <div class="span2 clearfix">
                 <dl class="datetime-label">
                   <dt>Date time</dt>
-                  <dd class="title-font"  itemprop="startDate">Thu 21th<br>NOV, 2013</dd>
+                  <dd class="title-font"  itemprop="startDate">Mon 25th<br>NOV, 2013</dd>
                   <dt>Location</dt>
                   <dd class="event-details"><a target="_blank" href="https://www.google.com/maps?t=m&q=AOL+Palo+Alto"><img alt="some_text" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/point.gif">AOL Palo Alto</a></dd>
                 </dl>
@@ -108,13 +108,7 @@ require('./wp-blog-header.php');
 
 
                 </div>
-                <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="Penina Rybak" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
-                <p>Penina Rybak</p>
-
-
-                </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
                 <img class="circle_pic" alt="Dwalu Khasu" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
