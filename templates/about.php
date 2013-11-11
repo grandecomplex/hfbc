@@ -258,6 +258,22 @@ require('./wp-blog-header.php');
     </ul>
 
     </div>
+
+
+    <div class="speaker">
+
+      <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/sunny-cheree.jpg'?>" />
+      <h3 class="item_head">Sunny Cheree</h3>
+      <h4><span>Corporate Event Planner</span> Founder at LearnitLiveitLovesit.com</h4>
+
+      <ul class="nav-share">
+        <li class="linkedin"><a href="http://www.linkedin.com/in/sunnypate" target="_blank">LinkedIn</a></li>
+        <li class="twitter"><a href="https://twitter.com/SunnyCheree" target="_blank">Twitter</a></li>
+      </ul>
+
+
+      </div>
+
     <div class="speaker">
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Brandi_March.jpg" />
