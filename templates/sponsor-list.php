@@ -74,6 +74,11 @@
           "link" => "http://www.slicebiz.co/",
           "description" => "lorem ipsum..."),
 
+          array("name" => "CommitChange", 
+          "image" => "commit-change.png",
+          "link" => "http://www.commitchange.com/",
+          "description" => ""),
+
           array("name" => "SunnyKarma", 
           "image" => "sunnykarma.png",
           "link" => "http://sunnykarma.com/",

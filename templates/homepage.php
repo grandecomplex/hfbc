@@ -97,8 +97,8 @@ require('./wp-blog-header.php');
                 </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="Mario Valle" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
-                <p>Mario Valle</p>
+                  <img class="circle_pic" alt="Penina Rybak" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
+                  <p>Penina Rybak</p>
 
                 </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">

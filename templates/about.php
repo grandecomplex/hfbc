@@ -79,6 +79,23 @@ require('./wp-blog-header.php');
 
 
     </div>
+
+
+  <div class="speaker">
+
+    <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/yangbo-du.jpg'?>" />
+    <h3 class="item_head">Yangbo Du</h3>
+    <h4><span>New York Director @  Hack for Big Choices</span><br>Entrepreneur</h4>
+
+    <ul class="nav-share">
+      <li class="linkedin"><a href="http://www.linkedin.com/in/yangbodu" target="_blank">LinkedIn</a></li>
+      <li class="twitter"><a href="http://www.twitter.com/mitgc_cm" target="_blank">Twitter</a></li>
+    </ul>
+
+
+    </div>
+
+
     <div class="speaker">
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Eva_Diaz-Santana.jpg" />
@@ -213,20 +230,7 @@ require('./wp-blog-header.php');
 
 
     </div>
-    <div class="speaker">
 
-    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Damian_Damjanovski.jpg" />
-    <h3 class="item_head">Damian Damjanovski</h3>
-    <h4><span> Manager in Sydney</span>
-    Founder and Strategy Director @ Common Ventures</h4>
-
-    <ul class="nav-share">
-      <li class="linkedin"><a href="http://au.linkedin.com/in/damiandamjanovski" target="_blank">LinkedIn</a></li>
-      <li class="twitter"><a href="http://www.twitter.com/damjanov" target="_blank">Twitter</a></li>
-    </ul>
-
-
-    </div>
     <div class="speaker">
 
     <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Kat_Zorina.jpg" />
@@ -323,20 +327,20 @@ require('./wp-blog-header.php');
 
 
     </div>
+
     <div class="speaker">
 
-    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/John_Roberts.jpg" />
-    <h3 class="item_head">John Roberts</h3>
-    <h4><span> Manager in Accra &amp; Speaker</span>
-    Co-Founder, President @ Open University of West Africa</h4>
+      <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/prateek-rungta.jpg'?>" />
+      <h3 class="item_head">Prateek Rungta</h3>
+      <h4><span>Solutions Architect at Cloudera</span></h4>
 
-    <ul class="nav-share">
-      <li class="linkedin"><a href="http://gh.linkedin.com/in/profjohn" target="_blank">LinkedIn</a></li>
-      <li class="twitter"><a href="http://www.twitter.com/john4point0" target="_blank">Twitter</a></li>
-    </ul>
+      <ul class="nav-share">
+        <li class="linkedin"><a href="http://www.linkedin.com/profile/view?id=124269352" target="_blank">LinkedIn</a></li>
+        <li class="twitter"><a href="http://www.twitter.com/prateekrungta" target="_blank">Twitter</a></li>
+      </ul>
 
 
-    </div>
+      </div>
     </div>
 
   </div>

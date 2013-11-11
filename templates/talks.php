@@ -76,20 +76,20 @@ require('./wp-blog-header.php');
             <div class="circle-pic-list clearfix">      
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
+                <img class="circle_pic" alt="Vivek Wadhwa" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/vivek-wadhwa.jpg" />
                 <p>Vivek Wadhwa</p>
 
                 </div>
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/mario-valle.jpg" />
-                <p>Mario Valle</p>
+                <img class="circle_pic" alt="Penina Rybak" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/penina-rybak.jpg" />
+                <p>Penina Rybak</p>
 
                 </div>
 
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
+                <img class="circle_pic" alt="Bill Reichert" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
                 <p>Bill Reichert</p>
 
 
@@ -97,12 +97,12 @@ require('./wp-blog-header.php');
 
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
+                <img class="circle_pic" alt="Dwalu Khasu" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dwalu-khasu.jpg" />
                 <p>Dwalu Khasu</p>
               </div>
               <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
+                <img class="circle_pic" alt="Dave Mosby" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/dave-mosby.jpg" />
                 <p>Dave Mosby</p>
 
 
@@ -240,6 +240,13 @@ Dr. Agus’s honors and awards include the American Cancer Society Physician Res
 
 Tom received the Campaigns & Election's Innovator Award in April of 2012, and back in 2009, he was named a Rising Political Star by the organization. The New Leaders Council also awarded Tom the title of “40 under 40” that same year. "
                 ),
+
+      array("name" =>  "Penina Rybak", 
+            "image" => "/assets/img/pages/homepage/speakers/penina-rybak.jpg",
+            "title" => "Entrepreneur", 
+            "description" => "Author",
+            "talk_description" => "Penina Rybak MA/CCC-SLP, TSHH, CEO of Socially Speaking LLC, is an Autism Specialist/Speech-Language Pathologist and Educational Technology Consultant turned social entrepreneur. She is the creator of the trademarked  Socially Speaking™ iPad App and Social Skills Curriculum. Her copyrighted curriculum is in the process of being published, and her iPad App has been available in iTunes since May 2012. Both are being used all over schools and clinics in the USA, Canada, and abroad. Penina is also the Stateside Consulting Advisor for the CLASP International Autism Clinic in Zambia, Africa, and a weekly columnist on female entrepreneurship for The Huffington Post. She is  a national/international speaker on the topics of social communication strategies and integration of iPad Apps into workflows for greater productivity; academic and economic. Penina is now the Director of The NICE Initiative for Female Entrepreneurship, which will launch soon. It is based on her new book, which will be shortly published by Maven House Press: The NICE Reboot: How to Become a Better Female Entrepreneur- How to Balance Your Craving for Humanity and Technology in Today's Startup Culture. "
+            ),
 
       array("name" => "John Roberts", 
                 "image" => "/assets/img/pages/homepage/speakers/John-Roberts.jpg",
