@@ -136,20 +136,7 @@ ul.bullet-list {
 
 .navbar .nav > li {
   list-style: none;
-}
-
-.navbar .nav > li:last-child:after {
-  content: "";
-  padding: 0;
-}
-
-.navbar .nav > li:after {
-  content: ".";
-  position: relative;
-  top: -6px;
-  font-size: 34px;
-  padding: 0 16px;
-  line-height: 33px;
+  margin: 13px 25px 0 0;
 }
 
 .navbar .nav > li > a  {
