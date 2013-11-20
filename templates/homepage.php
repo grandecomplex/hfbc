@@ -32,7 +32,7 @@ require('./wp-blog-header.php');
     <hr class="hr"></hr>
     <div class="register">
       <h3>Join Us</h3>
-      <?php include("map-text.php") ?>
+      <?php include("email-text.php") ?>
     </div>
   </div>
 

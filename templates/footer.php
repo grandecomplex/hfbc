@@ -33,5 +33,5 @@
 <?php wp_footer(); ?>
 
 <div id="join-us-overlay" class="hidden mc_form overlay-window">
-  <?php include("map-text.php") ?>
+  <?php include("email-text.php") ?>
 </div>

@@ -45,7 +45,7 @@
 
 .home.page #section1 .register p{
   display: inline-block;
-  width: 43%
+  max-width: 630px;
 }
 
 .home.page #section1 .register a span {
