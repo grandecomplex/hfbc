@@ -49,6 +49,10 @@
       <div class="city_circle"></div>
       <div class="city_name">Shanghai, China</div>
     </a>
+    <a class="city_block" id="nyc" href="#">
+      <div class="city_name">New York, USA</div>
+      <div class="city_circle"></div>
+    </a>
   </div>
 </div>
 

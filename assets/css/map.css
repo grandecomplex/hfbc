@@ -81,6 +81,11 @@
     left: 761px;
 }
 
+#location-map-cover .city_block#nyc{
+    top: 110px;
+    left: 146px;
+}
+
 #location-map-cover .city_circle {
     width: 45px;
     height: 45px;
