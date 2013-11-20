@@ -52,10 +52,12 @@ h1 {
 }
 
 h2 {
-	margin-bottom: 35px;
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 35px;
 }
   
-h3 {
+h3, .focus-list li {
   margin-bottom: 10px;
   font-size: 22px;
   line-height: 27px;
@@ -464,6 +466,12 @@ span.plus {
   display: block;
 }
 
+.max-700-width {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .max-850-width {
   max-width: 850px;
   margin-left: auto;
@@ -551,6 +559,10 @@ h1 + p.subline {
 .offscreen {
   position: absolute !important;
   left: -9999px;
+}
+
+.marginBottom15 {
+  margin-bottom: 15px;
 }
 
 /* =============================================================================
