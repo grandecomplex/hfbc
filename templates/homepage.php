@@ -31,7 +31,8 @@ require('./wp-blog-header.php');
     </div>
     <hr class="hr"></hr>
     <div class="register">
-      <a class="button button-primary button-huge overlay-trigger" href="#join-us-overlay">Join us</a>
+      <h3>Join Us</h3>
+      <?php include("map-text.php") ?>
     </div>
   </div>
 

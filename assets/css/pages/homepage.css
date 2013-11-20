@@ -32,6 +32,17 @@
   margin-top: 32px;
   text-align: center;
 }
+
+.home.page #section1 .register p {
+  font-size: inherit;
+}
+
+.home.page #section1 .register iframe {
+  width: 581px;
+  display: block;
+  margin: 10px auto;
+}
+
 .home.page #section1 .register p{
   display: inline-block;
   width: 43%
