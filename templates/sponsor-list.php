@@ -12,6 +12,27 @@
           "image" => "younoodle.png",
           "link" => "http://www.younoodle.com",
         "description" => ""),
+
+        array("name" => "Potluck Video", 
+          "image" => "potluck-video.png",
+          "link" => "http://potluckvideo.com/",
+        "description" => ""),
+
+          array("name" => "Dream Ups", 
+          "image" => "dreamups.png",
+          "link" => "http://www.dreamups.org/",
+        "description" => ""),
+
+          array("name" => "Nooka", 
+          "image" => "nooka.png",
+          "link" => " http://www.nooka.com/?gclid=CNv5mqii8roCFRSVfgodyDcAsw",
+        "description" => ""),
+
+
+          array("name" => "Digital Garage", 
+          "image" => "digital-garage.png",
+          "link" => "http://www.garage.co.jp/en/pr/2012/02/120210.html",
+        "description" => ""),
           
             
           array("name" => "Eye Fi", 

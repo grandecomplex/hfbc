@@ -142,7 +142,7 @@ require('./wp-blog-header.php');
    
     <div class="speaker">
 
-      <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/anita-chung.jpeg'?>" />
+      <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/anita-chung.jpg'?>" />
 
     <h3 class="item_head">Anita Chung</h3>
     <h4><span> Business Development</span>
@@ -226,6 +226,35 @@ require('./wp-blog-header.php');
     <ul class="nav-share">
       <li class="linkedin"><a href="http://www.linkedin.com/in/iamgaz" target="_blank">LinkedIn</a></li>
       <li class="twitter"><a href="http://www.twitter.com/gazfiorenza" target="_blank">Twitter</a></li>
+    </ul>
+
+
+    </div>
+
+    <div class="speaker">
+
+      <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/nicola-junior-vitto.jpg'?>" />
+    <h3 class="item_head">Nicola Junior Vitto</h3>
+    <h4><span>Product Manager, CTO, Internet Entrepreneur</span>
+    Blomming</h4>
+
+    <ul class="nav-share">
+      <li class="linkedin"><a href="http://www.linkedin.com/in/iamgaz" target="_blank">LinkedIn</a></li>
+      <li class="twitter"><a href="http://www.twitter.com/gazfiorenza" target="_blank">Twitter</a></li>
+    </ul>
+
+
+    </div>
+
+  <div class="speaker">
+
+      <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/anjan-kumar.jpg'?>" />
+    <h3 class="item_head">Anjan Kumar</h3>
+    <h4><span>Filmmaker</span>
+    Photographer and software engineer</h4>
+
+    <ul class="nav-share">
+      <li class="twitter"><a href="https://twitter.com/AnjanKumar85" target="_blank">Twitter</a></li>
     </ul>
 
 
