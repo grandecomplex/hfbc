@@ -107,6 +107,14 @@ require('./wp-blog-header.php');
 
 
                 </div>
+
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="Dave Mosby" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/clegg.jpg" />
+                <p>Robert Clegg</p>
+
+
+                </div>
               </div>
             <p><strong>In sub-Saharan Africa: 1.8 million lives could be saved each year just if all women had a secondary education.</strong> An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
 
@@ -206,6 +214,14 @@ Wadhwa oversees the academic programs at Singularity University, which educates 
 
 She was an informal national security adviser to Senator Hillary Rodham Clinton’s presidential campaign. In 2010, Binta served on Governor Andrew Cuomo’s transition team, again as a member of his Transportation Policy Advisory Committee. Binta is a member of the Council on Foreign Relations and a Truman National Security Fellow. She is also a member of the Board of Trustees of Barnard College, Columbia University, the New York City Parks Foundation and the American Theatre Wing, and is a member of the Board of Directors of Human Rights First.
 "),
+
+array("name" => "Robert Clegg", 
+                "image" => "/assets/img/pages/homepage/speakers/clegg.jpg",
+                "title" => "Entrepreneur", 
+                "description" => "CEO at Knoverse",
+                "talk_description" => "Mr. Clegg's seminal work in Serious Games is regarded by many as the first modern example of game based education in the STEM field. As co-founder and Chief Product Officer of Tabula Digita, Mr. Clegg created the first action adventure video game series and multiplayer network to teach algebra. As an “indie” developer, Tabula reached over $6M in sales implementing the gaming network in major school districts including New York City, Texas, Chicago, and Florida public schools. Embedding curriculum in a story based action adventure environment with FPS gaming technology created a phenomenon that instantly reached expert learners as well as those in under-served and disadvantaged districts.
+Fun Fact: Robert created the world’s largest game of Pong with over 53,000 players in Shea Stadium. He has over 20 years of interactive development experience covering a wide range of content including NFL player training, children’s media, and gaming simulations."),
+
 
       array("name" => "Dave Mosby", 
                 "image" => "/assets/img/pages/homepage/speakers/dave-mosby.jpg",
