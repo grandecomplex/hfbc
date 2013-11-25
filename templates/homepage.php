@@ -102,7 +102,17 @@ require('./wp-blog-header.php');
                   <p>Penina Rybak</p>
 
                 </div>
+
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="Robert Puffer" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/robert-puffer.jpg" />
+                <p>Robert Clegg</p>
+
+
+                </div>
+
+
+                <div class="speaker" itemscope itemtype="http://schema.org/Person" style="margin-right: 0 !important;">
 
                 <img class="circle_pic" alt="Bill Reichert" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/Bill-Reichert.jpg" />
                 <p>Bill Reichert</p>
@@ -124,6 +134,16 @@ require('./wp-blog-header.php');
 
 
                 </div>
+
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="Robert Clegg" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/clegg.jpg" />
+                <p>Robert Clegg</p>
+
+
+                </div>
+
+
                 </div>
                 <p>In sub-Saharan Africa: 1.8 million lives could be saved each year just if all women had a secondary education. An individual who does not graduate from high school earns on average $23,452, less than the U.S. average wage of $41,444 per year.  Further, 68% of the prison population is made up of non-high school graduates.</p>
 

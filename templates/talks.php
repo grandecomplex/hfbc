@@ -110,7 +110,15 @@ require('./wp-blog-header.php');
 
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
-                <img class="circle_pic" alt="Dave Mosby" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/clegg.jpg" />
+                <img class="circle_pic" alt="Robert Clegg" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/clegg.jpg" />
+                <p>Robert Clegg</p>
+
+
+                </div>
+
+                <div class="speaker" itemscope itemtype="http://schema.org/Person">
+
+                <img class="circle_pic" alt="Robert Puffer" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/robert-puffer.jpg" />
                 <p>Robert Clegg</p>
 
 
@@ -198,6 +206,11 @@ require('./wp-blog-header.php');
                 "talk_description" => "Vivek Wadhwa is Vice President of Academics and Innovation at Singularity University; Fellow, Arthur & Toni Rembe Rock Center for Corporate Governance, Stanford University; Director of Research at the Center for Entrepreneurship and Research Commercialization at the Pratt School of Engineering, Duke University; and distinguished visiting scholar, Halle Institute of Global Learning, Emory University.
 Wadhwa oversees the academic programs at Singularity University, which educates a select group of leaders about the exponentially growing technologies that are soon going to change our world. These advances—in fields such as robotics, A.I., computing, synthetic biology, 3D printing, medicine, and nanomaterials—are making it possible for small teams to do what was once possible only for governments and large corporations to do: solve the grand challenges in education, water, food, shelter, health, and security."),
 
+      array("name" => "Robert Puffer", 
+                "image" => "/assets/img/pages/homepage/speakers/robert-puffer.jpg",
+                "title" => "Education", 
+                "description" => "Ministry of Education of Singapore",
+                "talk_description" => "He has lectured on education around the world for 40 years. Most recently, he joined the Ministry of Education in Singapore with the mission to digitize schools and help students to develop critical thinking skills. Robert has been working to continue to turn Singapore's education system world-class. Singapore currently invests 20% of its the annual budget into education."),
 
 
       array("name" => "Bill Reichert", 
