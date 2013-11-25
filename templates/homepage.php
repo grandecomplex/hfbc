@@ -106,7 +106,7 @@ require('./wp-blog-header.php');
                 <div class="speaker" itemscope itemtype="http://schema.org/Person">
 
                 <img class="circle_pic" alt="Robert Puffer" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/speakers/robert-puffer.jpg" />
-                <p>Robert Clegg</p>
+                <p>Robert Puffer</p>
 
 
                 </div>
