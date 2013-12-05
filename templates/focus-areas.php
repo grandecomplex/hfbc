@@ -44,7 +44,7 @@ require('./wp-blog-header.php');
           <img class="circle_pic" alt="Education" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/pages/homepage/topics/education-icon.png" />
         </div>
         <div class="span9">
-          <h2 class="item_head">Education Track</h2>
+          <h2 class="item_head">Education</h2>
           <ol class="focus-list marginBottom15">
             <li>Challenge 1: International Accreditation of Academic Programs</li>
             <li>Challenge 2: Education in remote areas</li>
