@@ -8,6 +8,7 @@
     <a id="logo" class="brand" href="/">Hack For Big Choices</a>
     <div class="nav-collapse collapse" style="height: 0px;">
       <ul id="menu-primary-navigation" class="nav navbar-nav"><li class="active menu-home">      
+        <li><a href="/focus-areas">Focus Areas</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/talks">Talks</a></li>
         <li><a href="/hackathon">Hackathon</a></li>
