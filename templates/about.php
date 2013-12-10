@@ -202,20 +202,7 @@ require('./wp-blog-header.php');
     </ul>
 
     </div>
-    
-    <div class="speaker">
 
-    <img class="circle_pic" alt="" src="http://www.hackforbigchoices.com/media/Denisse_Tostado.jpg" />
-    <h3 class="item_head">Denisse Tostado</h3>
-    <h4><span> Finance Manager</span>
-    Administrative Assistant @ Apple</h4>
-
-    <ul class="nav-share">
-      <li class="linkedin"><a href="http://www.linkedin.com/pub/denisse-tostado-torres/1a/756/37a" target="_blank">LinkedIn</a></li>
-    </ul>
-
-
-    </div>
     <div class="speaker">
 
       <img class="circle_pic" alt="" src="<?php echo get_template_directory_uri().'/assets/img/pages/about/team/gustavo-fiorenza.jpg'?>" />
