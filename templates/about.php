@@ -9,18 +9,33 @@ define('WP_USE_THEMES', true);
 /** Loads the WordPress Environment and Template */
 require('./wp-blog-header.php');
 ?>
-
-<div class="sections">
   
-  <div class="section">
+<div class="section">
 
-    <h1 class="centered">What drives us</h1>
-    <span>&nbsp;</span>
-    <p class="centered subline" style="max-width:800px;margin:auto auto;">Our mission is to empower people worldwide to take action and use their talents to affect change beginning in their communities. We inspire and empower them to make “big choices” - they have the power to change the world.</p>
+    <h1 class="centered">Who we are</h1>
+    <p class="centered subline" style="max-width:800px;margin:auto auto;"> Hack for Big Choices is a non-profit whose mission is to empower people around the world to solve local problems, by collaborating across multiple disciplines to come up with truly innovative solution.
+
+	We believe that global change happens when people use their talents, passions and experiences to solve real-world problems.
+	 </p>
 
   </div>
-  
 
+<div class="section">
+    <div class="centered">
+      <h2 class="section_title">Our Activities</h2>
+    </div>
+    <div  style="max-width:800px; margin-left: auto; margin-right: auto;">
+<p>Hack for Big Choices gives people of any background the opportunity to solve local problems during hackathons around the world.
+
+Through a series of talks from pioneers, thought leaders and domain experts, we stimulate conversations around global, real-world problems that affect our communities in three focus areas: design & technology, education and healthcare.</p>
+</div>
+</div>
+
+
+
+    <div class="our_team_section speaker-wrapper circle-pic-list clearfix">
+	
+	
   <div class="section">
     <div class="centered">
       <h2 class="section_title">Team</h2>
@@ -481,21 +496,14 @@ require('./wp-blog-header.php');
       <h4>Solving Real Problems</h4>
       <p>We identify real global problems and challenge the participants to work on solutions that can be executed locally and continued to be developed after the hackathon.</p>
       <h4>Global Scale</h4>
-      <p>While most hackathons are local in nature, ours is global and will be held in 12 cities around the world,  simultaneously connecting developing and developed countries.</p>
+      <p>While most hackathons are local in nature, ours is global and will be held in 12 cities around the world, simultaneously connecting developing and developed countries.</p>
       <h4>Inspiring Talks</h4>
-      <p>We provide free knowledge online, offering all video sessions in multiple languages. Our talks will helps to spread ideas and create conversations that will inspire action.</p>
+      <p>We provide free knowledge online, offering all video sessions on demand. Our talks help spread to spread ideas and create conversations that will inspire action.</p>
 
       <h4>Helping Local Economies to be Sustainable</h4>
 
       <p>We motivate and empower young people across the world to shed their fears, stand up and discover how to use their talents to become the next generation of leaders in their local economies.</p>
       <p>Through our events, we evangelize the culture of entrepreneurship - we believe it’s a powerful tool to showcase talents, innovate and quickly improve our world.</p>
-
-      <h4>Annual Competition</h4>
-      <p>This series of hackathon will be an annual event to honor Steve Jobs’ legacy by encouraging future leaders to make "Big Choices".</p>
-    </div>
-  </div>
-
-
 
 
   <div class="section">
@@ -529,10 +537,6 @@ require('./wp-blog-header.php');
 
       <p>Thanks to Rally.org, we are able to allow supporters to contribute to the success of the projects by becoming donors. Rally.org is a fundraising platform that helps spread the word about projects and help them become concrete business.</p>
 
-      <h4>Give Back</h4>
-
-      <p>We want to honor Steve Jobs and keep his legacy alive, supporting cancer research and educational initiatives. Every year our fundraising efforts that will start the day of his late anniversary and will continue through our final ceremony.</p>
-  </div>
 </div>
 
 </div>
